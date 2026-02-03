@@ -514,6 +514,16 @@
       return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
     }
 
+    function upscaleImage(url) {
+      if (!url || url.endsWith('.svg')) return url;
+      const match = url.match(/_(\d+)xr(\d+)/);
+      if (!match) return url;
+      const w = parseInt(match[1], 10);
+      const h = parseInt(match[2], 10);
+      if (!w || !h) return url;
+      return url.replace(/_(\d+)xr(\d+)/, `_${w * 2}xr${h * 2}`);
+    }
+
     function setColumns(count) {
       const grid = document.getElementById('grid-view');
       grid.style.gridTemplateColumns = `repeat(${count}, minmax(0, 1fr))`;
@@ -539,14 +549,17 @@
       }
       noRes.classList.add('hidden');
 
-      grid.innerHTML = sorted.map(g =>
-        '<a class="game-card" href="'+esc(g.url)+'" target="_blank" rel="noopener">' +
-        '<img src="'+esc(g.image)+'" alt="'+esc(g.name)+'" loading="lazy">' +
+      grid.innerHTML = sorted.map(g => {
+        const originalImg = g.image || '';
+        const hiRes = upscaleImage(originalImg);
+        return '<a class="game-card" href="'+esc(g.url)+'" target="_blank" rel="noopener">' +
+        '<img src="'+esc(hiRes)+'" data-fallback="'+esc(originalImg)+'" alt="'+esc(g.name)+'" loading="lazy" ' +
+        'onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback=\'\';}">' +
         '<div class="title-overlay">' +
         '<div class="title-text">'+esc(g.name)+'</div>' +
-        '<div class="price-text">'+esc(g.price||'N/A')+'</div>' +
-        '</div></a>'
-      ).join('');
+        '<div class="price-text">'+esc(g.price||"N/A")+'</div>' +
+        '</div></a>';
+      }).join('');
     }
 
     const colsRange = document.getElementById('cols-range');
