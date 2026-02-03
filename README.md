@@ -20,6 +20,7 @@ Scraper et visualiseur de wishlist GG.deals sous forme de bibliothèque graphiqu
 ### 1. Scraper la wishlist
 
 ```bash
+npm install
 node scripts/scrape.js
 ```
 
