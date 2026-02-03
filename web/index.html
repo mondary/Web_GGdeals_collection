@@ -522,7 +522,23 @@
 
     render('');
 
-    document.getElementById('search').addEventListener('input', e => render(e.target.value));
+    const searchInput = document.getElementById('search');
+    searchInput.addEventListener('input', e => render(e.target.value));
+
+    document.addEventListener('keydown', (e) => {
+      if (e.defaultPrevented) return;
+      if (e.ctrlKey || e.metaKey || e.altKey) return;
+      if (document.activeElement === searchInput) return;
+      if (document.activeElement && (document.activeElement.isContentEditable || ['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement.tagName))) {
+        return;
+      }
+      if (e.key && e.key.length === 1) {
+        searchInput.focus();
+        searchInput.value = e.key;
+        render(searchInput.value);
+        e.preventDefault();
+      }
+    });
 
     document.querySelectorAll('[data-sort]').forEach(btn => {
       btn.addEventListener('click', () => {
