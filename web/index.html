@@ -60,11 +60,20 @@
       gap: 12px;
     }
 
+    .user-name {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-primary);
+      letter-spacing: 0.2px;
+    }
+
     .user-profile {
       width: 32px;
       height: 32px;
       border-radius: 50%;
-      background: linear-gradient(135deg, #a445b2, #d41872, #ff0061);
+      background-image: url('https://avatars.akamai.steamstatic.com/7b1b115be6ac4ded1bbfff20010da104ce6a55e1_full.jpg');
+      background-size: cover;
+      background-position: center;
       position: relative;
     }
 
@@ -124,6 +133,12 @@
       bottom: 0;
       width: 3px;
       background-color: var(--accent-purple);
+    }
+
+    .nav-sub {
+      font-size: 10px;
+      color: var(--text-muted);
+      margin-top: 2px;
     }
 
     .item-count {
@@ -202,6 +217,7 @@
       color: var(--text-muted);
       font-weight: 500;
     }
+
 
     .search-container {
       position: absolute;
@@ -362,15 +378,20 @@
     <div class="sidebar-header">
       <div class="user-info">
         <div class="user-profile"></div>
+        <div class="user-name">pouark</div>
       </div>
     </div>
 
     <div class="sidebar-section">
       <h3 class="sidebar-title">BIBLIOTHÈQUE</h3>
       <ul class="sidebar-nav">
+        <li class="nav-item">
+          Tous mes jeux
+          <span class="item-count">soon</span>
+        </li>
         <li class="nav-item active">
-          Tous les jeux
-          <span class="item-count" id="nav-count">542</span>
+          Wishlist
+          <span class="item-count" id="nav-count">515</span>
         </li>
       </ul>
     </div>
@@ -398,13 +419,21 @@
         <span class="stat-label">Moyenne</span>
         <span class="stat-value" id="avg-price">0 €</span>
       </div>
+      <div class="stat-row">
+        <span class="stat-label">Min</span>
+        <span class="stat-value" id="min-price">0 €</span>
+      </div>
+      <div class="stat-row">
+        <span class="stat-label">Max</span>
+        <span class="stat-value" id="max-price">0 €</span>
+      </div>
     </div>
   </aside>
 
   <main class="main-content">
     <header class="header">
       <div class="breadcrumbs">
-        <div class="breadcrumb-item active">Tous les jeux</div>
+        <div class="breadcrumb-item active">Wishlist</div>
         <div class="breadcrumb-count"><span id="showing-count">542</span></div>
       </div>
       <div class="search-container">
@@ -438,9 +467,13 @@
       const prices = list.map(g => parsePrice(g.price)).filter(p => p > 0);
       const sum = prices.reduce((a, b) => a + b, 0);
       const avg = prices.length ? sum / prices.length : 0;
+      const min = prices.length ? Math.min(...prices) : 0;
+      const max = prices.length ? Math.max(...prices) : 0;
       document.getElementById('total-games').textContent = list.length;
       document.getElementById('total-price').textContent = sum.toFixed(0) + ' €';
       document.getElementById('avg-price').textContent = avg.toFixed(0) + ' €';
+      document.getElementById('min-price').textContent = min.toFixed(0) + ' €';
+      document.getElementById('max-price').textContent = max.toFixed(0) + ' €';
       document.getElementById('nav-count').textContent = list.length;
       document.getElementById('showing-count').textContent = list.length;
     }
