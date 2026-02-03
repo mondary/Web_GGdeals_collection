@@ -70,6 +70,7 @@ Dépendances : `puppeteer-extra`, `puppeteer-extra-plugin-stealth`
 
 ## 🧾 Changelog
 
+- 1.1.1 : Mise à jour interface (style GOG, header, stats, recherche, colonnes)
 - 1.1.0 : Refactorisation structure projet
 - 1.0.0 : Version initiale
 
