@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOG Galaxy 2.0 - Pixel Perfect</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-main: #24272b;
+            --bg-sidebar: #1e2022;
+            --bg-header: #24272b;
+            --text-primary: #f2f2f2;
+            --text-secondary: #909497;
+            --text-muted: #5e6266;
+            --accent-purple: #7240f2;
+            --hover-bg: #2d3136;
+            --card-radius: 4px;
+            --sidebar-width: 260px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-main);
+            color: var(--text-primary);
+            height: 100vh;
+            display: flex;
+            overflow: hidden;
+        }
+
+        /* Sidebar Styling */
+        .sidebar {
+            width: var(--sidebar-width);
+            background-color: var(--bg-sidebar);
+            display: flex;
+            flex-direction: column;
+            border-right: 1px solid #1a1c1d;
+            padding-top: 15px;
+            flex-shrink: 0;
+        }
+
+        .sidebar-header {
+            padding: 0 20px 25px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .user-info {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .user-profile {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #a445b2, #d41872, #ff0061);
+            position: relative;
+        }
+
+        .user-profile::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 8px;
+            height: 8px;
+            background: #43b581;
+            border: 2px solid var(--bg-sidebar);
+            border-radius: 50%;
+        }
+
+        .sidebar-section {
+            margin-bottom: 25px;
+        }
+
+        .sidebar-title {
+            font-size: 10px;
+            color: #5e6266;
+            text-transform: uppercase;
+            letter-spacing: 1.2px;
+            padding: 0 24px 8px 24px;
+            font-weight: 700;
+        }
+
+        .sidebar-nav {
+            list-style: none;
+            margin-bottom: 20px;
+        }
+
+        .nav-item {
+            padding: 7px 24px;
+            display: flex;
+            align-items: center;
+            font-size: 13px;
+            color: #909497;
+            cursor: pointer;
+            transition: all 0.1s ease;
+            position: relative;
+        }
+
+        .nav-item:hover {
+            color: #f2f2f2;
+            background-color: rgba(255, 255, 255, 0.04);
+        }
+
+        .nav-item.active {
+            color: #ececec;
+            background-color: rgba(255, 255, 255, 0.06);
+            font-weight: 500;
+        }
+
+        .nav-item.active::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 3px;
+            background-color: var(--accent-purple);
+        }
+
+        .nav-item .icon {
+            width: 14px;
+            height: 14px;
+            margin-right: 12px;
+            opacity: 0.5;
+        }
+
+        .item-count {
+            margin-left: auto;
+            font-size: 10px;
+            color: #5e6266;
+            font-weight: 500;
+        }
+
+        /* Main Content Styling */
+        .main-content {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            background: linear-gradient(to bottom, #2c3036, #1e2024);
+        }
+
+        /* Header Styling */
+        .header {
+            height: 54px;
+            padding: 0 25px;
+            display: flex;
+            align-items: center;
+            background-color: transparent;
+            position: relative;
+            z-index: 10;
+        }
+
+        .nav-controls {
+            display: flex;
+            gap: 12px;
+            margin-right: 25px;
+        }
+
+        .nav-btn {
+            background: none;
+            border: none;
+            color: var(--text-secondary);
+            cursor: pointer;
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            transition: background 0.2s;
+        }
+
+        .nav-btn:hover {
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--text-primary);
+        }
+
+        .breadcrumbs {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            font-size: 13px;
+        }
+
+        .breadcrumb-item {
+            color: var(--text-secondary);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .breadcrumb-item.active {
+            color: var(--text-primary);
+            font-weight: 600;
+        }
+
+        .tag-pill {
+            background: rgba(114, 64, 242, 0.2);
+            color: #b3a4ff;
+            padding: 2px 10px;
+            border-radius: 4px;
+            border: 1px solid rgba(114, 64, 242, 0.3);
+            font-size: 11px;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .tag-pill svg {
+            color: var(--accent-purple);
+        }
+
+        .search-container {
+            margin-left: auto;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .filter-btn {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: transparent;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: var(--text-primary);
+            padding: 6px 12px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+        .filter-btn:hover {
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .search-wrapper {
+            position: relative;
+        }
+
+        .search-bar {
+            background-color: rgba(0, 0, 0, 0.15);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            padding: 7px 12px 7px 35px;
+            border-radius: 4px;
+            width: 220px;
+            color: white;
+            font-size: 12px;
+            transition: all 0.2s;
+        }
+
+        .search-bar:focus {
+            outline: none;
+            background-color: rgba(0, 0, 0, 0.25);
+            border-color: var(--accent-purple);
+            width: 280px;
+        }
+
+        .search-icon {
+            position: absolute;
+            left: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-muted);
+            pointer-events: none;
+        }
+
+        /* Grid Styling */
+        .game-grid-container {
+            flex-grow: 1;
+            overflow-y: auto;
+            padding: 10px 25px 40px 25px;
+        }
+
+        .game-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+            grid-gap: 20px;
+        }
+
+        .game-card {
+            aspect-ratio: 0.69;
+            background-color: #2a2d32;
+            border-radius: var(--card-radius);
+            overflow: hidden;
+            position: relative;
+            cursor: pointer;
+            transition: transform 0.25s cubic-bezier(0.2, 0, 0, 1), box-shadow 0.25s ease;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+        }
+
+        .game-card:hover {
+            transform: translateY(-5px) scale(1.02);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
+            z-index: 2;
+        }
+
+        .game-card::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            border: 2px solid transparent;
+            border-radius: var(--card-radius);
+            transition: border-color 0.25s;
+        }
+
+        .game-card:hover::after {
+            border-color: var(--accent-purple);
+        }
+
+        .game-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .game-card .title-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 15px 10px 10px 10px;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent);
+            color: white;
+            font-size: 11px;
+            font-weight: 600;
+            opacity: 0;
+            transition: opacity 0.2s;
+        }
+
+        .game-card:hover .title-overlay {
+            opacity: 1;
+        }
+
+        /* Scrollbar styling */
+        .game-grid-container::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .game-grid-container::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        .game-grid-container::-webkit-scrollbar-thumb {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+        }
+
+        .game-grid-container::-webkit-scrollbar-thumb:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .sys-btn {
+            background: none;
+            border: none;
+            color: var(--text-muted);
+            cursor: pointer;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <div class="user-info">
+                <div class="user-profile"></div>
+            </div>
+            <button class="sys-btn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="3"></circle>
+                    <path
+                        d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z">
+                    </path>
+                </svg>
+            </button>
+        </div>
+
+        <div class="sidebar-section">
+            <h3 class="sidebar-title">JEUX</h3>
+            <ul class="sidebar-nav">
+                <li class="nav-item">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                    </svg>
+                    Récent
+                </li>
+                <li class="nav-item active">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="3" width="7" height="7"></rect>
+                        <rect x="14" y="3" width="7" height="7"></rect>
+                        <rect x="14" y="14" width="7" height="7"></rect>
+                        <rect x="3" y="14" width="7" height="7"></rect>
+                    </svg>
+                    Tous les jeux
+                    <span class="item-count">659</span>
+                </li>
+                <li class="nav-item">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"></path>
+                    </svg>
+                    Installé
+                    <span class="item-count">234</span>
+                </li>
+                <li class="nav-item">GOG.com</li>
+                <li class="nav-item">Xbox</li>
+                <li class="nav-item">Battle.net</li>
+                <li class="nav-item">Epic</li>
+                <li class="nav-item">Origin</li>
+                <li class="nav-item">PlayStation</li>
+                <li class="nav-item">Steam</li>
+                <li class="nav-item">Uplay</li>
+            </ul>
+        </div>
+
+        <div class="sidebar-section">
+            <h3 class="sidebar-title">AMIS</h3>
+            <ul class="sidebar-nav">
+                <li class="nav-item">Activité</li>
+                <li class="nav-item">Amis en ligne <span class="item-count">1</span></li>
+            </ul>
+        </div>
+
+        <div class="sidebar-section">
+            <h3 class="sidebar-title">BOUTIQUE</h3>
+            <ul class="sidebar-nav">
+                <li class="nav-item">Populaires</li>
+            </ul>
+        </div>
+    </aside>
+
+    <main class="main-content">
+        <header class="header">
+            <div class="nav-controls">
+                <button class="nav-btn"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2.5">
+                        <polyline points="15 18 9 12 15 6"></polyline>
+                    </svg></button>
+                <button class="nav-btn"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2.5">
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg></button>
+            </div>
+            <div class="breadcrumbs">
+                <div class="breadcrumb-item active">Tous les jeux</div>
+                <div class="tag-pill">
+                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                    Windows
+                </div>
+            </div>
+            <div class="search-container">
+                <button class="filter-btn">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="4" y1="21" x2="4" y2="14"></line>
+                        <line x1="4" y1="10" x2="4" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="12"></line>
+                        <line x1="12" y1="8" x2="12" y2="3"></line>
+                        <line x1="20" y1="21" x2="20" y2="16"></line>
+                        <line x1="20" y1="12" x2="20" y2="3"></line>
+                        <line x1="1" y1="14" x2="7" y2="14"></line>
+                        <line x1="9" y1="8" x2="15" y2="8"></line>
+                        <line x1="17" y1="16" x2="23" y2="16"></line>
+                    </svg>
+                    Filtrer
+                </button>
+                <div class="search-wrapper">
+                    <svg class="search-icon" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2.5">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                    <input type="text" class="search-bar" placeholder="Recherche">
+                </div>
+            </div>
+        </header>
+
+        <div class="game-grid-container">
+            <div class="game-grid" id="gameGrid">
+                <!-- Items will be injected -->
+            </div>
+        </div>
+    </main>
+
+    <script>
+        const games = [
+            { title: "Nuclear Throne", cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r3k.jpg" },
+            { title: "Observation", cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co2kdi.jpg" },
+            { title: "Oddworld: Abe's Oddysee", cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co2czi.jpg" },
+            { title: "Oddworld: New 'n' Tasty", cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r3n.jpg" },
+            { title: "Oddworld: Munch's Oddysee", cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co2czh.jpg" },
+            { title: "Offworld Trading Company", cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xbt.jpg" },
+            { title: "Onward", cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v6f.jpg" },
+            { title: "Orcs Must Die!", cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r8c.jpg" },
+            { title: "Orcs Must Die! 2", cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r8d.jpg" },
+            { title: "Orwell", cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co2d0r.jpg" },
+            { title: "Outer Wilds", cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ldx.jpg" },
+            { title: "Outland", cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r8e.jpg" },
+            { title: "Outlast", cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v9x.jpg" },
+            { title: "Overcooked!", cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v8y.jpg" },
+            { title: "Overcooked! 2", cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v8z.jpg" },
+            { title: "Overwatch", cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v7p.jpg" },
+            { title: "Oxenfree", cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v8q.jpg" },
+            { title: "Papers, Please", cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r8f.jpg" },
+            { title: "Payday 2", cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ldy.jpg" },
+            { title: "Peggle Deluxe", cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v9r.jpg" },
+            { title: "Pillars of Eternity", cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v8w.jpg" },
+            { title: "Pit People", cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v9t.jpg" },
+            { title: "Planetary Annihilation", cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co2kdi.jpg" },
+            { title: "Portal 2", cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v8z.jpg" },
+            { title: "Prey", cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v8x.jpg" },
+            { title: "Prison Architect", cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v9v.jpg" },
+            { title: "Project Zomboid", cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v9w.jpg" },
+            { title: "Quake", cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r8g.jpg" },
+            { title: "Quantum Break", cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v8u.jpg" },
+            { title: "Race the Sun", cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v8v.jpg" },
+            { title: "Rainbow Six Siege", cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v7q.jpg" },
+            { title: "Rayman Legends", cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r8h.jpg" },
+            { title: "Rayman Origins", cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r8i.jpg" },
+            { title: "Red Dead Redemption 2", cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1q1f.jpg" },
+            { title: "Resident Evil 2", cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r7f.jpg" },
+            { title: "Resident Evil 7", cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v8t.jpg" },
+            { title: "Reigns", cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r8j.jpg" }
+        ];
+
+        const grid = document.getElementById('gameGrid');
+
+        // Populate more games for visual completeness
+        const fullList = [...games, ...games];
+
+        fullList.forEach(game => {
+            const card = document.createElement('div');
+            card.className = 'game-card';
+            card.innerHTML = `
+                <img src="${game.cover}" alt="${game.title}" loading="lazy">
+                <div class="title-overlay">
+                    <div class="game-title">${game.title}</div>
+                </div>
+            `;
+            grid.appendChild(card);
+        });
+
+    </script>
+</body>
+
+</html>
