@@ -156,9 +156,9 @@
     }
 
     #platform-list {
-      max-height: 200px;
-      overflow: auto;
-      padding-right: 4px;
+      max-height: none;
+      overflow: visible;
+      padding-right: 0;
     }
 
     #launcher-list {
@@ -694,9 +694,14 @@
       return '<span class="launcher-icon" data-l="' + esc(key) + '" title="' + esc(label) + '">' + esc(initials) + '</span>';
     }
 
+    function isBadPlatform(p) {
+      const v = normalizePlatform(p);
+      return !v || v === 'link icon' || v.includes('link');
+    }
+
     function gamePlatforms(g) {
       const list = (g && g.platforms && g.platforms.length) ? g.platforms : [];
-      return list;
+      return list.filter(p => !isBadPlatform(p));
     }
 
     function gameLaunchers(g) {
@@ -769,7 +774,7 @@
     function buildPlatformList() {
       const list = (datasets[currentTab] || []);
       const platforms = [...new Set(
-        list.flatMap(g => gamePlatforms(g)).map(normalizePlatform).filter(Boolean)
+        list.flatMap(g => gamePlatforms(g)).map(normalizePlatform).filter(Boolean).filter(p => !isBadPlatform(p))
       )].sort();
 
       const platformListEl = document.getElementById('platform-list');
