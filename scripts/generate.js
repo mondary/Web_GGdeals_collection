@@ -1,7 +1,9 @@
 const fs = require('fs');
 const path = require('path');
 
-const gamesPath = path.join(__dirname, 'games.json');
+const wishlistPath = path.join(__dirname, 'wishlist.json');
+const legacyPath = path.join(__dirname, 'games.json');
+const gamesPath = fs.existsSync(wishlistPath) ? wishlistPath : legacyPath;
 const outputPath = path.join(__dirname, '..', 'web', 'index.html');
 
 const games = JSON.parse(fs.readFileSync(gamesPath, 'utf8'));

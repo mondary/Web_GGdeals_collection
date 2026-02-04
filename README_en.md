@@ -20,10 +20,10 @@ Scraper and viewer for GG.deals wishlist as a GOG Galaxy-style graphical library
 ### 1. Scrape wishlist
 
 ```bash
-node scripts/scrape.js
+node scripts/scrape_wishlist.js
 ```
 
-Data is saved to `scripts/games.json`.
+Data is saved to `scripts/wishlist.json`.
 
 ### 2. Generate website
 
@@ -39,7 +39,7 @@ Open `web/index.html` in a browser.
 
 ## ⚙️ Configuration
 
-Edit `scripts/scrape.js`:
+Edit `scripts/scrape_wishlist.js`:
 
 ```javascript
 const WISHLIST_URL = 'https://gg.deals/wishlist/share/YOUR_ID/';
@@ -50,9 +50,9 @@ const TOTAL_PAGES = 11; // Number of pages to scrape
 
 ```
 ├── scripts/
-│   ├── scrape.js      # Puppeteer scraping
+│   ├── scrape_wishlist.js # Wishlist scraping
 │   ├── generate.js    # HTML generation
-│   └── games.json     # Extracted data
+│   └── wishlist.json  # Extracted data
 ├── web/
 │   └── index.html     # Web interface
 ├── README.md

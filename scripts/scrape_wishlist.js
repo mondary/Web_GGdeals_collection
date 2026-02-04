@@ -7,7 +7,7 @@ puppeteer.use(StealthPlugin());
 
 const WISHLIST_URL = 'https://gg.deals/wishlist/share/0AUdoT7RWzFhXmoz_7LUzcr5jOKezdWY/';
 const TOTAL_PAGES = 11;
-const OUTPUT_PATH = path.join(__dirname, 'games.json');
+const OUTPUT_PATH = path.join(__dirname, 'wishlist.json');
 
 async function scrapeWishlist() {
   console.log('🚀 Lancement du navigateur (mode stealth)...');
@@ -78,7 +78,7 @@ async function scrapeWishlist() {
   }
 
   await browser.close();
-  console.log(`\n🎮 Total: ${allGames.length} jeux sauvegardés dans games.json`);
+  console.log(`\n🎮 Total: ${allGames.length} jeux sauvegardés dans wishlist.json`);
   return allGames;
 }
 
