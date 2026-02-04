@@ -29,7 +29,16 @@ CHROME_REMOTE_DEBUG_PORT="$REMOTE_PORT" node scripts/scrape_collection.js
 
 echo ""
 echo "→ Scraping wishlist..."
-node scripts/scrape_wishlist.js
+if [[ -z "${WISHLIST_URL:-}" ]]; then
+  echo "WISHLIST_URL manquant."
+  echo "Colle ton URL publique GG.deals (ou laisse vide pour skip) :"
+  read -r WISHLIST_URL
+fi
+if [[ -n "${WISHLIST_URL:-}" ]]; then
+  WISHLIST_URL="$WISHLIST_URL" node scripts/scrape_wishlist.js
+else
+  echo "↪️  Wishlist ignorée (pas d'URL)."
+fi
 
 echo ""
 echo "→ Génération du site..."

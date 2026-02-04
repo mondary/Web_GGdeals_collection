@@ -117,6 +117,7 @@ async function scrapeCollection() {
               if (t && storeNameRegex.test(t)) return t.trim();
               if (t && storeHintRegex.test(t)) return 'other';
               const cls = [...s.classList].find(c => c.startsWith('svg-store-') || c.startsWith('store-') || c.startsWith('shop-') || c.startsWith('launcher-') || c.startsWith('drm-') || c.startsWith('svg-drm-'));
+              if (cls && (cls.startsWith('drm-') || cls.startsWith('svg-drm-'))) return cls;
               if (cls && storeNameRegex.test(cls)) return cls;
               if (cls && storeHintRegex.test(cls)) return 'other';
               return '';
