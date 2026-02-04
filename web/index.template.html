@@ -161,6 +161,12 @@
       padding-right: 4px;
     }
 
+    #launcher-list {
+      max-height: 200px;
+      overflow: auto;
+      padding-right: 4px;
+    }
+
     .platform-item label {
       display: flex;
       align-items: center;
@@ -170,6 +176,18 @@
     }
 
     .platform-item input {
+      accent-color: var(--accent-purple);
+    }
+
+    .launcher-item label {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      width: 100%;
+      cursor: pointer;
+    }
+
+    .launcher-item input {
       accent-color: var(--accent-purple);
     }
 
@@ -375,6 +393,40 @@
       font-size: 10px;
     }
 
+    .launcher-row {
+      display: flex;
+      gap: 4px;
+      flex-wrap: wrap;
+    }
+
+    .launcher-icon {
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 9px;
+      font-weight: 700;
+      color: #fff;
+      line-height: 1;
+      background: #444;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+    }
+
+    .launcher-icon[data-l="steam"] { background: #1b2838; }
+    .launcher-icon[data-l="ea"] { background: #c43c3c; }
+    .launcher-icon[data-l="ubisoft"] { background: #1a5fb4; }
+    .launcher-icon[data-l="gog"] { background: #7b2cbf; }
+    .launcher-icon[data-l="epic"] { background: #111; }
+    .launcher-icon[data-l="microsoft"] { background: #107c10; }
+    .launcher-icon[data-l="battlenet"] { background: #00aeff; }
+    .launcher-icon[data-l="rockstar"] { background: #f2a900; color: #111; }
+    .launcher-icon[data-l="prime"] { background: #00a8e1; }
+    .launcher-icon[data-l="itch"] { background: #fa5c5c; }
+    .launcher-icon[data-l="drmfree"] { background: #666; }
+    .launcher-icon[data-l="other"] { background: #555; }
+
     .no-results {
       text-align: center;
       padding: 60px 24px;
@@ -441,7 +493,12 @@
       </ul>
     </div>
 
-    <div class="sidebar-section">
+    <div class="sidebar-section" id="launchers-section">
+      <h3 class="sidebar-title">LAUNCHERS</h3>
+      <ul class="sidebar-nav" id="launcher-list"></ul>
+    </div>
+
+    <div class="sidebar-section" id="platforms-section">
       <h3 class="sidebar-title">PLATEFORMES</h3>
       <ul class="sidebar-nav" id="platform-list"></ul>
     </div>
@@ -503,11 +560,28 @@
   <script>
     const collection = __COLLECTION_DATA__;
     const wishlist = __WISHLIST_DATA__;
-    const datasets = { collection, wishlist };
+    function normalizeList(list) {
+      const seen = new Map();
+      for (const g of (list || [])) {
+        if (!g) continue;
+        const url = (g.url || '').trim().toLowerCase();
+        const name = (g.name || '').trim().toLowerCase();
+        const key = url || name;
+        if (!key) continue;
+        if (!seen.has(key)) seen.set(key, g);
+      }
+      return [...seen.values()];
+    }
+
+    const datasets = {
+      collection: normalizeList(collection),
+      wishlist: normalizeList(wishlist)
+    };
     const tabLabels = { collection: 'Tous mes jeux', wishlist: 'Wishlist' };
     let currentTab = 'collection';
     let currentSort = 'name';
     const activePlatforms = new Set();
+    const activeLaunchers = new Set();
 
     function parsePrice(p) {
       if (!p) return 0;
@@ -542,14 +616,92 @@
     }
 
     function normalizePlatform(p) {
-      return String(p || '').trim().toLowerCase();
+      return String(p || "").trim().toLowerCase();
     }
 
     function platformLabel(p) {
-      const s = String(p || '').trim();
-      if (!s) return '';
+      const s = String(p || "").trim();
+      if (!s) return "";
       if (s.length <= 3) return s.toUpperCase();
-      return s.replace(/[-_]+/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+      return s.replace(/[-_]+/g, " ").replace(/\b\w/g, c => c.toUpperCase());
+    }
+
+    function normalizeLauncher(p) {
+      const v = String(p || '').trim().toLowerCase();
+      const map = {
+        steam: 'steam',
+        'steam store': 'steam',
+        epic: 'epic',
+        'epic games': 'epic',
+        'epic games launcher': 'epic',
+        gog: 'gog',
+        'gog.com': 'gog',
+        'gog galaxy': 'gog',
+        origin: 'ea',
+        'ea app': 'ea',
+        'ubisoft connect': 'ubisoft',
+        uplay: 'ubisoft',
+        'battle.net': 'battlenet',
+        battlenet: 'battlenet',
+        xbox: 'microsoft',
+        'microsoft store': 'microsoft',
+        'rockstar games launcher': 'rockstar',
+        rockstar: 'rockstar',
+        'prime gaming': 'prime',
+        'amazon games': 'prime',
+        'itch.io': 'itch',
+        'drm free': 'drmfree',
+        'drm-free': 'drmfree'
+      };
+      return map[v] || (v ? 'other' : '');
+    }
+
+    function launcherLabel(p) {
+      const v = String(p || '').trim().toLowerCase();
+      const map = {
+        steam: 'Steam',
+        ea: 'EA App',
+        ubisoft: 'Ubisoft Connect',
+        gog: 'GOG',
+        epic: 'Epic Games Launcher',
+        microsoft: 'Microsoft Store',
+        battlenet: 'Battle.net',
+        rockstar: 'Rockstar Games Launcher',
+        prime: 'Prime Gaming',
+        itch: 'Itch.io',
+        drmfree: 'DRM Free',
+        other: 'Other'
+      };
+      return map[v] || v.toUpperCase();
+    }
+
+    function launcherBadge(key) {
+      const label = launcherLabel(key);
+      const initials = {
+        steam: 'S',
+        ea: 'EA',
+        ubisoft: 'U',
+        gog: 'G',
+        epic: 'E',
+        microsoft: 'M',
+        battlenet: 'B',
+        rockstar: 'R',
+        prime: 'P',
+        itch: 'I',
+        drmfree: 'D',
+        other: 'O'
+      }[key] || 'O';
+      return '<span class="launcher-icon" data-l="' + esc(key) + '" title="' + esc(label) + '">' + esc(initials) + '</span>';
+    }
+
+    function gamePlatforms(g) {
+      const list = (g && g.platforms && g.platforms.length) ? g.platforms : [];
+      return list;
+    }
+
+    function gameLaunchers(g) {
+      const list = (g && g.launchers && g.launchers.length) ? g.launchers : [];
+      return list;
     }
 
     function upscaleImage(url) {
@@ -571,7 +723,10 @@
     function render(filter) {
       let list = (datasets[currentTab] || []).filter(g => g.name);
       if (activePlatforms.size) {
-        list = list.filter(g => (g.platforms || []).some(p => activePlatforms.has(normalizePlatform(p))));
+        list = list.filter(g => gamePlatforms(g).some(p => activePlatforms.has(normalizePlatform(p))));
+      }
+      if (activeLaunchers.size) {
+        list = list.filter(g => gameLaunchers(g).some(p => activeLaunchers.has(normalizeLauncher(p))));
       }
       if (filter) {
         const q = filter.toLowerCase();
@@ -593,12 +748,20 @@
       grid.innerHTML = sorted.map(g => {
         const originalImg = g.image || '';
         const hiRes = upscaleImage(originalImg);
+        const isCollection = currentTab === 'collection';
+        const launcherIcons = isCollection
+          ? '<div class="launcher-row">' + [...new Set(gameLaunchers(g).map(normalizeLauncher).filter(Boolean))].map(launcherBadge).join('') + '</div>'
+          : '';
+        const priceBlock = !isCollection
+          ? '<div class="price-text">'+esc(g.price||"N/A")+'</div>'
+          : '';
         return '<a class="game-card" href="'+esc(g.url)+'" target="_blank" rel="noopener">' +
         '<img src="'+esc(hiRes)+'" data-fallback="'+esc(originalImg)+'" alt="'+esc(g.name)+'" loading="lazy" ' +
         'onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback=\'\';}">' +
         '<div class="title-overlay">' +
         '<div class="title-text">'+esc(g.name)+'</div>' +
-        '<div class="price-text">'+esc(g.price||"N/A")+'</div>' +
+        priceBlock +
+        launcherIcons +
         '</div></a>';
       }).join('');
     }
@@ -606,7 +769,7 @@
     function buildPlatformList() {
       const list = (datasets[currentTab] || []);
       const platforms = [...new Set(
-        list.flatMap(g => (g.platforms || [])).map(normalizePlatform).filter(Boolean)
+        list.flatMap(g => gamePlatforms(g)).map(normalizePlatform).filter(Boolean)
       )].sort();
 
       const platformListEl = document.getElementById('platform-list');
@@ -628,16 +791,49 @@
       });
     }
 
+    function buildLauncherList() {
+      const list = (datasets[currentTab] || []);
+      const ordered = ['steam','ea','ubisoft','gog','epic','microsoft','battlenet','rockstar','prime','itch','drmfree','other'];
+      const launchers = [...new Set(
+        list.flatMap(g => gameLaunchers(g)).map(normalizeLauncher).filter(Boolean)
+      )].sort((a,b) => ordered.indexOf(a) - ordered.indexOf(b));
+
+      const launcherListEl = document.getElementById('launcher-list');
+      launcherListEl.innerHTML = launchers.map(p =>
+        '<li class=\"nav-item launcher-item\">' +
+          '<label>' +
+            '<input type=\"checkbox\" value=\"' + esc(p) + '\">' +
+            '<span>' + esc(launcherLabel(p)) + '</span>' +
+          '</label>' +
+        '</li>'
+      ).join('');
+
+      launcherListEl.querySelectorAll('input[type=\"checkbox\"]').forEach(cb => {
+        cb.addEventListener('change', () => {
+          if (cb.checked) activeLaunchers.add(cb.value);
+          else activeLaunchers.delete(cb.value);
+          render(document.getElementById('search').value);
+        });
+      });
+    }
+
     function setActiveTab(tab) {
       if (!datasets[tab]) return;
       currentTab = tab;
       activePlatforms.clear();
+      activeLaunchers.clear();
       document.querySelectorAll('[data-tab]').forEach(el => {
         el.classList.toggle('active', el.dataset.tab === tab);
       });
       document.getElementById('breadcrumb-label').textContent = tabLabels[tab];
       document.title = `Bibliothèque - ${tabLabels[tab]} (${datasets[tab].length})`;
       buildPlatformList();
+      buildLauncherList();
+
+      const launchersSection = document.getElementById('launchers-section');
+      const hasLaunchers = (datasets[tab] || []).some(g => (g.launchers || []).length);
+      if (launchersSection) launchersSection.style.display = hasLaunchers ? 'block' : 'none';
+
       render(document.getElementById('search').value);
     }
 

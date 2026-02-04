@@ -1,48 +1,14 @@
 [
   {
-    "name": "METAL EDEN",
-    "price": "~8,01€",
-    "image": "https://img.gg.deals/ba/d3/0e814c54caa2053f91c603fb22094fe106da_188xr88.jpg",
-    "url": "https://gg.deals/game/metal-eden/",
-    "platforms": [
-      "platform-icon"
-    ]
-  },
-  {
     "name": "Squirrel with a Gun",
-    "price": "~2,88€",
+    "price": "~1,57€",
     "image": "https://img.gg.deals/1b/e8/e0dba34841b24351dce3ae5b01b735dcc628_188xr88.jpg",
     "url": "https://gg.deals/game/squirrel-with-a-gun/",
     "platforms": [
-      "platform-icon"
-    ]
-  },
-  {
-    "name": "Haste",
-    "price": "~3,49€",
-    "image": "https://img.gg.deals/a3/1b/58615c790cfc772f71a0c1a65185cecba4a2_188xr88.jpg",
-    "url": "https://gg.deals/game/haste-broken-worlds/",
-    "platforms": [
-      "platform-icon"
-    ]
-  },
-  {
-    "name": "DOOM: The Dark Ages",
-    "price": "26,39€",
-    "image": "https://img.gg.deals/cf/9d/dee5e464ad606cbf26b25b85fde4d8a03642_188xr88.jpg",
-    "url": "https://gg.deals/game/doom-the-dark-ages/",
-    "platforms": [
-      "platform-icon"
-    ]
-  },
-  {
-    "name": "SILENT HILL 2",
-    "price": "~21,66€",
-    "image": "https://img.gg.deals/6e/6f/09136993513c79178023ca57726848033f10_188xr88.jpg",
-    "url": "https://gg.deals/game/silent-hill-2/",
-    "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "STAR WARS Jedi: Survivor",
@@ -50,8 +16,32 @@
     "image": "https://img.gg.deals/12/d2/fc1b749115505f89570118cd63c8a88158a9_188xr88.jpg",
     "url": "https://gg.deals/game/star-wars-jedi-survivor/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
+  },
+  {
+    "name": "Hell is Us",
+    "price": "~19,92€",
+    "image": "https://img.gg.deals/52/50/3d70d4eaa8c2cd94fb1784fd3e577bd59c37_188xr88.jpg",
+    "url": "https://gg.deals/game/hell-is-us/",
+    "platforms": [
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
+  },
+  {
+    "name": "DOOM: The Dark Ages",
+    "price": "26,39€",
+    "image": "https://img.gg.deals/cf/9d/dee5e464ad606cbf26b25b85fde4d8a03642_188xr88.jpg",
+    "url": "https://gg.deals/game/doom-the-dark-ages/",
+    "platforms": [
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Warhammer 40,000: Space Marine 2",
@@ -59,17 +49,32 @@
     "image": "https://img.gg.deals/70/2b/3250f2d8e0a70241cd6c4290c4761f8227c7_188xr88.jpg",
     "url": "https://gg.deals/game/warhammer-40000-space-marine-2/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Ghost of Tsushima DIRECTOR'S CUT",
-    "price": "~24,53€",
+    "price": "~24,43€",
     "image": "https://img.gg.deals/45/97/699856d47bb8212e71538333e06961e09fcd_188xr88.jpg",
     "url": "https://gg.deals/game/ghost-of-tsushima-directors-cut/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
+  },
+  {
+    "name": "Haste",
+    "price": "~3,49€",
+    "image": "https://img.gg.deals/a3/1b/58615c790cfc772f71a0c1a65185cecba4a2_188xr88.jpg",
+    "url": "https://gg.deals/game/haste-broken-worlds/",
+    "platforms": [
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Lies of P",
@@ -77,8 +82,21 @@
     "image": "https://img.gg.deals/bc/d9/5a07218a7d56794d41e230498d953b87782f_188xr88.jpg",
     "url": "https://gg.deals/game/lies-of-p/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
+  },
+  {
+    "name": "SILENT HILL 2",
+    "price": "~22,17€",
+    "image": "https://img.gg.deals/6e/6f/09136993513c79178023ca57726848033f10_188xr88.jpg",
+    "url": "https://gg.deals/game/silent-hill-2/",
+    "platforms": [
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Manor Lords",
@@ -86,8 +104,10 @@
     "image": "https://img.gg.deals/ae/09/da5b3a1a123fe6b8e9d2447b9a9b744839c4_188xr88.jpg",
     "url": "https://gg.deals/game/manor-lords/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "ASTRONEER",
@@ -95,8 +115,10 @@
     "image": "https://img.gg.deals/36/ab/b2c4b7fe357b5b5f5fce26dffdf1c787cdf9_188xr88.jpg",
     "url": "https://gg.deals/game/astroneer/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Nine Sols",
@@ -104,8 +126,10 @@
     "image": "https://img.gg.deals/ae/bb/d455fd14320909055de3580d40112e963f46_188xr88.jpg",
     "url": "https://gg.deals/game/nine-sols/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "METAL GEAR SOLID Δ: SNAKE EATER",
@@ -113,8 +137,10 @@
     "image": "https://img.gg.deals/dd/ff/614612768c48b97122710dcfe6fb8fa51e1e_188xr88.jpg",
     "url": "https://gg.deals/game/metal-gear-solid-snake-eater/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Trepang2",
@@ -122,8 +148,10 @@
     "image": "https://img.gg.deals/02/e9/7dae1ae826ece0107afcf9fc0ac2a63f5cfb_188xr88.jpg",
     "url": "https://gg.deals/game/trepang2/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "ARMORED CORE VI FIRES OF RUBICON",
@@ -131,8 +159,10 @@
     "image": "https://img.gg.deals/98/75/aa47a9581ce3fef630a68aa1f9e8479563af_188xr88.jpg",
     "url": "https://gg.deals/game/armored-core-vi-fires-of-rubicon/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "The Alters",
@@ -140,8 +170,10 @@
     "image": "https://img.gg.deals/31/e0/a7050c646e0aff50e8abecc28f2dd04e0211_188xr88.jpg",
     "url": "https://gg.deals/game/the-alters/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Hyper Light Breaker",
@@ -149,8 +181,10 @@
     "image": "https://img.gg.deals/49/b4/6fb19193c7e4afbde768381d2a187a77809c_188xr88.jpg",
     "url": "https://gg.deals/game/hyper-light-breaker/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "What Remains of Edith Finch",
@@ -158,8 +192,10 @@
     "image": "https://img.gg.deals/05/0a/7d2e2afb68fb9fb8d13ea2ed09e4932f1c3b_188xr88.jpg",
     "url": "https://gg.deals/game/what-remains-of-edith-finch/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "SILENT HILL f",
@@ -167,8 +203,10 @@
     "image": "https://img.gg.deals/0c/aa/30c139f43c54ff7679d156596efcbc432e1f_188xr88.jpg",
     "url": "https://gg.deals/game/silent-hill-f/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Marvel's Spider-Man Remastered",
@@ -176,17 +214,10 @@
     "image": "https://img.gg.deals/29/39/c3c3f89e717e058fd6fa17b3bb7ed1943b6d_188xr88.jpg",
     "url": "https://gg.deals/game/marvels-spider-man-remastered/",
     "platforms": [
-      "platform-icon"
-    ]
-  },
-  {
-    "name": "Hell is Us",
-    "price": "~21,56€",
-    "image": "https://img.gg.deals/52/50/3d70d4eaa8c2cd94fb1784fd3e577bd59c37_188xr88.jpg",
-    "url": "https://gg.deals/game/hell-is-us/",
-    "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Forspoken",
@@ -194,8 +225,10 @@
     "image": "https://img.gg.deals/51/c8/e4855ca1d2cd4b374ba9b3aed49f0ca05e7c_188xr88.jpg",
     "url": "https://gg.deals/game/forspoken/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Darkest Dungeon II",
@@ -203,8 +236,21 @@
     "image": "https://img.gg.deals/53/c5/96adee4ba4db587f689c07d4f1948cf95ae6_188xr88.jpg",
     "url": "https://gg.deals/game/darkest-dungeon-ii/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
+  },
+  {
+    "name": "METAL EDEN",
+    "price": "~8,01€",
+    "image": "https://img.gg.deals/ba/d3/0e814c54caa2053f91c603fb22094fe106da_188xr88.jpg",
+    "url": "https://gg.deals/game/metal-eden/",
+    "platforms": [
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "9 Kings",
@@ -212,8 +258,10 @@
     "image": "https://img.gg.deals/3b/6a/93b8f23685161448999de9ed1f1ca285f5e7_188xr88.jpg",
     "url": "https://gg.deals/game/9-kings/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Marvel's Spider-Man: Miles Morales",
@@ -221,8 +269,21 @@
     "image": "https://img.gg.deals/0f/b5/ce1656ba2029b6c3e3523140c1bec4bd6bc9_188xr88.jpg",
     "url": "https://gg.deals/game/marvels-spider-man-miles-morales/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
+  },
+  {
+    "name": "Laika: Aged Through Blood",
+    "price": "~2,20€",
+    "image": "https://img.gg.deals/31/47/270f05fd444f91cf58e2a24330aa0f649eec_188xr88.jpg",
+    "url": "https://gg.deals/game/laika-aged-through-blood/",
+    "platforms": [
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Frostpunk 2",
@@ -230,8 +291,10 @@
     "image": "https://img.gg.deals/2a/b1/30a249f5e033dd863dd3545dc67cb1e5c5b3_188xr88.jpg",
     "url": "https://gg.deals/game/frostpunk-2/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "SWORN",
@@ -239,8 +302,10 @@
     "image": "https://img.gg.deals/b7/84/7171b9761f5165fb7c07c08909d6d5e3693c_188xr88.jpg",
     "url": "https://gg.deals/game/sworn-1/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Until Dawn",
@@ -248,8 +313,10 @@
     "image": "https://img.gg.deals/42/38/2f62918f30efac5d66afa8bed277fbda483d_188xr88.jpg",
     "url": "https://gg.deals/game/until-dawn/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Anger Foot",
@@ -257,17 +324,10 @@
     "image": "https://img.gg.deals/17/04/14bc2afc4abefbb2d710b3f2485ec47b1e5f_188xr88.jpg",
     "url": "https://gg.deals/game/anger-foot/",
     "platforms": [
-      "platform-icon"
-    ]
-  },
-  {
-    "name": "Laika: Aged Through Blood",
-    "price": "~2,21€",
-    "image": "https://img.gg.deals/31/47/270f05fd444f91cf58e2a24330aa0f649eec_188xr88.jpg",
-    "url": "https://gg.deals/game/laika-aged-through-blood/",
-    "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Stray",
@@ -275,17 +335,10 @@
     "image": "https://img.gg.deals/a9/ca/51cc3f8d0e7f758a76c93f3742002faf483d_188xr88.jpg",
     "url": "https://gg.deals/game/stray/",
     "platforms": [
-      "platform-icon"
-    ]
-  },
-  {
-    "name": "Ancestors: The Humankind Odyssey",
-    "price": "~5,15€",
-    "image": "https://img.gg.deals/95/fc/cc5b488c9707ae163ebafb54a21624609863_188xr88.jpg",
-    "url": "https://gg.deals/game/ancestors-the-humankind-odyssey/",
-    "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Okami HD",
@@ -293,17 +346,10 @@
     "image": "https://img.gg.deals/e1/16/613cdf9fdb93e46640c3efff529e8bf8f254_188xr88.jpg",
     "url": "https://gg.deals/game/okami-hd/",
     "platforms": [
-      "platform-icon"
-    ]
-  },
-  {
-    "name": "TUNIC",
-    "price": "14,01€",
-    "image": "https://img.gg.deals/61/c6/3f526d507cb2ee4fa820041cae85a96f2693_188xr88.jpg",
-    "url": "https://gg.deals/game/tunic/",
-    "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Pathologic 3",
@@ -311,8 +357,10 @@
     "image": "https://img.gg.deals/81/df/a7e897944660b697ef1cd3398ecaf553737a_188xr88.jpg",
     "url": "https://gg.deals/game/pathologic-3/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Heroes of Hammerwatch II",
@@ -320,8 +368,10 @@
     "image": "https://img.gg.deals/ce/ea/8247c0e5fef5effc4b258d7761a6d68cfb09_188xr88.jpg",
     "url": "https://gg.deals/game/heroes-of-hammerwatch-ii/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "UNBEATABLE",
@@ -329,8 +379,10 @@
     "image": "https://img.gg.deals/c6/d9/b41542db2fc602f4b72605ec6c2dce747913_188xr88.jpg",
     "url": "https://gg.deals/game/unbeatable/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "The First Berserker: Khazan",
@@ -338,8 +390,10 @@
     "image": "https://img.gg.deals/d4/e1/03fb520681d6b859aa4c2d06fbc3d68bbb92_188xr88.jpg",
     "url": "https://gg.deals/game/the-first-berserker-khazan/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Horizon Forbidden West Complete Edition",
@@ -347,8 +401,10 @@
     "image": "https://img.gg.deals/2a/12/192d38f4a74afbfdf9dece793165cbdcd8b6_188xr88.jpg",
     "url": "https://gg.deals/game/horizon-forbidden-west/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Neva",
@@ -356,8 +412,10 @@
     "image": "https://img.gg.deals/90/0b/0373300a5254ebf3e4c9bf39ba08a382b854_188xr88.jpg",
     "url": "https://gg.deals/game/neva/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Resident Evil 4",
@@ -365,8 +423,10 @@
     "image": "https://img.gg.deals/b5/ba/a5d23c07992b1907b2de98aeab5c30a10380_188xr88.jpg",
     "url": "https://gg.deals/game/resident-evil-4/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Cult of the Lamb",
@@ -374,8 +434,10 @@
     "image": "https://img.gg.deals/6d/18/1bc62af68bf2a5dd7dbf6753467bad997e5a_188xr88.jpg",
     "url": "https://gg.deals/game/cult-of-the-lamb/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "SANABI",
@@ -383,8 +445,10 @@
     "image": "https://img.gg.deals/d7/18/e077540626df59b6ffe1888d66a41658d9fe_188xr88.jpg",
     "url": "https://gg.deals/game/sannabi-the-revenant/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Gestalt: Steam & Cinder",
@@ -392,7 +456,11 @@
     "image": "https://img.gg.deals/7c/0d/1376edb2b836b409c60c924a08d073c0f9b8_188xr88.jpg",
     "url": "https://gg.deals/game/gestalt-steam-cinder/",
     "platforms": [
-      "platform-icon"
+      "link-icon",
+      "windows"
+    ],
+    "launchers": [
+      "other"
     ]
   },
   {
@@ -401,17 +469,21 @@
     "image": "https://img.gg.deals/90/00/559fef13551b6ab657244f2133472226a93a_188xr88.jpg",
     "url": "https://gg.deals/game/he-is-coming/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Assassin's Creed Shadows",
-    "price": "~27,10€",
+    "price": "~27,08€",
     "image": "https://img.gg.deals/b8/11/4e8f2adaa570f70c752fa4bfa8ae1cbfcf7f_188xr88.jpg",
     "url": "https://gg.deals/game/assassins-creed-shadows/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Bright Memory: Infinite",
@@ -419,8 +491,10 @@
     "image": "https://img.gg.deals/33/01/7eed495307329d164846f4dc4922d83c691f_188xr88.jpg",
     "url": "https://gg.deals/game/bright-memory-infinite/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Dying Light 2 Stay Human: Reloaded Edition",
@@ -428,32 +502,21 @@
     "image": "https://img.gg.deals/83/95/787eb75d88c14adb9fb6a0d67294544e45f4_188xr88.jpg",
     "url": "https://gg.deals/game/dying-light-2/",
     "platforms": [
-      "platform-icon"
-    ]
-  },
-  {
-    "price": "~8,01€",
-    "image": "https://img.gg.deals/cd/b7/4774ca8e256b0d11114ea982389eaf4649a5_60xt26_Q100.png",
-    "platforms": []
-  },
-  {
-    "price": "~8,23€",
-    "image": "https://img.gg.deals/8a/0a/c2b880ca4d909e70b0e6affc703fdbbf6888_60xt26_Q100.png",
-    "platforms": []
-  },
-  {
-    "price": "~8,62€",
-    "image": "https://img.gg.deals/59/af/a6775f91e45dc89393a411cb9af173c5a175.svg",
-    "platforms": []
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "God of War Ragnarök",
-    "price": "~29,98€",
+    "price": "~29,96€",
     "image": "https://img.gg.deals/7c/ca/643d3875a0ec52456bf779ebf725c4033477_188xr88.jpg",
     "url": "https://gg.deals/game/god-of-war-ragnarok/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "It Takes Two",
@@ -461,8 +524,28 @@
     "image": "https://img.gg.deals/c0/ba/60b09c48c6c1ae8ebedc189b876d34d880c3_188xr88.jpg",
     "url": "https://gg.deals/game/it-takes-two/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
+  },
+  {
+    "price": "~1,57€",
+    "image": "https://img.gg.deals/07/28/3c6eeb2a7c86c6441a89898217781e7df6ff.svg",
+    "platforms": [],
+    "launchers": []
+  },
+  {
+    "price": "~1,60€",
+    "image": "https://img.gg.deals/09/32/6dbacb7190441b0cfe2374ac0a5790c0a1c7_60xt26_Q100.png",
+    "platforms": [],
+    "launchers": []
+  },
+  {
+    "price": "~2,31€",
+    "image": "https://img.gg.deals/7f/fc/0519b5d0810864027e297a768faa8e922506_60xt26_Q100.png",
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Ni no Kuni Wrath of the White Witch Remastered",
@@ -470,17 +553,10 @@
     "image": "https://img.gg.deals/f0/be/0b9ac8160cfd6febdd38b7857ee5607e8cd7_188xr88.jpg",
     "url": "https://gg.deals/game/ni-no-kuni-wrath-of-the-white-witch-remastered/",
     "platforms": [
-      "platform-icon"
-    ]
-  },
-  {
-    "name": "The Iron Oath",
-    "price": "~6,06€",
-    "image": "https://img.gg.deals/49/bf/a0e0e0ab7e784f1d9032820222260b35918e_188xr88.jpg",
-    "url": "https://gg.deals/game/the-iron-oath/",
-    "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Resident Evil Requiem",
@@ -488,8 +564,10 @@
     "image": "https://img.gg.deals/27/85/28493d8963447027679d12641cdb1186d20d_188xr88.jpg",
     "url": "https://gg.deals/game/resident-evil-requiem/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "SHINOBI: Art of Vengeance",
@@ -497,17 +575,10 @@
     "image": "https://img.gg.deals/c3/c8/8559d12885a1e01bbbcabf460d83ed078a2e_188xr88.jpg",
     "url": "https://gg.deals/game/shinobi-art-of-vengeance/",
     "platforms": [
-      "platform-icon"
-    ]
-  },
-  {
-    "name": "Star Trucker",
-    "price": "8,79€",
-    "image": "https://img.gg.deals/21/dd/05c26b3e64026fbd2d190dc2dbdeb995c2b0_188xr88.jpg",
-    "url": "https://gg.deals/game/star-trucker/",
-    "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Empire of the Ants",
@@ -515,8 +586,10 @@
     "image": "https://img.gg.deals/bf/6e/9d668924b6eb7913ab4d7ac2eadadd1a7b0e_188xr88.jpg",
     "url": "https://gg.deals/game/empire-of-the-ants/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Returnal",
@@ -524,8 +597,10 @@
     "image": "https://img.gg.deals/53/e6/8b5432253b51edb2d2e2ff508dbb42ba5145_188xr88.jpg",
     "url": "https://gg.deals/game/returnal/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Sackboy: A Big Adventure",
@@ -533,8 +608,21 @@
     "image": "https://img.gg.deals/7f/65/9d6dc6a8773b4ae9deb1fe0dc425cb3a9205_188xr88.jpg",
     "url": "https://gg.deals/game/sackboy-a-big-adventure/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
+  },
+  {
+    "name": "Ancestors: The Humankind Odyssey",
+    "price": "~5,15€",
+    "image": "https://img.gg.deals/95/fc/cc5b488c9707ae163ebafb54a21624609863_188xr88.jpg",
+    "url": "https://gg.deals/game/ancestors-the-humankind-odyssey/",
+    "platforms": [
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Cronos: The New Dawn",
@@ -542,8 +630,10 @@
     "image": "https://img.gg.deals/cc/36/d47fe11a1517e755cd4f1e6ecfa718b72e88_188xr88.jpg",
     "url": "https://gg.deals/game/cronos-the-new-dawn/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Red Dead Redemption",
@@ -551,8 +641,10 @@
     "image": "https://img.gg.deals/f5/16/a25d11c7ea9142c60d86e4772716b5c0ea7d_188xr88.jpg",
     "url": "https://gg.deals/game/red-dead-redemption/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Children of the Sun",
@@ -560,8 +652,21 @@
     "image": "https://img.gg.deals/56/e7/d0b668623766ec08aae2ce41a4774b702902_188xr88.jpg",
     "url": "https://gg.deals/game/children-of-the-sun/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
+  },
+  {
+    "name": "Star Trucker",
+    "price": "8,79€",
+    "image": "https://img.gg.deals/21/dd/05c26b3e64026fbd2d190dc2dbdeb995c2b0_188xr88.jpg",
+    "url": "https://gg.deals/game/star-trucker/",
+    "platforms": [
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Wildfrost",
@@ -569,8 +674,10 @@
     "image": "https://img.gg.deals/fe/28/9b143a57f0309635d02b773a2846d7a25d51_188xr88.jpg",
     "url": "https://gg.deals/game/wildfrost/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Deliver At All Costs",
@@ -578,8 +685,10 @@
     "image": "https://img.gg.deals/16/cc/0466051a45e7b71eaa34f6a235555f5a46fe_188xr88.jpg",
     "url": "https://gg.deals/game/deliver-at-all-costs/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Neon White",
@@ -587,8 +696,10 @@
     "image": "https://img.gg.deals/53/74/eeb360f12ed7555e8d1a8015f3d20a3a9a38_188xr88.jpg",
     "url": "https://gg.deals/game/neon-white/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "SnowRunner",
@@ -596,17 +707,10 @@
     "image": "https://img.gg.deals/09/09/49ae66dc5879e9df7a480a7ef6ea571598b1_188xr88.jpg",
     "url": "https://gg.deals/game/snowrunner/",
     "platforms": [
-      "platform-icon"
-    ]
-  },
-  {
-    "name": "The Slormancer",
-    "price": "~8,44€",
-    "image": "https://img.gg.deals/e1/11/aa0a4833d485fbcced9ad8028bb9cbef28ab_188xr88.jpg",
-    "url": "https://gg.deals/game/the-slormancer/",
-    "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "REANIMAL",
@@ -614,17 +718,32 @@
     "image": "https://img.gg.deals/6f/ba/e1960a4d1bb9e03f43a86a4cc697c9a35bbe_188xr88.jpg",
     "url": "https://gg.deals/game/reanimal/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Cairn",
-    "price": "~17,23€",
+    "price": "~17,21€",
     "image": "https://img.gg.deals/fe/84/b2fa9cf5851198fee11132a168f695c465b5_188xr88.jpg",
     "url": "https://gg.deals/game/cairn/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
+  },
+  {
+    "name": "StarRupture",
+    "price": "~10,53€",
+    "image": "https://img.gg.deals/da/81/923f349dec52bb4eb500b8bf5abb767d63d8_188xr88.jpg",
+    "url": "https://gg.deals/game/starrupture/",
+    "platforms": [
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Last Train Home",
@@ -632,8 +751,10 @@
     "image": "https://img.gg.deals/a3/99/42a8143c06e7f6c1f4005bddd6392f4a086a_188xr88.jpg",
     "url": "https://gg.deals/game/last-train-home/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "The Precinct",
@@ -641,8 +762,10 @@
     "image": "https://img.gg.deals/1d/60/910e6565a840aa0b6e9e5919ee9a54dc3dfa_188xr88.jpg",
     "url": "https://gg.deals/game/the-precinct/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Senua's Saga: Hellblade II",
@@ -650,26 +773,32 @@
     "image": "https://img.gg.deals/c2/ad/5cb627c25c5038dff20489b8a383c74798c6_188xr88.jpg",
     "url": "https://gg.deals/game/senuas-saga-hellblade-ii/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Ready or Not",
-    "price": "~20,68€",
+    "price": "~20,53€",
     "image": "https://img.gg.deals/cf/2e/96d1f0af848da786da81b3e42cb61ce51cae_188xr88.jpg",
     "url": "https://gg.deals/game/ready-or-not-1/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
-    "name": "StarRupture",
-    "price": "~10,59€",
-    "image": "https://img.gg.deals/da/81/923f349dec52bb4eb500b8bf5abb767d63d8_188xr88.jpg",
-    "url": "https://gg.deals/game/starrupture/",
+    "name": "The Slormancer",
+    "price": "~8,44€",
+    "image": "https://img.gg.deals/e1/11/aa0a4833d485fbcced9ad8028bb9cbef28ab_188xr88.jpg",
+    "url": "https://gg.deals/game/the-slormancer/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Outpost: Infinity Siege",
@@ -677,8 +806,10 @@
     "image": "https://img.gg.deals/67/15/71dece7b53657065e57eb86c6023bdc77860_188xr88.jpg",
     "url": "https://gg.deals/game/outpost-1566690/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Slay the Princess - The Pristine Cut",
@@ -686,8 +817,10 @@
     "image": "https://img.gg.deals/9e/33/8071b8f08e8492210342246db15c45d4e79f_188xr88.jpg",
     "url": "https://gg.deals/game/slay-the-princess/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "CONVERGENCE: A League of Legends Story",
@@ -695,17 +828,21 @@
     "image": "https://img.gg.deals/2c/78/02fb174535c63d9f93a83d24e5b668001ad0_188xr88.jpg",
     "url": "https://gg.deals/game/convrgence-a-league-of-legends-story/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "The Crust",
-    "price": "~7,14€",
+    "price": "~7,15€",
     "image": "https://img.gg.deals/00/70/38dbbc9cdcabbf9480a86c6303803366646f_188xr88.jpg",
     "url": "https://gg.deals/game/the-crust/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
@@ -713,8 +850,10 @@
     "image": "https://img.gg.deals/66/ea/c2e1c4da5705233bbe2a23187d95f85db2d9_188xr88.jpg",
     "url": "https://gg.deals/game/stalker-2-heart-of-chernobyl/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "PRAGMATA",
@@ -722,8 +861,10 @@
     "image": "https://img.gg.deals/8c/96/748f3fc4de637d735846576e14cc826eee47_188xr88.jpg",
     "url": "https://gg.deals/game/pragmata/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Primal Planet",
@@ -731,8 +872,10 @@
     "image": "https://img.gg.deals/8e/01/81d3430df3b72b34980c5d060f4bf4fff79d_188xr88.jpg",
     "url": "https://gg.deals/game/primal-planet/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "ONE PIECE ODYSSEY",
@@ -740,17 +883,21 @@
     "image": "https://img.gg.deals/bd/09/d66e3bcb3f0b01cafb28c854b2af56cb71fc_188xr88.jpg",
     "url": "https://gg.deals/game/one-piece-odyssey/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
-    "name": "Forza Horizon 5",
-    "price": "~25,59€",
-    "image": "https://img.gg.deals/3a/e5/980d943919a0bb462915abeb1f434247feb2_188xr88.jpg",
-    "url": "https://gg.deals/game/forza-horizon-5/",
+    "name": "Chants of Sennaar",
+    "price": "~9,15€",
+    "image": "https://img.gg.deals/22/f1/bd0adb243f5a600e5bc1bd453c45dec0f611_188xr88.jpg",
+    "url": "https://gg.deals/game/chants-of-sennaar/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Monster Boy and the Cursed Kingdom",
@@ -758,8 +905,10 @@
     "image": "https://img.gg.deals/7b/4e/9c84f3447820e0e32936d5447d041146c25a_188xr88.jpg",
     "url": "https://gg.deals/game/monster-boy-and-the-cursed-kingdom/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "The Cosmic Wheel Sisterhood",
@@ -767,8 +916,21 @@
     "image": "https://img.gg.deals/c6/8b/10f85823b5df50a092ad350e8abc33965c69_188xr88.jpg",
     "url": "https://gg.deals/game/the-cosmic-wheel-sisterhood/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
+  },
+  {
+    "name": "Forza Horizon 5",
+    "price": "~25,72€",
+    "image": "https://img.gg.deals/3a/e5/980d943919a0bb462915abeb1f434247feb2_188xr88.jpg",
+    "url": "https://gg.deals/game/forza-horizon-5/",
+    "platforms": [
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Terra Nil",
@@ -776,17 +938,10 @@
     "image": "https://img.gg.deals/7d/ba/766032fc51f9195727baff614491331d9907_188xr88.jpg",
     "url": "https://gg.deals/game/terra-nil/",
     "platforms": [
-      "platform-icon"
-    ]
-  },
-  {
-    "name": "Aeterna Noctis",
-    "price": "~1,72€",
-    "image": "https://img.gg.deals/5a/9d/a25a1394518e11f7110a9a554a1760fc91b5_188xr88.jpg",
-    "url": "https://gg.deals/game/aeterna-noctis/",
-    "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Moonlighter 2: The Endless Vault",
@@ -794,8 +949,10 @@
     "image": "https://img.gg.deals/4b/61/ef8edbdc25d97ecf0eff7f65d7bc0e3b4f4f_188xr88.jpg",
     "url": "https://gg.deals/game/moonlighter-2-the-endless-vault/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "The King is Watching",
@@ -803,8 +960,10 @@
     "image": "https://img.gg.deals/d5/ed/64d4d8e20531b5268d2e31541e911a5fb124_188xr88.jpg",
     "url": "https://gg.deals/game/the-king-is-watching/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Riven",
@@ -812,8 +971,21 @@
     "image": "https://img.gg.deals/ed/f7/cb4bef722cc14d173d980ad9f0fa0e3fa56f_188xr88.jpg",
     "url": "https://gg.deals/game/riven/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
+  },
+  {
+    "name": "Hi-Fi RUSH",
+    "price": "~14,38€",
+    "image": "https://img.gg.deals/21/e8/48a7de9d8cf290714fe839c08a2404558bc0_188xr88.jpg",
+    "url": "https://gg.deals/game/hi-fi-rush/",
+    "platforms": [
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Lost in Random",
@@ -821,8 +993,10 @@
     "image": "https://img.gg.deals/8a/1d/e35d9a8f351b83366d0d2f0967eb3192acd6_188xr88.jpg",
     "url": "https://gg.deals/game/lost-in-random/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Phantom Abyss",
@@ -830,8 +1004,10 @@
     "image": "https://img.gg.deals/ff/79/65f3c47979fbbc2f144f862ed1e75b903761_188xr88.jpg",
     "url": "https://gg.deals/game/phantom-abyss/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "INDIKA",
@@ -839,17 +1015,32 @@
     "image": "https://img.gg.deals/55/0e/d8d95e7cb05df0c56ab92acfb0e93bb4bb77_188xr88.jpg",
     "url": "https://gg.deals/game/indika/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Satisfactory",
-    "price": "~25,22€",
+    "price": "~25,24€",
     "image": "https://img.gg.deals/93/c6/e1453af998f94940751ee369ec1d0b40b143_188xr88.jpg",
     "url": "https://gg.deals/game/satisfactory/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
+  },
+  {
+    "name": "The Iron Oath",
+    "price": "~6,67€",
+    "image": "https://img.gg.deals/49/bf/a0e0e0ab7e784f1d9032820222260b35918e_188xr88.jpg",
+    "url": "https://gg.deals/game/the-iron-oath/",
+    "platforms": [
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Wreckfest",
@@ -857,8 +1048,10 @@
     "image": "https://img.gg.deals/f1/65/0012c9bbfdc1042dd1b4acb2f438e4309210_188xr88.jpg",
     "url": "https://gg.deals/game/wreckfest/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Mafia: The Old Country",
@@ -866,32 +1059,10 @@
     "image": "https://img.gg.deals/b6/a3/beb48e1efd9a483189478b719cbb74b5fe22_188xr88.jpg",
     "url": "https://gg.deals/game/mafia-the-old-country/",
     "platforms": [
-      "platform-icon"
-    ]
-  },
-  {
-    "name": "Hi-Fi RUSH",
-    "price": "~14,58€",
-    "image": "https://img.gg.deals/21/e8/48a7de9d8cf290714fe839c08a2404558bc0_188xr88.jpg",
-    "url": "https://gg.deals/game/hi-fi-rush/",
-    "platforms": [
-      "platform-icon"
-    ]
-  },
-  {
-    "price": "~29,98€",
-    "image": "https://img.gg.deals/d4/ba/1ec9eea47fc611633851b219023831083e95_60xt26_Q100.png",
-    "platforms": []
-  },
-  {
-    "price": "~33,54€",
-    "image": "https://img.gg.deals/f7/50/92c4f611a78f7070912a754a000195c2e26a.svg",
-    "platforms": []
-  },
-  {
-    "price": "33,59€",
-    "image": "https://img.gg.deals/6f/ff/75fec1c8d99f1bff0f55baaccaf8ff674647_60xt26_Q100.png",
-    "platforms": []
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Forever Skies",
@@ -899,8 +1070,28 @@
     "image": "https://img.gg.deals/c6/a8/ac08932438f7cf38d7959007afa45e385da2_188xr88.jpg",
     "url": "https://gg.deals/game/forever-skies/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
+  },
+  {
+    "price": "5,61€",
+    "image": "https://img.gg.deals/fe/08/de2c02530fb90ebba80e45fbe39cc02c3324_60xt26_Q100.png",
+    "platforms": [],
+    "launchers": []
+  },
+  {
+    "price": "5,79€",
+    "image": "https://img.gg.deals/6f/ff/75fec1c8d99f1bff0f55baaccaf8ff674647_60xt26_Q100.png",
+    "platforms": [],
+    "launchers": []
+  },
+  {
+    "price": "~5,93€",
+    "image": "https://img.gg.deals/93/90/d19b88367ee8d52977848ab54abf081ba573.svg",
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Post Trauma",
@@ -908,8 +1099,21 @@
     "image": "https://img.gg.deals/4c/6f/b19e36cf1dd8641079260bad0bc6804d29ea_188xr88.jpg",
     "url": "https://gg.deals/game/post-trauma/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
+  },
+  {
+    "name": "Aeterna Noctis",
+    "price": "~1,72€",
+    "image": "https://img.gg.deals/5a/9d/a25a1394518e11f7110a9a554a1760fc91b5_188xr88.jpg",
+    "url": "https://gg.deals/game/aeterna-noctis/",
+    "platforms": [
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "The Outlast Trials",
@@ -917,8 +1121,10 @@
     "image": "https://img.gg.deals/b2/eb/35090442e2b324d0309cc49c0d47fed9ec53_188xr88.jpg",
     "url": "https://gg.deals/game/the-outlast-trials/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Sayonara Wild Hearts",
@@ -926,8 +1132,10 @@
     "image": "https://img.gg.deals/da/cd/49ffcc7601a7354bfd1c6c8ef33f721f541a_188xr88.jpg",
     "url": "https://gg.deals/game/sayonara-wild-hearts/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Infernax",
@@ -935,8 +1143,10 @@
     "image": "https://img.gg.deals/4f/e4/7dd32acffb3c62bde429c537a33f53e1c80e_188xr88.jpg",
     "url": "https://gg.deals/game/infernax/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "A Quiet Place: The Road Ahead",
@@ -944,8 +1154,10 @@
     "image": "https://img.gg.deals/02/0d/9155e953ff19e53087c87f9f40acfc8df81b_188xr88.jpg",
     "url": "https://gg.deals/game/a-quiet-place-the-road-ahead/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Drill Core",
@@ -953,8 +1165,10 @@
     "image": "https://img.gg.deals/1a/70/ac25838ea37ffb066a3ea8fe90e2557936db_188xr88.jpg",
     "url": "https://gg.deals/game/drill-core/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Prince of Persia The Lost Crown",
@@ -962,8 +1176,10 @@
     "image": "https://img.gg.deals/fb/1f/8f39480adad4d92d5f0c6079d3155b8b2b26_188xr88.jpg",
     "url": "https://gg.deals/game/prince-of-persia-the-lost-crown/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Ravenswatch",
@@ -971,8 +1187,10 @@
     "image": "https://img.gg.deals/6e/62/60bbef0763817fa8989c88b00fe93615fd2e_188xr88.jpg",
     "url": "https://gg.deals/game/ravenswatch/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Dead Space",
@@ -980,17 +1198,10 @@
     "image": "https://img.gg.deals/b3/c9/4cdf0e6244baf657742f91c2662640d2c31b_188xr88.jpg",
     "url": "https://gg.deals/game/dead-space-remake/",
     "platforms": [
-      "platform-icon"
-    ]
-  },
-  {
-    "name": "Chants of Sennaar",
-    "price": "9,52€",
-    "image": "https://img.gg.deals/22/f1/bd0adb243f5a600e5bc1bd453c45dec0f611_188xr88.jpg",
-    "url": "https://gg.deals/game/chants-of-sennaar/",
-    "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "A Highland Song",
@@ -998,8 +1209,10 @@
     "image": "https://img.gg.deals/a3/0d/547b072d15ff88daa4b93b111277ed364e1c_188xr88.jpg",
     "url": "https://gg.deals/game/a-highland-song/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Turbo Kid",
@@ -1007,8 +1220,10 @@
     "image": "https://img.gg.deals/90/a8/32703ebbe6b193dc7d01ba5babf115220048_188xr88.jpg",
     "url": "https://gg.deals/game/turbo-kid/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Storyteller",
@@ -1016,17 +1231,10 @@
     "image": "https://img.gg.deals/81/e5/a7c61d0dafc7c61e0134c9354469dd1f27eb_188xr88.jpg",
     "url": "https://gg.deals/game/storyteller/",
     "platforms": [
-      "platform-icon"
-    ]
-  },
-  {
-    "name": "VLADiK BRUTAL",
-    "price": "~4,84€",
-    "image": "https://img.gg.deals/ef/81/6e6898eed3496b27a26e87fc969fb93c5de0_188xr88.jpg",
-    "url": "https://gg.deals/game/vladik-brutal/",
-    "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Burnout Paradise Remastered",
@@ -1034,8 +1242,10 @@
     "image": "https://img.gg.deals/68/ac/f2f649812c99f519f8ba8e9ca704c2baf2a6_188xr88.jpg",
     "url": "https://gg.deals/game/burnout-paradise-remastered/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "MindsEye",
@@ -1043,8 +1253,10 @@
     "image": "https://img.gg.deals/ee/e9/57636f49c4798b7e63ef4a1bf4d545a85905_188xr88.jpg",
     "url": "https://gg.deals/game/mindseye/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "KILL KNIGHT",
@@ -1052,17 +1264,10 @@
     "image": "https://img.gg.deals/e4/40/3c9cdb8c32285e60acb3fc59c141fce1cca2_188xr88.jpg",
     "url": "https://gg.deals/game/kill-knight/",
     "platforms": [
-      "platform-icon"
-    ]
-  },
-  {
-    "name": "Absolum",
-    "price": "~17,48€",
-    "image": "https://img.gg.deals/ae/a4/45fbbd06c4f45ef3fb0626438d2243d5457a_188xr88.jpg",
-    "url": "https://gg.deals/game/absolum/",
-    "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "RoadCraft",
@@ -1070,8 +1275,21 @@
     "image": "https://img.gg.deals/49/34/7ca6c1155c31ebc8272b17bd7db1427d751e_188xr88.jpg",
     "url": "https://gg.deals/game/roadcraft/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
+  },
+  {
+    "name": "Trench Tales",
+    "price": "~5,90€",
+    "image": "https://img.gg.deals/1f/76/7a88b9299beef039e95cdafce445ead8cf9a_188xr88.jpg",
+    "url": "https://gg.deals/game/trench-tales/",
+    "platforms": [
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Knights in Tight Spaces",
@@ -1079,8 +1297,10 @@
     "image": "https://img.gg.deals/5e/34/8fe52a421089dc3d1961ede6fede94690cc5_188xr88.jpg",
     "url": "https://gg.deals/game/knights-in-tight-spaces/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "MiSide",
@@ -1088,8 +1308,10 @@
     "image": "https://img.gg.deals/49/5a/1a0efa9edba6c2002dc3b80d48afda3a8058_188xr88.jpg",
     "url": "https://gg.deals/game/miside/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Bionic Bay",
@@ -1097,8 +1319,21 @@
     "image": "https://img.gg.deals/6a/8d/b046aacc1f2f9443a6bdd73f62fdafd1d0d1_188xr88.jpg",
     "url": "https://gg.deals/game/bionic-bay/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
+  },
+  {
+    "name": "HumanitZ",
+    "price": "~6,90€",
+    "image": "https://img.gg.deals/32/2d/c00110da4ce14aa56dd9fc044e40a27167e9_188xr88.jpg",
+    "url": "https://gg.deals/game/humanitz/",
+    "platforms": [
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "RAILGRADE",
@@ -1106,8 +1341,32 @@
     "image": "https://img.gg.deals/1f/1b/c79d231e5dd5c019f53b40cad49ec8243473_188xr88.jpg",
     "url": "https://gg.deals/game/railgrade/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
+  },
+  {
+    "name": "VLADiK BRUTAL",
+    "price": "~4,93€",
+    "image": "https://img.gg.deals/ef/81/6e6898eed3496b27a26e87fc969fb93c5de0_188xr88.jpg",
+    "url": "https://gg.deals/game/vladik-brutal/",
+    "platforms": [
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
+  },
+  {
+    "name": "Absolum",
+    "price": "~17,65€",
+    "image": "https://img.gg.deals/ae/a4/45fbbd06c4f45ef3fb0626438d2243d5457a_188xr88.jpg",
+    "url": "https://gg.deals/game/absolum/",
+    "platforms": [
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Hell Clock",
@@ -1115,8 +1374,10 @@
     "image": "https://img.gg.deals/da/8b/fdaf5fb492180463e6d7f522137a4ecb9615_188xr88.jpg",
     "url": "https://gg.deals/game/hell-clock/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Keep Driving",
@@ -1124,17 +1385,10 @@
     "image": "https://img.gg.deals/97/a5/54421936d010f225309d7093a01f0b6f39f0_188xr88.jpg",
     "url": "https://gg.deals/game/keep-driving/",
     "platforms": [
-      "platform-icon"
-    ]
-  },
-  {
-    "name": "Trench Tales",
-    "price": "~5,91€",
-    "image": "https://img.gg.deals/1f/76/7a88b9299beef039e95cdafce445ead8cf9a_188xr88.jpg",
-    "url": "https://gg.deals/game/trench-tales/",
-    "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Cataclismo",
@@ -1142,8 +1396,21 @@
     "image": "https://img.gg.deals/88/96/e03b685f5b1b5cbe6d389592e24927013b29_188xr88.jpg",
     "url": "https://gg.deals/game/cataclismo/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
+  },
+  {
+    "name": "BONELAB",
+    "price": "~25,03€",
+    "image": "https://img.gg.deals/e0/ff/7d69e23308a0946eae715478f83e0b68cdc6_188xr88.jpg",
+    "url": "https://gg.deals/game/bonelab/",
+    "platforms": [
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Mandragora: Whispers of the Witch Tree",
@@ -1151,17 +1418,21 @@
     "image": "https://img.gg.deals/10/8f/acd0e01d34d9d2e56e1d9386eb2523948227_188xr88.jpg",
     "url": "https://gg.deals/game/mandragora/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "HYPERCHARGE: Unboxed",
-    "price": "~15,80€",
+    "price": "~15,75€",
     "image": "https://img.gg.deals/01/98/12e1175482d346cf9e34c41d72c8ef498e03_188xr88.jpg",
     "url": "https://gg.deals/game/hypercharge-unboxed/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Gorogoa",
@@ -1169,17 +1440,32 @@
     "image": "https://img.gg.deals/9f/8b/598ab74217a1d53fbc160714dc0a1e97de64_188xr88.jpg",
     "url": "https://gg.deals/game/gorogoa/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
+  },
+  {
+    "name": "Felvidek",
+    "price": "6,75€",
+    "image": "https://img.gg.deals/b3/b7/7977499a597ee602953d389d440a2b5e7037_188xr88.jpg",
+    "url": "https://gg.deals/game/felvidek/",
+    "platforms": [
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Wo Long: Fallen Dynasty",
-    "price": "~22,27€",
+    "price": "~22,23€",
     "image": "https://img.gg.deals/b2/e2/d767617787f5d9fdc0fa9f93d632c155bfc8_188xr88.jpg",
     "url": "https://gg.deals/game/wo-long-fallen-dynasty/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "No More Room in Hell 2",
@@ -1187,8 +1473,10 @@
     "image": "https://img.gg.deals/a7/86/e921117b4d418a1a7183b7ec9ab99873014b_188xr88.jpg",
     "url": "https://gg.deals/game/no-more-room-in-hell-2/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Dwarf Fortress",
@@ -1196,8 +1484,10 @@
     "image": "https://img.gg.deals/8c/2f/b9a49efa6386c3903337f531dece7ae393b0_188xr88.jpg",
     "url": "https://gg.deals/game/dwarf-fortress/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Atomic Heart",
@@ -1205,8 +1495,10 @@
     "image": "https://img.gg.deals/27/30/6dc70108c61f97dbe90a28bfc9de3f70e5f8_188xr88.jpg",
     "url": "https://gg.deals/game/atomic-heart/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Dystopika",
@@ -1214,26 +1506,10 @@
     "image": "https://img.gg.deals/dd/ac/a5205f4efa99151849f7ae4dc846be094f89_188xr88.jpg",
     "url": "https://gg.deals/game/dystopika/",
     "platforms": [
-      "platform-icon"
-    ]
-  },
-  {
-    "name": "BONELAB",
-    "price": "~25,52€",
-    "image": "https://img.gg.deals/e0/ff/7d69e23308a0946eae715478f83e0b68cdc6_188xr88.jpg",
-    "url": "https://gg.deals/game/bonelab/",
-    "platforms": [
-      "platform-icon"
-    ]
-  },
-  {
-    "name": "HumanitZ",
-    "price": "7,14€",
-    "image": "https://img.gg.deals/32/2d/c00110da4ce14aa56dd9fc044e40a27167e9_188xr88.jpg",
-    "url": "https://gg.deals/game/humanitz/",
-    "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "SEASON: A letter to the future",
@@ -1241,8 +1517,10 @@
     "image": "https://img.gg.deals/cb/22/848a02b08c3a0aeb31da6452098a70f37ff1_188xr88.jpg",
     "url": "https://gg.deals/game/season/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Dorfromantik",
@@ -1250,8 +1528,10 @@
     "image": "https://img.gg.deals/e1/3b/d0720edfde41c4fd1ac95300cce9245c27f0_188xr88.jpg",
     "url": "https://gg.deals/game/dorfromantik/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Serum: Toxic Survival",
@@ -1259,8 +1539,10 @@
     "image": "https://img.gg.deals/9e/a2/abdd648dd32631822d5d87030860a23107a6_188xr88.jpg",
     "url": "https://gg.deals/game/serum/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Phoenotopia: Awakening",
@@ -1268,17 +1550,21 @@
     "image": "https://img.gg.deals/a2/08/d6fc22944b6c5c2d69be97088bd0ce94b60f_188xr88.jpg",
     "url": "https://gg.deals/game/phoenotopia-awakening/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Kerbal Space Program 2",
-    "price": "~22,20€",
+    "price": "~22,19€",
     "image": "https://img.gg.deals/ed/ef/ab5cc02464e0b90eb69d88ab488cbc0db9a6_188xr88.jpg",
     "url": "https://gg.deals/game/kerbal-space-program-2/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Ratropolis",
@@ -1286,8 +1572,10 @@
     "image": "https://img.gg.deals/c4/45/86dec4aac2ad703d7d066f93cacd4c604e81_188xr88.jpg",
     "url": "https://gg.deals/game/ratropolis/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Kingdom of Night",
@@ -1295,8 +1583,10 @@
     "image": "https://img.gg.deals/0a/06/5ded6ea43d6e791cd2487e52f40f2835ed89_188xr88.jpg",
     "url": "https://gg.deals/game/kingdom-of-night/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Monsters are Coming! Rock & Road",
@@ -1304,8 +1594,10 @@
     "image": "https://img.gg.deals/67/9c/e6476cf14383609e7873a08987e7ee13aab9_188xr88.jpg",
     "url": "https://gg.deals/game/monsters-are-coming-rock-road/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Assetto Corsa EVO",
@@ -1313,8 +1605,10 @@
     "image": "https://img.gg.deals/75/f6/c33f36d64842ef11a42afadaa651ec4d9445_188xr88.jpg",
     "url": "https://gg.deals/game/assetto-corsa-evo/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "ELDEN RING Shadow of the Erdtree",
@@ -1322,23 +1616,28 @@
     "image": "https://img.gg.deals/2f/9d/4c32bfe0751a31c1835c636c5e9a0727b1a9_188xr88.jpg",
     "url": "https://gg.deals/dlc/elden-ring-shadow-of-the-erdtree/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
-    "price": "~12,20€",
-    "image": "https://img.gg.deals/f7/50/92c4f611a78f7070912a754a000195c2e26a.svg",
-    "platforms": []
+    "price": "6,17€",
+    "image": "https://img.gg.deals/fe/08/de2c02530fb90ebba80e45fbe39cc02c3324_60xt26_Q100.png",
+    "platforms": [],
+    "launchers": []
   },
   {
-    "price": "~12,52€",
-    "image": "https://img.gg.deals/7f/fc/0519b5d0810864027e297a768faa8e922506_60xt26_Q100.png",
-    "platforms": []
+    "price": "6,39€",
+    "image": "https://img.gg.deals/0f/81/dbacbd83d51f37dfac47c0954be70d3385a9.svg",
+    "platforms": [],
+    "launchers": []
   },
   {
-    "price": "~12,80€",
-    "image": "https://img.gg.deals/d4/ba/1ec9eea47fc611633851b219023831083e95_60xt26_Q100.png",
-    "platforms": []
+    "price": "~6,42€",
+    "image": "https://img.gg.deals/9a/00/10d056a81563a8f072c36d2999d36aa861ca_60xt26_Q100.png",
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "JDM: Japanese Drift Master",
@@ -1346,8 +1645,10 @@
     "image": "https://img.gg.deals/93/3e/4e53c7c80928ede8efeae89e57da0e7c2fb0_188xr88.jpg",
     "url": "https://gg.deals/game/japanese-drift-master/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Europa",
@@ -1355,8 +1656,21 @@
     "image": "https://img.gg.deals/e9/a2/e26cabc87620209697e621338446ee3b1331_188xr88.jpg",
     "url": "https://gg.deals/game/europa/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
+  },
+  {
+    "name": "Artis Impact",
+    "price": "~8,47€",
+    "image": "https://img.gg.deals/a9/57/356af881af34cce5ab5a7d654d1ee88ec5ec_188xr88.jpg",
+    "url": "https://gg.deals/game/artis/",
+    "platforms": [
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Drova - Forsaken Kin",
@@ -1364,8 +1678,21 @@
     "image": "https://img.gg.deals/97/1e/b61cdacf5795bbb0cb51ff0b7c1420c02f4e_188xr88.jpg",
     "url": "https://gg.deals/game/drova-forsaken-kin/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
+  },
+  {
+    "name": "The Drifter",
+    "price": "15,59€",
+    "image": "https://img.gg.deals/8a/ec/f7d55cf92a88acc3623bcb45b5ebd698ca83_188xr88.jpg",
+    "url": "https://gg.deals/game/the-drifter/",
+    "platforms": [
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Timberborn",
@@ -1373,8 +1700,10 @@
     "image": "https://img.gg.deals/24/ad/91c760e855ddf3b795ae780a5c4f2408d44a_188xr88.jpg",
     "url": "https://gg.deals/game/timberborn/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Death Trash",
@@ -1382,8 +1711,10 @@
     "image": "https://img.gg.deals/d5/f1/e9e9b869cbdf886bed01bd48c195af6ffdb6_188xr88.jpg",
     "url": "https://gg.deals/game/death-trash/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "The Last Spell",
@@ -1391,8 +1722,10 @@
     "image": "https://img.gg.deals/e0/60/2fea20ecc8104202443e4027aa20884df290_188xr88.jpg",
     "url": "https://gg.deals/game/the-last-spell/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Universe Sandbox",
@@ -1400,35 +1733,32 @@
     "image": "https://img.gg.deals/7c/39/785883689e0f2ff052f471298f839e2372a6_188xr88.jpg",
     "url": "https://gg.deals/game/universe-sandbox-2/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
-    "name": "Pepper Grinder",
-    "price": "~5,15€",
-    "image": "https://img.gg.deals/78/ac/abe395b3e1e147bad6e6c854aaf76b742296_188xr88.jpg",
-    "url": "https://gg.deals/game/pepper-grinder/",
+    "name": "Crypt Custodian",
+    "price": "12,99€",
+    "image": "https://img.gg.deals/35/76/d30828f76cd0dae365b333a2fa4ec831beb9_188xr88.jpg",
+    "url": "https://gg.deals/game/crypt-custodian/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Dread Dawn",
-    "price": "~9,14€",
+    "price": "~9,09€",
     "image": "https://img.gg.deals/6e/86/077049216407f22b6c977ea1ec0f607c3ff4_188xr88.jpg",
     "url": "https://gg.deals/game/the-city-of-plague/",
     "platforms": [
-      "platform-icon"
-    ]
-  },
-  {
-    "name": "Artis Impact",
-    "price": "~8,51€",
-    "image": "https://img.gg.deals/a9/57/356af881af34cce5ab5a7d654d1ee88ec5ec_188xr88.jpg",
-    "url": "https://gg.deals/game/artis/",
-    "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Jump Space",
@@ -1436,8 +1766,10 @@
     "image": "https://img.gg.deals/06/13/4499ce48d1fd64bd4ff8706c52c5da7074d8_188xr88.jpg",
     "url": "https://gg.deals/game/jump-ship/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Somber Echoes",
@@ -1445,8 +1777,10 @@
     "image": "https://img.gg.deals/7f/88/579a3e6a4d65229792cadd8c7d243d654c8c_188xr88.jpg",
     "url": "https://gg.deals/game/somber-echoes/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "TerraTech Worlds",
@@ -1454,8 +1788,21 @@
     "image": "https://img.gg.deals/55/3c/c9e7af698c7f8f9cb8413d501574d5d6fbce_188xr88.jpg",
     "url": "https://gg.deals/game/terratech-worlds/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
+  },
+  {
+    "name": "Pepper Grinder",
+    "price": "5,19€",
+    "image": "https://img.gg.deals/78/ac/abe395b3e1e147bad6e6c854aaf76b742296_188xr88.jpg",
+    "url": "https://gg.deals/game/pepper-grinder/",
+    "platforms": [
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Ember Knights",
@@ -1463,8 +1810,10 @@
     "image": "https://img.gg.deals/d2/42/f5545c56d1a68fa351a7e3e20e9445f67675_188xr88.jpg",
     "url": "https://gg.deals/game/rogue-souls/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "The Last Stand: Aftermath",
@@ -1472,26 +1821,10 @@
     "image": "https://img.gg.deals/85/f7/f7972e623f56c6bd938244bd200d63235170_188xr88.jpg",
     "url": "https://gg.deals/game/the-last-stand-aftermath/",
     "platforms": [
-      "platform-icon"
-    ]
-  },
-  {
-    "name": "Noita",
-    "price": "7,59€",
-    "image": "https://img.gg.deals/86/8f/95af24d8de266e3f33f7c4ad48e976f94acb_188xr88.jpg",
-    "url": "https://gg.deals/game/noita/",
-    "platforms": [
-      "platform-icon"
-    ]
-  },
-  {
-    "name": "Cities: Skylines II",
-    "price": "~28,89€",
-    "image": "https://img.gg.deals/a0/82/21630f1d77977e58403bc4b0761cd9a4a240_188xr88.jpg",
-    "url": "https://gg.deals/game/cities-skylines-ii/",
-    "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "BlazBlue Entropy Effect",
@@ -1499,17 +1832,21 @@
     "image": "https://img.gg.deals/64/fd/9a384bbc30386b7a5a68c18251a5db162b2b_188xr88.jpg",
     "url": "https://gg.deals/game/cang-yi-hun-dun-xiao-ying-blazblue-entropy-effect/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "OVIS LOOP",
-    "price": "~8,21€",
+    "price": "~8,23€",
     "image": "https://img.gg.deals/c3/ec/727ea396561ddb04f231c3fd96af470940d4_188xr88.jpg",
     "url": "https://gg.deals/game/stand-alone/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Skate Story",
@@ -1517,8 +1854,10 @@
     "image": "https://img.gg.deals/20/ef/44a3d292559786598a9a9bcd41d2d9341060_188xr88.jpg",
     "url": "https://gg.deals/game/skate-story/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Dune: Spice Wars",
@@ -1526,8 +1865,32 @@
     "image": "https://img.gg.deals/97/1e/578c2213780e6a4f210bf55c4b75dbe4726d_188xr88.jpg",
     "url": "https://gg.deals/game/dune-spice-wars/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
+  },
+  {
+    "name": "The Captain",
+    "price": "6,42€",
+    "image": "https://img.gg.deals/58/73/c90e52d581755ccc6cf4723d51d384c45cd9_188xr88.jpg",
+    "url": "https://gg.deals/game/the-captain/",
+    "platforms": [
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
+  },
+  {
+    "name": "Noita",
+    "price": "~7,70€",
+    "image": "https://img.gg.deals/86/8f/95af24d8de266e3f33f7c4ad48e976f94acb_188xr88.jpg",
+    "url": "https://gg.deals/game/noita/",
+    "platforms": [
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Fallout 4 VR",
@@ -1535,8 +1898,10 @@
     "image": "https://img.gg.deals/f8/06/f124c1e6197c1c6350896a9174e3d5f31f29_188xr88.jpg",
     "url": "https://gg.deals/game/fallout-4-vr/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "The Crew Motorfest",
@@ -1544,8 +1909,21 @@
     "image": "https://img.gg.deals/a9/29/41a4a0ecb25942d163fb1b78712911f813d9_188xr88.jpg",
     "url": "https://gg.deals/game/the-crew-motorfest/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
+  },
+  {
+    "name": "Cities: Skylines II",
+    "price": "~29,21€",
+    "image": "https://img.gg.deals/a0/82/21630f1d77977e58403bc4b0761cd9a4a240_188xr88.jpg",
+    "url": "https://gg.deals/game/cities-skylines-ii/",
+    "platforms": [
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Assassin's Creed Mirage",
@@ -1553,8 +1931,10 @@
     "image": "https://img.gg.deals/ef/c1/ff62628d2b2c7320fdbd2c6d6345746ca024_188xr88.jpg",
     "url": "https://gg.deals/game/assassins-creed-mirage/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "SIGNALIS",
@@ -1562,8 +1942,21 @@
     "image": "https://img.gg.deals/78/56/f68437dc080ed89a9b9d6aadb23e977caf73_188xr88.jpg",
     "url": "https://gg.deals/game/signalis/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
+  },
+  {
+    "name": "Owlboy",
+    "price": "3,94€",
+    "image": "https://img.gg.deals/25/45/6d218807538ff8a4851d13cd9667694c9279_188xr88.jpg",
+    "url": "https://gg.deals/game/owlboy/",
+    "platforms": [
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Rise of the Ronin",
@@ -1571,8 +1964,10 @@
     "image": "https://img.gg.deals/27/29/d96a20ccbcca2b6d96c22336cec95a5881c2_188xr88.jpg",
     "url": "https://gg.deals/game/rise-of-the-ronin-1/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Call of Duty: Black Ops 6",
@@ -1580,8 +1975,10 @@
     "image": "https://img.gg.deals/7a/27/ab7bf012763df868c5f5525135a19e56f75f_188xr88.jpg",
     "url": "https://gg.deals/game/call-of-duty-black-ops-6/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Dune: Awakening",
@@ -1589,17 +1986,10 @@
     "image": "https://img.gg.deals/92/5d/03f918754672b689e7e29230485aff3a0988_188xr88.jpg",
     "url": "https://gg.deals/game/dune-awakening/",
     "platforms": [
-      "platform-icon"
-    ]
-  },
-  {
-    "name": "The Planet Crafter",
-    "price": "13,26€",
-    "image": "https://img.gg.deals/e0/e3/5a48ccc238a6df5e977c99fb7b17ad3f23cc_188xr88.jpg",
-    "url": "https://gg.deals/game/the-planet-crafter/",
-    "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Cloud Gardens",
@@ -1607,8 +1997,10 @@
     "image": "https://img.gg.deals/f8/36/14afa113faf856364465aa274f465bba1b72_188xr88.jpg",
     "url": "https://gg.deals/game/cloud-gardens/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "BALL x PIT",
@@ -1616,8 +2008,10 @@
     "image": "https://img.gg.deals/2b/9b/b5d686360a296fee8e471728f3eab1758d81_188xr88.jpg",
     "url": "https://gg.deals/game/ball-x-pit/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "FreshWomen - Season 1",
@@ -1625,8 +2019,10 @@
     "image": "https://img.gg.deals/b3/f7/f2b4d751d02d50608d3ff1ca600a7fbafbf5_188xr88.jpg",
     "url": "https://gg.deals/game/freshwomen-season-1/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Tails of Iron",
@@ -1634,8 +2030,10 @@
     "image": "https://img.gg.deals/e7/5c/6bef6015cbbacf11dcfae24946d6f176bc34_188xr88.jpg",
     "url": "https://gg.deals/game/tails-of-iron/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "The Artful Escape",
@@ -1643,8 +2041,10 @@
     "image": "https://img.gg.deals/ab/a0/3d2bb3ff5ed8285b39f09851754cc09b8604_188xr88.jpg",
     "url": "https://gg.deals/game/the-artful-escape/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Into the Radius VR",
@@ -1652,26 +2052,10 @@
     "image": "https://img.gg.deals/0d/42/d872095e8a032344526676f43feb3d15b933_188xr88.jpg",
     "url": "https://gg.deals/game/into-the-radius-vr/",
     "platforms": [
-      "platform-icon"
-    ]
-  },
-  {
-    "name": "Owlboy",
-    "price": "~4,06€",
-    "image": "https://img.gg.deals/25/45/6d218807538ff8a4851d13cd9667694c9279_188xr88.jpg",
-    "url": "https://gg.deals/game/owlboy/",
-    "platforms": [
-      "platform-icon"
-    ]
-  },
-  {
-    "name": "Crypt Custodian",
-    "price": "13,99€",
-    "image": "https://img.gg.deals/35/76/d30828f76cd0dae365b333a2fa4ec831beb9_188xr88.jpg",
-    "url": "https://gg.deals/game/crypt-custodian/",
-    "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "COCOON",
@@ -1679,17 +2063,10 @@
     "image": "https://img.gg.deals/e1/0a/b32299af11c63e982e24a6a4e0dc348ed7ec_188xr88.jpg",
     "url": "https://gg.deals/game/cocoon/",
     "platforms": [
-      "platform-icon"
-    ]
-  },
-  {
-    "name": "Wander Stars",
-    "price": "16,49€",
-    "image": "https://img.gg.deals/bf/e5/4a4ac8f1556eaf1eb7b5e13b8f3591f1b546_188xr88.jpg",
-    "url": "https://gg.deals/game/wander-stars/",
-    "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Slipways",
@@ -1697,17 +2074,10 @@
     "image": "https://img.gg.deals/96/e4/961ac4db8f044c340c4434f1ba268fe9d727_188xr88.jpg",
     "url": "https://gg.deals/game/slipways/",
     "platforms": [
-      "platform-icon"
-    ]
-  },
-  {
-    "name": "Minecraft",
-    "price": "~12,54€",
-    "image": "https://img.gg.deals/55/ef/c6f870e2c8501780454875b810d0a9d3095e_188xr88.jpg",
-    "url": "https://gg.deals/game/minecraft/",
-    "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Forestrike",
@@ -1715,8 +2085,10 @@
     "image": "https://img.gg.deals/5d/20/cb7197f917d26d33b6e0fc67ab4a3eccada2_188xr88.jpg",
     "url": "https://gg.deals/game/forestrike/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "The Midnight Walkers",
@@ -1724,8 +2096,10 @@
     "image": "https://img.gg.deals/a8/fd/d89712aad237b60d18c4fc7707462367eb26_188xr88.jpg",
     "url": "https://gg.deals/game/the-midnight-walkers/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "There Is No Game: Wrong Dimension",
@@ -1733,17 +2107,32 @@
     "image": "https://img.gg.deals/11/87/4fefd609e3931bbf882ca1fe07f11d0c1dde_188xr88.jpg",
     "url": "https://gg.deals/game/there-is-no-game-wrong-dimension/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Occupy Mars: The Game",
-    "price": "~8,61€",
+    "price": "~8,56€",
     "image": "https://img.gg.deals/85/67/e999236b5941089b82038a8784ec4c0132e5_188xr88.jpg",
     "url": "https://gg.deals/game/occupy-mars-the-game/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
+  },
+  {
+    "name": "Minecraft",
+    "price": "~12,65€",
+    "image": "https://img.gg.deals/55/ef/c6f870e2c8501780454875b810d0a9d3095e_188xr88.jpg",
+    "url": "https://gg.deals/game/minecraft/",
+    "platforms": [
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Drop Duchy",
@@ -1751,17 +2140,10 @@
     "image": "https://img.gg.deals/ff/1c/a69044843fe472e537ca5b5a5dd9b11c95a2_188xr88.jpg",
     "url": "https://gg.deals/game/drop-duchy/",
     "platforms": [
-      "platform-icon"
-    ]
-  },
-  {
-    "name": "Arco",
-    "price": "~7,40€",
-    "image": "https://img.gg.deals/34/bd/91213baabcc4dcb9fade78fdc9776a383f58_188xr88.jpg",
-    "url": "https://gg.deals/game/arco/",
-    "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "ANIMAL WELL",
@@ -1769,32 +2151,10 @@
     "image": "https://img.gg.deals/17/64/46bbc328ad4a3b9b915fbb7e3697961f3765_188xr88.jpg",
     "url": "https://gg.deals/game/animal-well/",
     "platforms": [
-      "platform-icon"
-    ]
-  },
-  {
-    "price": "~16,34€",
-    "image": "https://img.gg.deals/7f/fc/0519b5d0810864027e297a768faa8e922506_60xt26_Q100.png",
-    "platforms": []
-  },
-  {
-    "price": "20,99€",
-    "image": "https://img.gg.deals/24/f5/7e4e95940a6f1d76a790028b40914d1afb7b_60xt26_Q100.png",
-    "platforms": []
-  },
-  {
-    "price": "~24,20€",
-    "image": "https://img.gg.deals/9a/00/10d056a81563a8f072c36d2999d36aa861ca_60xt26_Q100.png",
-    "platforms": []
-  },
-  {
-    "name": "The Drifter",
-    "price": "16,59€",
-    "image": "https://img.gg.deals/8a/ec/f7d55cf92a88acc3623bcb45b5ebd698ca83_188xr88.jpg",
-    "url": "https://gg.deals/game/the-drifter/",
-    "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Halls of Torment",
@@ -1802,17 +2162,39 @@
     "image": "https://img.gg.deals/e3/15/9088a5365d297cc5f6436c123a742570928e_188xr88.jpg",
     "url": "https://gg.deals/game/halls-of-torment/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
+  },
+  {
+    "price": "~16,34€",
+    "image": "https://img.gg.deals/7f/fc/0519b5d0810864027e297a768faa8e922506_60xt26_Q100.png",
+    "platforms": [],
+    "launchers": []
+  },
+  {
+    "price": "20,99€",
+    "image": "https://img.gg.deals/24/f5/7e4e95940a6f1d76a790028b40914d1afb7b_60xt26_Q100.png",
+    "platforms": [],
+    "launchers": []
+  },
+  {
+    "price": "~24,20€",
+    "image": "https://img.gg.deals/9a/00/10d056a81563a8f072c36d2999d36aa861ca_60xt26_Q100.png",
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "They Are Billions",
-    "price": "~20,10€",
+    "price": "~20,08€",
     "image": "https://img.gg.deals/57/a6/961ab7304bb8de6f7db0d76543126f5aa8bf_188xr88.jpg",
     "url": "https://gg.deals/game/they-are-billions/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Call of Duty: Black Ops II",
@@ -1820,8 +2202,10 @@
     "image": "https://img.gg.deals/d1/63/493455c4ebf35072e409ec9f0c3776703f5a_188xr88.jpg",
     "url": "https://gg.deals/game/call-of-duty-black-ops-ii/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "I Am Your Beast",
@@ -1829,26 +2213,21 @@
     "image": "https://img.gg.deals/42/22/bd1f3b389116ffcaa2bdbf37486bad7b46e0_188xr88.jpg",
     "url": "https://gg.deals/game/i-am-your-beast/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
-    "name": "TT Isle Of Man: Ride on the Edge 3",
-    "price": "~2,82€",
-    "image": "https://img.gg.deals/52/18/40bf10c323656e595563cec80cee8a76e04b_188xr88.jpg",
-    "url": "https://gg.deals/game/tt-isle-of-man-ride-on-the-edge-3/",
+    "name": "Arco",
+    "price": "~7,77€",
+    "image": "https://img.gg.deals/34/bd/91213baabcc4dcb9fade78fdc9776a383f58_188xr88.jpg",
+    "url": "https://gg.deals/game/arco/",
     "platforms": [
-      "platform-icon"
-    ]
-  },
-  {
-    "name": "Thronefall",
-    "price": "~8,50€",
-    "image": "https://img.gg.deals/4e/ec/66856d6f900a48eda9c25ebdfd60be5c2712_188xr88.jpg",
-    "url": "https://gg.deals/game/thronefall/",
-    "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Warhammer 40,000: Boltgun",
@@ -1856,8 +2235,10 @@
     "image": "https://img.gg.deals/57/e2/48a079d7244446a284f4dc916719ac339898_188xr88.jpg",
     "url": "https://gg.deals/game/warhammer-40000-boltgun/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Heading Out",
@@ -1865,8 +2246,21 @@
     "image": "https://img.gg.deals/5f/ab/36bb0d8cf8210a2a2ac45391a639bdea5810_188xr88.jpg",
     "url": "https://gg.deals/game/heading-out-a-narrative-road-movie-racing-game/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
+  },
+  {
+    "name": "TUNIC",
+    "price": "~20,12€",
+    "image": "https://img.gg.deals/61/c6/3f526d507cb2ee4fa820041cae85a96f2693_188xr88.jpg",
+    "url": "https://gg.deals/game/tunic/",
+    "platforms": [
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Slots & Daggers",
@@ -1874,8 +2268,10 @@
     "image": "https://img.gg.deals/55/28/836ff1fc7e7203b3f89a93e5f56031c5bd6e_188xr88.jpg",
     "url": "https://gg.deals/game/slots-daggers/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Retro Gadgets",
@@ -1883,8 +2279,10 @@
     "image": "https://img.gg.deals/41/3b/2972fdfea22f7c711d66895f1d2595d21aa9_188xr88.jpg",
     "url": "https://gg.deals/game/retro-gadgets/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Bleak Faith: Forsaken",
@@ -1892,8 +2290,10 @@
     "image": "https://img.gg.deals/42/81/121106911510cdfd9791cb10c0ca43ec914a_188xr88.jpg",
     "url": "https://gg.deals/game/bleak-faith-forsaken/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Rooftops & Alleys: The Parkour Game",
@@ -1901,8 +2301,10 @@
     "image": "https://img.gg.deals/95/40/145d95e4b1d77cdc4c039c1bc266231f439d_188xr88.jpg",
     "url": "https://gg.deals/game/rooftops-alleys-the-parkour-game/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "ZED ZONE",
@@ -1910,8 +2312,10 @@
     "image": "https://img.gg.deals/de/ae/c1b677d96e6d645e42f976b756ad83ec7fea_188xr88.jpg",
     "url": "https://gg.deals/game/zed-zone/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "The Last Faith",
@@ -1919,8 +2323,10 @@
     "image": "https://img.gg.deals/e6/a9/cad9339ebe37fedad158993df70bba4b0e7a_188xr88.jpg",
     "url": "https://gg.deals/game/the-last-faith/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Raft",
@@ -1928,8 +2334,10 @@
     "image": "https://img.gg.deals/b0/24/0753fd144fe2594fb842df06d457f15e451d_188xr88.jpg",
     "url": "https://gg.deals/game/raft/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "STORROR Parkour Pro",
@@ -1937,8 +2345,21 @@
     "image": "https://img.gg.deals/86/5b/6223d21631a546c23a300393a9b8412e620d_188xr88.jpg",
     "url": "https://gg.deals/game/storror-parkour-pro/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
+  },
+  {
+    "name": "Factorio: Space Age",
+    "price": "~26,43€",
+    "image": "https://img.gg.deals/4e/94/bb19beb734bf235be57f851a7d73d857c8b0_188xr88.jpg",
+    "url": "https://gg.deals/dlc/factorio-space-age/",
+    "platforms": [
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Daymare: 1994 Sandcastle",
@@ -1946,17 +2367,21 @@
     "image": "https://img.gg.deals/b5/06/2346bb61de29b190f5e12455cf6b371de252_188xr88.jpg",
     "url": "https://gg.deals/game/daymare-1994-sandcastle/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
-    "name": "Yakuza 0",
-    "price": "10,99€",
-    "image": "https://img.gg.deals/9a/94/0499f83cc193dcff1a36510edf2e16e944a7_188xr88.jpg",
-    "url": "https://gg.deals/game/yakuza-0/",
+    "name": "Beneath",
+    "price": "~12,04€",
+    "image": "https://img.gg.deals/7d/41/cdd351462ea3d644bd48b25cae2401338843_188xr88.jpg",
+    "url": "https://gg.deals/game/beneath/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Microcivilization",
@@ -1964,17 +2389,21 @@
     "image": "https://img.gg.deals/4f/f4/1628b25bf51bdbd35d1afc5fe74388253164_188xr88.jpg",
     "url": "https://gg.deals/game/micro-civilization/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
-    "name": "The Captain",
-    "price": "8,00€",
-    "image": "https://img.gg.deals/58/73/c90e52d581755ccc6cf4723d51d384c45cd9_188xr88.jpg",
-    "url": "https://gg.deals/game/the-captain/",
+    "name": "FOUNTAINS",
+    "price": "~3,79€",
+    "image": "https://img.gg.deals/bf/b6/6560fc68188178502b40986bf6a93677fc46_188xr88.jpg",
+    "url": "https://gg.deals/game/fountains/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Exogate Initiative",
@@ -1982,8 +2411,10 @@
     "image": "https://img.gg.deals/b5/46/3a6bdeefc763be97d2693d3d3cd29e99fa38_188xr88.jpg",
     "url": "https://gg.deals/game/exogate-initiative/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Elsie",
@@ -1991,8 +2422,10 @@
     "image": "https://img.gg.deals/88/3c/45c0e203a7196ef27963d6ec6a7c22c67fcf_188xr88.jpg",
     "url": "https://gg.deals/game/elsie/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "The Walking Dead: The Telltale Definitive Series",
@@ -2000,8 +2433,10 @@
     "image": "https://img.gg.deals/db/db/6dd04345c1338ef94d913ab4317e6580ccc8_188xr88.jpg",
     "url": "https://gg.deals/game/the-walking-dead-the-telltale-definitive-series/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Max Payne",
@@ -2009,17 +2444,10 @@
     "image": "https://img.gg.deals/fd/92/2d72274e723dc80cd0063ea348d607b13a48_188xr88.jpg",
     "url": "https://gg.deals/game/max-payne/",
     "platforms": [
-      "platform-icon"
-    ]
-  },
-  {
-    "name": "Factorio: Space Age",
-    "price": "~26,82€",
-    "image": "https://img.gg.deals/4e/94/bb19beb734bf235be57f851a7d73d857c8b0_188xr88.jpg",
-    "url": "https://gg.deals/dlc/factorio-space-age/",
-    "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Pyrene",
@@ -2027,8 +2455,10 @@
     "image": "https://img.gg.deals/33/bd/97fa7f6a6626fe577b403b1d16220953c1f9_188xr88.jpg",
     "url": "https://gg.deals/game/pyrene/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Captain Wayne - Vacation Desperation",
@@ -2036,26 +2466,21 @@
     "image": "https://img.gg.deals/17/30/2f28cd08f04903f6e423d5f624d8a323436f_188xr88.jpg",
     "url": "https://gg.deals/game/captain-wayne-vacation-desperation/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
-    "name": "Beneath",
-    "price": "12,23€",
-    "image": "https://img.gg.deals/7d/41/cdd351462ea3d644bd48b25cae2401338843_188xr88.jpg",
-    "url": "https://gg.deals/game/beneath/",
+    "name": "Thronefall",
+    "price": "~9,17€",
+    "image": "https://img.gg.deals/4e/ec/66856d6f900a48eda9c25ebdfd60be5c2712_188xr88.jpg",
+    "url": "https://gg.deals/game/thronefall/",
     "platforms": [
-      "platform-icon"
-    ]
-  },
-  {
-    "name": "FOUNTAINS",
-    "price": "~3,83€",
-    "image": "https://img.gg.deals/bf/b6/6560fc68188178502b40986bf6a93677fc46_188xr88.jpg",
-    "url": "https://gg.deals/game/fountains/",
-    "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "SYNTHETIK 2",
@@ -2063,8 +2488,10 @@
     "image": "https://img.gg.deals/13/72/160ed7b77b74aaa7de893874c964abbf183e_188xr88.jpg",
     "url": "https://gg.deals/game/synthetik-2/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Anima Flux",
@@ -2072,8 +2499,10 @@
     "image": "https://img.gg.deals/e9/67/a07f301bce9d2d58eb97fb7a3fb4be6da749_188xr88.jpg",
     "url": "https://gg.deals/game/lost-in-sky-violent-seed/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "BeamNG.drive",
@@ -2081,8 +2510,21 @@
     "image": "https://img.gg.deals/bf/7b/1e8b0f7ccb7f4d8f4fe30c6c3eb8020600d0_188xr88.jpg",
     "url": "https://gg.deals/game/beamng-drive/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
+  },
+  {
+    "name": "TT Isle Of Man: Ride on the Edge 3",
+    "price": "~3,15€",
+    "image": "https://img.gg.deals/52/18/40bf10c323656e595563cec80cee8a76e04b_188xr88.jpg",
+    "url": "https://gg.deals/game/tt-isle-of-man-ride-on-the-edge-3/",
+    "platforms": [
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "King of Seas",
@@ -2090,8 +2532,10 @@
     "image": "https://img.gg.deals/ae/2b/b814ed892c72514e870eabee925db7020d1f_188xr88.jpg",
     "url": "https://gg.deals/game/king-of-seas/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "BERSERK and the Band of the Hawk",
@@ -2099,8 +2543,10 @@
     "image": "https://img.gg.deals/86/d5/f9d2275ef0574a0aaf258c42c9f3f4044e7c_188xr88.jpg",
     "url": "https://gg.deals/game/berserk-and-the-band-of-the-hawk/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "DeathSprint 66",
@@ -2108,8 +2554,10 @@
     "image": "https://img.gg.deals/e1/bd/c93a8f869101aa208ae8806c57bd1fc8050d_188xr88.jpg",
     "url": "https://gg.deals/game/deathsprint-66/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Linkito",
@@ -2117,8 +2565,10 @@
     "image": "https://img.gg.deals/6e/7d/2c636f97e0482b5fdcf62a5657686368f9ab_188xr88.jpg",
     "url": "https://gg.deals/game/linkito/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "GIGASWORD",
@@ -2126,8 +2576,10 @@
     "image": "https://img.gg.deals/ea/b4/0440b7c60145fa7cf5bbd74acbe16d894183_188xr88.jpg",
     "url": "https://gg.deals/game/gigasword/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Infinifactory",
@@ -2135,8 +2587,10 @@
     "image": "https://img.gg.deals/61/f5/71357d020804d27ed95475902b5f40812fde_188xr88.jpg",
     "url": "https://gg.deals/game/infinifactory/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "The Zachtronics Solitaire Collection",
@@ -2144,17 +2598,10 @@
     "image": "https://img.gg.deals/42/aa/871a71b96c6007fd195d960f0717da1767f7_188xr88.jpg",
     "url": "https://gg.deals/game/the-zachtronics-solitaire-collection/",
     "platforms": [
-      "platform-icon"
-    ]
-  },
-  {
-    "name": "Adventure of Samsara",
-    "price": "14,69€",
-    "image": "https://img.gg.deals/f7/13/590863a39d6fd1a10af70a655df1ac0a90fc_188xr88.jpg",
-    "url": "https://gg.deals/game/tower-of-samsara-hidden-treasures/",
-    "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "ORX",
@@ -2162,8 +2609,10 @@
     "image": "https://img.gg.deals/1a/47/54fc5d6c1f282eb69dcc87a891d2de0ac080_188xr88.jpg",
     "url": "https://gg.deals/game/orx/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "MULLET MADJACK",
@@ -2171,8 +2620,10 @@
     "image": "https://img.gg.deals/4b/a8/22ee2ae48884960d6659bd341f886d25a86f_188xr88.jpg",
     "url": "https://gg.deals/game/mullet-mad-jack/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Toziuha Night: Order of the Alchemists",
@@ -2180,8 +2631,10 @@
     "image": "https://img.gg.deals/1f/e3/1b90b947105eb5ea7431a78ecaa368baad25_188xr88.jpg",
     "url": "https://gg.deals/game/toziuha-night-order-of-the-alchemists/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Papers, Please",
@@ -2189,8 +2642,10 @@
     "image": "https://img.gg.deals/02/c4/a311397a1eece683a0ca3f3cb012307339a5_188xr88.jpg",
     "url": "https://gg.deals/game/papers-please/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Call of Duty: Modern Warfare 2 (2009)",
@@ -2198,8 +2653,10 @@
     "image": "https://img.gg.deals/b1/53/c4b1f6d0a5bdc87d6241448556f6b8ac97f6_188xr88.jpg",
     "url": "https://gg.deals/game/call-of-duty-modern-warfare-2/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "killer7",
@@ -2207,8 +2664,10 @@
     "image": "https://img.gg.deals/e9/cb/f34dca10b8cdf4756844c5af72d79edba5f1_188xr88.jpg",
     "url": "https://gg.deals/game/killer7/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Sword of the Sea",
@@ -2216,23 +2675,10 @@
     "image": "https://img.gg.deals/76/33/675f3de2eab4be428179825559a64c583007_188xr88.jpg",
     "url": "https://gg.deals/game/sword-of-the-sea/",
     "platforms": [
-      "platform-icon"
-    ]
-  },
-  {
-    "price": "16,59€",
-    "image": "https://img.gg.deals/24/f5/7e4e95940a6f1d76a790028b40914d1afb7b_60xt26_Q100.png",
-    "platforms": []
-  },
-  {
-    "price": "19,50€",
-    "image": "https://img.gg.deals/55/68/f5ab472cbb0587c9f5e1b66561498e6927d8.svg",
-    "platforms": []
-  },
-  {
-    "price": "23,69€",
-    "image": "https://img.gg.deals/24/f5/7e4e95940a6f1d76a790028b40914d1afb7b_60xt26_Q100.png",
-    "platforms": []
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Astrometica",
@@ -2240,17 +2686,21 @@
     "image": "https://img.gg.deals/8d/c5/f53646b4d6f2cfa4ad2ae8ea110699611572_188xr88.jpg",
     "url": "https://gg.deals/game/astrometica/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Deep Rock Galactic: Survivor",
-    "price": "~10,81€",
+    "price": "~10,80€",
     "image": "https://img.gg.deals/bc/e1/092d0ed73ec3cda6cc4f87c1bf86e2d1f49f_188xr88.jpg",
     "url": "https://gg.deals/game/deep-rock-galactic-survivor/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Moonshine Inc.",
@@ -2258,8 +2708,28 @@
     "image": "https://img.gg.deals/cc/9a/682534a2e4e139318d4f6ff54731e7ff11eb_188xr88.jpg",
     "url": "https://gg.deals/game/moonshiners/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
+  },
+  {
+    "price": "~20,08€",
+    "image": "https://img.gg.deals/d4/ba/1ec9eea47fc611633851b219023831083e95_60xt26_Q100.png",
+    "platforms": [],
+    "launchers": []
+  },
+  {
+    "price": "~21,34€",
+    "image": "https://img.gg.deals/93/90/d19b88367ee8d52977848ab54abf081ba573.svg",
+    "platforms": [],
+    "launchers": []
+  },
+  {
+    "price": "~21,99€",
+    "image": "https://img.gg.deals/59/af/a6775f91e45dc89393a411cb9af173c5a175.svg",
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Hades II",
@@ -2267,8 +2737,10 @@
     "image": "https://img.gg.deals/33/93/fe74d49fd2d1364fb1c740720c9c0a7a5d34_188xr88.jpg",
     "url": "https://gg.deals/game/hades-ii/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Nightmare: The Lunatic",
@@ -2276,8 +2748,10 @@
     "image": "https://img.gg.deals/96/38/7b4b688f043bc94028af03ef759c031aad69_188xr88.jpg",
     "url": "https://gg.deals/game/nightmare-the-lunatic/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Dead Reset",
@@ -2285,8 +2759,10 @@
     "image": "https://img.gg.deals/ad/55/da9ba9d10f488d36207220349c1f6edf6059_188xr88.jpg",
     "url": "https://gg.deals/game/dead-reset/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Block Factory",
@@ -2294,8 +2770,10 @@
     "image": "https://img.gg.deals/1b/76/93e4fbf3dcdef5be24b3eceed00ff755902f_188xr88.jpg",
     "url": "https://gg.deals/game/block-factory/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Tiny Glade",
@@ -2303,8 +2781,10 @@
     "image": "https://img.gg.deals/dd/88/8ca469b94d97e6f94136b7eac750295ac397_188xr88.jpg",
     "url": "https://gg.deals/game/tiny-glade/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Return of the Obra Dinn",
@@ -2312,8 +2792,10 @@
     "image": "https://img.gg.deals/6b/87/de20a1d631c60a577cf4fc139d2f061cab2a_188xr88.jpg",
     "url": "https://gg.deals/game/return-of-the-obra-dinn/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Katanaut",
@@ -2321,8 +2803,21 @@
     "image": "https://img.gg.deals/4a/6c/ca79ef729d6b8ad3e0d96107a2163e4ff8a7_188xr88.jpg",
     "url": "https://gg.deals/game/katanaut/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
+  },
+  {
+    "name": "LANESPLIT",
+    "price": "~12,15€",
+    "image": "https://img.gg.deals/ed/77/4ad015ccabc9abee46889abe3e78dade8e8f_188xr88.jpg",
+    "url": "https://gg.deals/game/onboard/",
+    "platforms": [
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Blue Prince",
@@ -2330,8 +2825,10 @@
     "image": "https://img.gg.deals/bb/5a/30c5b349720a5d2194478cee0d322aaf52c9_188xr88.jpg",
     "url": "https://gg.deals/game/blue-prince/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Vessels of Decay",
@@ -2339,8 +2836,10 @@
     "image": "https://img.gg.deals/3c/de/3f2058374080bb8d90c96cf91f58456f974e_188xr88.jpg",
     "url": "https://gg.deals/game/vessels-of-decay/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Call of Duty: Modern Warfare 3 (2011)",
@@ -2348,26 +2847,32 @@
     "image": "https://img.gg.deals/04/fe/8e421384f269863ca6ed1e274bc264605c16_188xr88.jpg",
     "url": "https://gg.deals/game/call-of-duty-modern-warfare-3/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Rusted Moss",
-    "price": "~14,18€",
+    "price": "~14,17€",
     "image": "https://img.gg.deals/e1/8b/8e8fe0c41bade4d5c9e7f89e0b9471c00a47_188xr88.jpg",
     "url": "https://gg.deals/game/mose/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Teardown",
-    "price": "~22,86€",
+    "price": "~22,85€",
     "image": "https://img.gg.deals/2e/aa/dab36ef769820ff53a2a94b315e742a3dbab_188xr88.jpg",
     "url": "https://gg.deals/game/teardown/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Phantom Squad",
@@ -2375,8 +2880,10 @@
     "image": "https://img.gg.deals/be/ef/25735fbca871ffbd450b7d803baeabeaabd3_188xr88.jpg",
     "url": "https://gg.deals/game/phantom-squad/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "HUMANITY",
@@ -2384,8 +2891,10 @@
     "image": "https://img.gg.deals/82/df/432e047cb73ff0f785c20d21515ef04107ab_188xr88.jpg",
     "url": "https://gg.deals/game/humanity-1/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Stacklands",
@@ -2393,8 +2902,21 @@
     "image": "https://img.gg.deals/2c/e4/2ece66dfee00555052530ab3c728ba2ff804_188xr88.jpg",
     "url": "https://gg.deals/game/stacklands/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
+  },
+  {
+    "name": "Wander Stars",
+    "price": "16,74€",
+    "image": "https://img.gg.deals/bf/e5/4a4ac8f1556eaf1eb7b5e13b8f3591f1b546_188xr88.jpg",
+    "url": "https://gg.deals/game/wander-stars/",
+    "platforms": [
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Sekiro: Shadows Die Twice",
@@ -2402,8 +2924,10 @@
     "image": "https://img.gg.deals/80/20/f50a1439e281635492066dcda921f7f96835_188xr88.jpg",
     "url": "https://gg.deals/game/sekiro-shadows-die-twice/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Rust",
@@ -2411,8 +2935,10 @@
     "image": "https://img.gg.deals/1c/a3/59bf9870794a284bcd1a79aa67c0fcec587f_188xr88.jpg",
     "url": "https://gg.deals/game/rust/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Kaizen: A Factory Story",
@@ -2420,8 +2946,10 @@
     "image": "https://img.gg.deals/c7/d4/760a7ca109690f92a1e64bd71bf45d34b302_188xr88.jpg",
     "url": "https://gg.deals/game/kaizen-a-factory-story/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Troublemaker 2: Beyond Dream",
@@ -2429,8 +2957,21 @@
     "image": "https://img.gg.deals/7b/7d/741d536ca2cccaf6075da73cc58b21078375_188xr88.jpg",
     "url": "https://gg.deals/game/troublemaker-2-beyond-dream/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
+  },
+  {
+    "name": "Into the Dead: Our Darkest Days",
+    "price": "~24,23€",
+    "image": "https://img.gg.deals/a7/61/5e9a0c9c3c04f40930fa2eb19c727f6e2ed3_188xr88.jpg",
+    "url": "https://gg.deals/game/into-the-dead-our-darkest-days/",
+    "platforms": [
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "RIPOUT",
@@ -2438,26 +2979,32 @@
     "image": "https://img.gg.deals/d3/9c/57914d9db9770456c2dc0efb3574dc77b0c1_188xr88.jpg",
     "url": "https://gg.deals/game/ripout/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
+  },
+  {
+    "name": "The Planet Crafter",
+    "price": "~19,64€",
+    "image": "https://img.gg.deals/e0/e3/5a48ccc238a6df5e977c99fb7b17ad3f23cc_188xr88.jpg",
+    "url": "https://gg.deals/game/the-planet-crafter/",
+    "platforms": [
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Flotsam",
-    "price": "~16,68€",
+    "price": "~16,74€",
     "image": "https://img.gg.deals/89/86/9000ee4376dd44b8576200346236c069cdf1_188xr88.jpg",
     "url": "https://gg.deals/game/flotsam/",
     "platforms": [
-      "platform-icon"
-    ]
-  },
-  {
-    "name": "RimWorld",
-    "price": "~18,36€",
-    "image": "https://img.gg.deals/78/5b/3fadf00b2d79cfa6d85f7b4ff9048ba2ec14_188xr88.jpg",
-    "url": "https://gg.deals/game/rimworld/",
-    "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Breakout Beyond",
@@ -2465,8 +3012,10 @@
     "image": "https://img.gg.deals/ef/b6/2eb727040d02f331c01f4aeac875b2c60a23_188xr88.jpg",
     "url": "https://gg.deals/game/breakout-beyond/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Megabonk",
@@ -2474,17 +3023,10 @@
     "image": "https://img.gg.deals/a2/46/6b81f24ed16a5463d236c99f2f46dcb0b2a6_188xr88.jpg",
     "url": "https://gg.deals/game/megabonk/",
     "platforms": [
-      "platform-icon"
-    ]
-  },
-  {
-    "name": "Into the Dead: Our Darkest Days",
-    "price": "~24,26€",
-    "image": "https://img.gg.deals/a7/61/5e9a0c9c3c04f40930fa2eb19c727f6e2ed3_188xr88.jpg",
-    "url": "https://gg.deals/game/into-the-dead-our-darkest-days/",
-    "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Batman: Arkham Collection",
@@ -2492,8 +3034,10 @@
     "image": "https://img.gg.deals/f1/e3/bf11b6680cbb1c7273d53fd04c33c230179a_188xr88.jpg",
     "url": "https://gg.deals/pack/batman-arkham-collection-2019/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "The Mageseeker: A League of Legends Story",
@@ -2501,8 +3045,10 @@
     "image": "https://img.gg.deals/b0/b2/aece2ed2b41867c8cbd9eb6bab90f9edfb92_188xr88.jpg",
     "url": "https://gg.deals/game/the-mageseeker-a-league-of-legends-story/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "NetherWorld",
@@ -2510,17 +3056,10 @@
     "image": "https://img.gg.deals/80/b1/2352106966419ae18e5bfa07a1e12d88dc27_188xr88.jpg",
     "url": "https://gg.deals/game/netherworld/",
     "platforms": [
-      "platform-icon"
-    ]
-  },
-  {
-    "name": "LANESPLIT",
-    "price": "13,99€",
-    "image": "https://img.gg.deals/ed/77/4ad015ccabc9abee46889abe3e78dade8e8f_188xr88.jpg",
-    "url": "https://gg.deals/game/onboard/",
-    "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Vorax",
@@ -2528,17 +3067,32 @@
     "image": "https://img.gg.deals/a7/8b/fb22e06009d49cfec1cf9342ebdc24bb07ca_188xr88.jpg",
     "url": "https://gg.deals/game/vorax/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Two Strikes",
-    "price": "~4,90€",
+    "price": "~4,88€",
     "image": "https://img.gg.deals/63/db/c3066d3120d71ce1e86bc3416f5e5d49a6e1_188xr88.jpg",
     "url": "https://gg.deals/game/two-strikes/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
+  },
+  {
+    "name": "WorldBox - God Simulator",
+    "price": "~19,29€",
+    "image": "https://img.gg.deals/b7/97/982f81ede0a7a418167eeea7e124ff5e1802_188xr88.jpg",
+    "url": "https://gg.deals/game/worldbox-god-simulator/",
+    "platforms": [
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Diablo IV",
@@ -2546,8 +3100,10 @@
     "image": "https://img.gg.deals/b6/6d/ee5c0c3b5786ba3433ed2da72f0aa5482be6_188xr88.jpg",
     "url": "https://gg.deals/game/diablo-iv/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Shadow of the Tomb Raider",
@@ -2555,8 +3111,10 @@
     "image": "https://img.gg.deals/66/2c/cb158103dfbb771f8462d6996682639e5cc3_188xr88.jpg",
     "url": "https://gg.deals/game/shadow-of-the-tomb-raider/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "REMNANT II",
@@ -2564,8 +3122,10 @@
     "image": "https://img.gg.deals/00/bc/0db44b7d8139126a52442fa3488a5668ff02_188xr88.jpg",
     "url": "https://gg.deals/game/remnant-2/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "ROUTINE",
@@ -2573,8 +3133,10 @@
     "image": "https://img.gg.deals/48/3e/407e37a1354223a2d76b0dc1bfbbb6fdd05c_188xr88.jpg",
     "url": "https://gg.deals/game/routine/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "The Casting of Frank Stone",
@@ -2582,8 +3144,10 @@
     "image": "https://img.gg.deals/7f/8b/63127824d339af5a1fd70423442c49f99bdd_188xr88.jpg",
     "url": "https://gg.deals/game/the-casting-of-frank-stone/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "ULTRAKILL",
@@ -2591,17 +3155,21 @@
     "image": "https://img.gg.deals/fd/b0/23899fbf6d5ad1ca2ac84aa1c936c958d7ee_188xr88.jpg",
     "url": "https://gg.deals/game/ultrakill/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Ikaruga",
-    "price": "~7,00€",
+    "price": "~7,02€",
     "image": "https://img.gg.deals/f9/24/c1d1071b11434c39a0e4cf2d0e66e3b0d116_188xr88.jpg",
     "url": "https://gg.deals/game/ikaruga/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Bodycam",
@@ -2609,8 +3177,10 @@
     "image": "https://img.gg.deals/b7/d6/5c4e21fbca480c92c664214372288a0c8001_188xr88.jpg",
     "url": "https://gg.deals/game/bodycam/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Diorama Builder",
@@ -2618,8 +3188,10 @@
     "image": "https://img.gg.deals/35/18/02e4bb9090d8363113472f04a226ccff3a99_188xr88.jpg",
     "url": "https://gg.deals/game/diorama-builder/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Record of Lodoss War-Deedlit in Wonder Labyrinth-",
@@ -2627,17 +3199,21 @@
     "image": "https://img.gg.deals/41/6d/401f633fcae2bbf4956fc2e189a0870984c3_188xr88.jpg",
     "url": "https://gg.deals/game/record-of-lodoss-war-deedlit-in-wonder-labyrinth/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Plan B: Terraform",
-    "price": "~15,81€",
+    "price": "~15,80€",
     "image": "https://img.gg.deals/0b/18/e77b67d3971c2f485f762344b8e88c90ce7c_188xr88.jpg",
     "url": "https://gg.deals/game/plan-b-terraform/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Phoenix Springs",
@@ -2645,8 +3221,10 @@
     "image": "https://img.gg.deals/b0/c8/291a2cc37b6c260b49b193b1aa8f0b9c655d_188xr88.jpg",
     "url": "https://gg.deals/game/phoenix-springs/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Alan Wake 2",
@@ -2654,41 +3232,21 @@
     "image": "https://img.gg.deals/67/13/a001ac30a6381a58f7e6559f21c28972f325_188xr88.jpg",
     "url": "https://gg.deals/game/alan-wake-2/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "The Rogue Prince of Persia",
-    "price": "~28,90€",
+    "price": "~28,86€",
     "image": "https://img.gg.deals/44/4b/251472c2ecc2e526b733dd5d2373ff0ae437_188xr88.jpg",
     "url": "https://gg.deals/game/the-rogue-prince-of-persia/",
     "platforms": [
-      "platform-icon"
-    ]
-  },
-  {
-    "price": "~9,19€",
-    "image": "https://img.gg.deals/d4/ba/1ec9eea47fc611633851b219023831083e95_60xt26_Q100.png",
-    "platforms": []
-  },
-  {
-    "price": "~9,49€",
-    "image": "https://img.gg.deals/93/90/d19b88367ee8d52977848ab54abf081ba573.svg",
-    "platforms": []
-  },
-  {
-    "price": "~9,52€",
-    "image": "https://img.gg.deals/7f/fc/0519b5d0810864027e297a768faa8e922506_60xt26_Q100.png",
-    "platforms": []
-  },
-  {
-    "name": "Exographer",
-    "price": "~14,88€",
-    "image": "https://img.gg.deals/4c/8c/11fe99df89fb7b24b4e4f4e0c46a73365ef6_188xr88.jpg",
-    "url": "https://gg.deals/game/exographer/",
-    "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Call of Duty: Modern Warfare (2019)",
@@ -2696,8 +3254,28 @@
     "image": "https://img.gg.deals/3f/50/1a7c89537892fb4847bf0590cf9e77bcfb54_188xr88.jpg",
     "url": "https://gg.deals/game/call-of-duty-modern-warfare-2019/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
+  },
+  {
+    "price": "~27,49€",
+    "image": "https://img.gg.deals/d4/ba/1ec9eea47fc611633851b219023831083e95_60xt26_Q100.png",
+    "platforms": [],
+    "launchers": []
+  },
+  {
+    "price": "28,99€",
+    "image": "https://img.gg.deals/31/f0/f443dc6e18c2a93ba59fb9a42cbb9eba41e3_60xt26_Q100.png",
+    "platforms": [],
+    "launchers": []
+  },
+  {
+    "price": "28,99€",
+    "image": "https://img.gg.deals/55/68/f5ab472cbb0587c9f5e1b66561498e6927d8.svg",
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Liftoff: FPV Drone Racing",
@@ -2705,17 +3283,32 @@
     "image": "https://img.gg.deals/0e/d3/da38e3db6645c3bd98ec6b2cb50cc3b99fdb_188xr88.jpg",
     "url": "https://gg.deals/game/liftoff/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
+  },
+  {
+    "name": "Exographer",
+    "price": "~15,61€",
+    "image": "https://img.gg.deals/4c/8c/11fe99df89fb7b24b4e4f4e0c46a73365ef6_188xr88.jpg",
+    "url": "https://gg.deals/game/exographer/",
+    "platforms": [
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Breakwaters: Crystal Tides",
-    "price": "~16,30€",
+    "price": "~16,41€",
     "image": "https://img.gg.deals/94/cd/4267f3f4e7bb7c861b71ca0cc11171197011_188xr88.jpg",
     "url": "https://gg.deals/game/breakwaters/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Pile Up!",
@@ -2723,8 +3316,10 @@
     "image": "https://img.gg.deals/9c/b3/a1fd9c133ec605f2044b7b18fc3aa13030cd_188xr88.jpg",
     "url": "https://gg.deals/game/pile-up-1/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "The Wandering Village",
@@ -2732,8 +3327,10 @@
     "image": "https://img.gg.deals/eb/21/bcecea0b9c68bfea1c1b07d526cc83ea2919_188xr88.jpg",
     "url": "https://gg.deals/game/the-wandering-village/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Before The Last Hour",
@@ -2741,8 +3338,10 @@
     "image": "https://img.gg.deals/9f/25/c1c8b771567f5e2816076f02eec69e27c49d_188xr88.jpg",
     "url": "https://gg.deals/game/before-the-last-hour/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Superhero Simulator",
@@ -2750,8 +3349,10 @@
     "image": "https://img.gg.deals/69/a5/aae9b330c362fe1ddf1af45f8c9e4cbe488b_188xr88.jpg",
     "url": "https://gg.deals/game/superhero-simulator/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Peaks of Yore",
@@ -2759,8 +3360,10 @@
     "image": "https://img.gg.deals/15/b4/a0ae31e9ab4393ce5b826a114ff7cbce3182_188xr88.jpg",
     "url": "https://gg.deals/game/peaks-of-yore/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Call of Duty: Modern Warfare II (2022)",
@@ -2768,8 +3371,10 @@
     "image": "https://img.gg.deals/a5/e0/0dbfdf1f367b1662080ba735ad43c3d6d318_188xr88.jpg",
     "url": "https://gg.deals/game/call-of-duty-modern-warfare-ii-2022/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Duil",
@@ -2777,17 +3382,21 @@
     "image": "https://img.gg.deals/9a/1d/fd627e90e1c339e0034f46f1f123d0d01599_188xr88.jpg",
     "url": "https://gg.deals/game/duil/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Call of Duty: Black Ops",
-    "price": "~38,66€",
+    "price": "~38,67€",
     "image": "https://img.gg.deals/b4/09/6216280f5f48aadcb0695e817800cb93826e_188xr88.jpg",
     "url": "https://gg.deals/game/call-of-duty-black-ops/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Titan Station",
@@ -2795,8 +3404,10 @@
     "image": "https://img.gg.deals/ce/7e/54e3734787fab5a212ac58e6a68d14d00520_188xr88.jpg",
     "url": "https://gg.deals/game/titan-station/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Mighty Goose",
@@ -2804,8 +3415,10 @@
     "image": "https://img.gg.deals/03/4d/9602ce9000415e6613f2470bef82d1193e3c_188xr88.jpg",
     "url": "https://gg.deals/game/mighty-goose/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Gripper",
@@ -2813,8 +3426,10 @@
     "image": "https://img.gg.deals/04/c4/c4937e1325725edb199a10f63d244fa3707d_188xr88.jpg",
     "url": "https://gg.deals/game/gripper/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Call of Duty: Black Ops III",
@@ -2822,17 +3437,21 @@
     "image": "https://img.gg.deals/49/b3/25a2c642ac5b60521c30d95920c8de03fb59_188xr88.jpg",
     "url": "https://gg.deals/game/call-of-duty-black-ops-iii/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Brave Escape",
-    "price": "~15,98€",
+    "price": "~15,97€",
     "image": "https://img.gg.deals/98/ac/f6013ee5ad2e2caa2a6e58a0230ce8bbf28a_188xr88.jpg",
     "url": "https://gg.deals/game/brave-cave/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Jumplight Odyssey",
@@ -2840,17 +3459,21 @@
     "image": "https://img.gg.deals/a8/b8/d49051f41dc6dfcd713a52f340b42c8dd91a_188xr88.jpg",
     "url": "https://gg.deals/game/jumplight-odyssey/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "UnderMine",
-    "price": "~14,96€",
+    "price": "~14,95€",
     "image": "https://img.gg.deals/81/85/60347c02caf8073b8b6d746096d6992a692e_188xr88.jpg",
     "url": "https://gg.deals/game/undermine/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Albatroz",
@@ -2858,8 +3481,10 @@
     "image": "https://img.gg.deals/7f/1f/a3029eee5ddeb63e2bc60b3010c176b69c2d_188xr88.jpg",
     "url": "https://gg.deals/game/albatroz/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "WILD HEARTS",
@@ -2867,17 +3492,21 @@
     "image": "https://img.gg.deals/d4/00/8ae8cd3e8cc130c5d264f17d001175afe857_188xr88.jpg",
     "url": "https://gg.deals/game/wild-hearts/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Night of the Dead",
-    "price": "~28,28€",
+    "price": "~28,47€",
     "image": "https://img.gg.deals/bc/36/b98d32323bc40ed89fe883c1410ba1aa11f7_188xr88.jpg",
     "url": "https://gg.deals/game/night-of-the-dead/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Magna Graecia",
@@ -2885,17 +3514,21 @@
     "image": "https://img.gg.deals/41/0b/4b777719b5b3abbbf27f5a1fa459a41eaf4c_188xr88.jpg",
     "url": "https://gg.deals/game/magna-graecia/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Kingdom Two Crowns: Call of Olympus",
-    "price": "~7,62€",
+    "price": "~7,61€",
     "image": "https://img.gg.deals/cd/6a/5a1fefefc4cfdfe7319af331211542825d4e_188xr88.jpg",
     "url": "https://gg.deals/dlc/kingdom-two-crowns-call-of-olympus/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "The Horde Wants You Dead",
@@ -2903,8 +3536,10 @@
     "image": "https://img.gg.deals/e8/cb/64720fa0a25492eca87ce2dd05ee7b843960_188xr88.jpg",
     "url": "https://gg.deals/game/the-horde-wants-you-dead/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Terminator 2D: NO FATE",
@@ -2912,8 +3547,10 @@
     "image": "https://img.gg.deals/7e/f3/f8693ce48353ab1f9fe95e53e5e9418897be_188xr88.jpg",
     "url": "https://gg.deals/game/terminator-2d-no-fate/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Cast n Chill",
@@ -2921,8 +3558,10 @@
     "image": "https://img.gg.deals/81/7f/360f12f377c3d4d4bd7c42ab4736577bf9b9_188xr88.jpg",
     "url": "https://gg.deals/game/cast-n-chill/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Wild Growth",
@@ -2930,8 +3569,10 @@
     "image": "https://img.gg.deals/cf/25/8fde65333cc4f9647bd8a54956ee717ff341_188xr88.jpg",
     "url": "https://gg.deals/game/wild-growth/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "TankHead",
@@ -2939,8 +3580,10 @@
     "image": "https://img.gg.deals/7d/8b/42bb7122b512599b39a4a1a6511637b9f27a_188xr88.jpg",
     "url": "https://gg.deals/game/tankhead/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "White Knuckle",
@@ -2948,8 +3591,10 @@
     "image": "https://img.gg.deals/1e/ec/dc4a5760d18384f3af2f91617eb26ee8a09e_188xr88.jpg",
     "url": "https://gg.deals/game/white-knuckle/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Neon Inferno",
@@ -2957,8 +3602,10 @@
     "image": "https://img.gg.deals/d0/2e/b3d2dc6651edd89110df5abe2636c7d610c7_188xr88.jpg",
     "url": "https://gg.deals/game/neon-inferno/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "[REDACTED]",
@@ -2966,8 +3613,10 @@
     "image": "https://img.gg.deals/8c/92/156e780b541ea2c6e664215fff2f05d69bf6_188xr88.jpg",
     "url": "https://gg.deals/game/redacted-1/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Slitterhead",
@@ -2975,8 +3624,10 @@
     "image": "https://img.gg.deals/94/a0/70e78668ed6efa354e0175a3c8fc94d41904_188xr88.jpg",
     "url": "https://gg.deals/game/slitterhead/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Total Chaos",
@@ -2984,8 +3635,10 @@
     "image": "https://img.gg.deals/55/c8/ad3dc8f6a01551e3e050233a7cdcf1269db7_188xr88.jpg",
     "url": "https://gg.deals/game/total-chaos/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Perfect Teams",
@@ -2993,8 +3646,10 @@
     "image": "https://img.gg.deals/5d/0a/5504b6883b47f6132dbc2bdf98deb4b3fa94_188xr88.jpg",
     "url": "https://gg.deals/game/perfect-teams/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Dragon Is Dead",
@@ -3002,8 +3657,10 @@
     "image": "https://img.gg.deals/30/09/b25a9cc3b3745c367fa0c9ba67a503e3df5d_188xr88.jpg",
     "url": "https://gg.deals/game/dragon-is-dead/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Molecular Marvels",
@@ -3011,8 +3668,10 @@
     "image": "https://img.gg.deals/64/c9/8c4686abf7ab4a3392624d5e02b2b7171a00_188xr88.jpg",
     "url": "https://gg.deals/pack/molecular-marvels/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Drive Beyond Horizons",
@@ -3020,17 +3679,21 @@
     "image": "https://img.gg.deals/e1/0b/33f8f7dac1bc5b7700bbe445a4490ffd43cf_188xr88.jpg",
     "url": "https://gg.deals/game/drive-beyond-horizons/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Eden Crafters",
-    "price": "~19,40€",
+    "price": "~19,41€",
     "image": "https://img.gg.deals/94/70/b43a76c352ce0523e237060f899ddf6149a2_188xr88.jpg",
     "url": "https://gg.deals/game/eden-crafters/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Aviassembly",
@@ -3038,8 +3701,10 @@
     "image": "https://img.gg.deals/1c/7b/f4dcb6b69a2a191464d099b44d0ae74e7290_188xr88.jpg",
     "url": "https://gg.deals/game/aviassembly/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Steps of Debauchery",
@@ -3047,8 +3712,10 @@
     "image": "https://img.gg.deals/15/13/9b481083f88123735318fa44051a363ed9f8_188xr88.jpg",
     "url": "https://gg.deals/game/steps-of-debauchery/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "BLADECHIMERA",
@@ -3056,8 +3723,10 @@
     "image": "https://img.gg.deals/f5/58/c4f007c49bb87b19c2af524bd26f9e908615_188xr88.jpg",
     "url": "https://gg.deals/game/blade-chimera/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Menace from the Deep",
@@ -3065,8 +3734,10 @@
     "image": "https://img.gg.deals/f8/97/b06a4229f70aa3b0d786bd94c5c2780f9010_188xr88.jpg",
     "url": "https://gg.deals/game/menace-from-the-deep/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "FUMES",
@@ -3074,8 +3745,10 @@
     "image": "https://img.gg.deals/47/59/52f4c3635cea9b0dcd03b3d6efe7ddcf22b0_188xr88.jpg",
     "url": "https://gg.deals/game/fumes/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Gravitorium",
@@ -3083,8 +3756,10 @@
     "image": "https://img.gg.deals/02/51/f28815595fda7981bd6a2a3ddf6ded6b71b3_188xr88.jpg",
     "url": "https://gg.deals/game/gravitorium/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Chasmal Fear",
@@ -3092,8 +3767,10 @@
     "image": "https://img.gg.deals/b6/49/ff3c4627fa872235200a1a4b991318f104bb_188xr88.jpg",
     "url": "https://gg.deals/game/chasmal-fear/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Usurper",
@@ -3101,8 +3778,10 @@
     "image": "https://img.gg.deals/3b/a6/1e296ee7c5742282f7989d94e2c0d67dc46a_188xr88.jpg",
     "url": "https://gg.deals/game/usurper-1/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "DICEOMANCER",
@@ -3110,23 +3789,10 @@
     "image": "https://img.gg.deals/38/27/4210b60baa5f6b1a29dd911489e758b78284_188xr88.jpg",
     "url": "https://gg.deals/game/diceomancer/",
     "platforms": [
-      "platform-icon"
-    ]
-  },
-  {
-    "price": "~14,88€",
-    "image": "https://img.gg.deals/59/af/a6775f91e45dc89393a411cb9af173c5a175.svg",
-    "platforms": []
-  },
-  {
-    "price": "~15,61€",
-    "image": "https://img.gg.deals/09/32/6dbacb7190441b0cfe2374ac0a5790c0a1c7_60xt26_Q100.png",
-    "platforms": []
-  },
-  {
-    "price": "~15,61€",
-    "image": "https://img.gg.deals/07/28/3c6eeb2a7c86c6441a89898217781e7df6ff.svg",
-    "platforms": []
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Beyond Hanwell",
@@ -3134,8 +3800,28 @@
     "image": "https://img.gg.deals/70/6d/01626cab3d8139144097829e193d0a9729af_188xr88.jpg",
     "url": "https://gg.deals/game/beyond-hanwell/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
+  },
+  {
+    "price": "~18,98€",
+    "image": "https://img.gg.deals/f7/50/92c4f611a78f7070912a754a000195c2e26a.svg",
+    "platforms": [],
+    "launchers": []
+  },
+  {
+    "price": "~19,90€",
+    "image": "https://img.gg.deals/17/c1/09fd29fa9a61da4bfa1dc42f1813f99b1915_60xt26_Q100.png",
+    "platforms": [],
+    "launchers": []
+  },
+  {
+    "price": "~19,92€",
+    "image": "https://img.gg.deals/d4/ba/1ec9eea47fc611633851b219023831083e95_60xt26_Q100.png",
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "To The Core",
@@ -3143,8 +3829,10 @@
     "image": "https://img.gg.deals/83/19/ec65a7df37cfb54083a4bd350d33d73d631d_188xr88.jpg",
     "url": "https://gg.deals/game/to-the-core-1988550/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Private Dorm Manager",
@@ -3152,8 +3840,10 @@
     "image": "https://img.gg.deals/7d/6b/54ccfe725fbd671d8a56e4fdef9d367549c4_188xr88.jpg",
     "url": "https://gg.deals/game/peeping-dorm-manager/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "ERA ONE",
@@ -3161,8 +3851,10 @@
     "image": "https://img.gg.deals/97/28/e6d153cdcd6bd2d3ee9a22438b82e0a81f22_188xr88.jpg",
     "url": "https://gg.deals/game/era-one/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "33 Immortals",
@@ -3170,8 +3862,10 @@
     "image": "https://img.gg.deals/37/87/173f372452dd568336df9889955002fae8a7_188xr88.jpg",
     "url": "https://gg.deals/game/33-immortals/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "NIMRODS",
@@ -3179,8 +3873,10 @@
     "image": "https://img.gg.deals/2e/a6/13b9d04288a369c205d62087fbc26fe6f96b_188xr88.jpg",
     "url": "https://gg.deals/game/nimrods/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Only Up",
@@ -3188,8 +3884,10 @@
     "image": "https://img.gg.deals/22/ea/c8be24ad5141a556b3feacbc3fd74a472efd_188xr88.jpg",
     "url": "https://gg.deals/game/only-up/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Half-Life 2 Complete",
@@ -3197,8 +3895,10 @@
     "image": "https://img.gg.deals/1f/16/12ab6f7007e91661fbd3473d53d44dd84fd4_188xr88.jpg",
     "url": "https://gg.deals/pack/half-life-2-complete/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Arcane Assembly",
@@ -3206,17 +3906,10 @@
     "image": "https://img.gg.deals/9e/f0/ed54ee7ed5ff6657f513ded3f8ad8187b0a4_188xr88.jpg",
     "url": "https://gg.deals/game/arcane-assembly/",
     "platforms": [
-      "platform-icon"
-    ]
-  },
-  {
-    "name": "Felvidek",
-    "price": "10,00€",
-    "image": "https://img.gg.deals/b3/b7/7977499a597ee602953d389d440a2b5e7037_188xr88.jpg",
-    "url": "https://gg.deals/game/felvidek/",
-    "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Abathor",
@@ -3224,8 +3917,10 @@
     "image": "https://img.gg.deals/31/0d/57896e01cec5d85d48e00a2d1fd1cce767d6_188xr88.jpg",
     "url": "https://gg.deals/game/abathor/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "GOD'S GIFT",
@@ -3233,8 +3928,10 @@
     "image": "https://img.gg.deals/f9/9d/ac41a434690fcfc050302327ab3d0de2a5b7_188xr88.jpg",
     "url": "https://gg.deals/game/gods-gift/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Viewfinder",
@@ -3242,8 +3939,10 @@
     "image": "https://img.gg.deals/91/8c/80737fb6e630f1484e21637493845b58abe7_188xr88.jpg",
     "url": "https://gg.deals/game/viewfinder/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Cleared Hot",
@@ -3251,8 +3950,10 @@
     "image": "https://img.gg.deals/60/c4/eb4f07ff5885a171395a5e6df0ea3f8806a2_188xr88.jpg",
     "url": "https://gg.deals/game/cleared-hot/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Shovel Knight Dig",
@@ -3260,8 +3961,10 @@
     "image": "https://img.gg.deals/ce/99/0bd2de40b8d934b8bca1293896a86ec688d7_188xr88.jpg",
     "url": "https://gg.deals/game/shovel-knight-dig/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Witchfire",
@@ -3269,8 +3972,10 @@
     "image": "https://img.gg.deals/8f/7e/80791d74d1a2e8b89dd9cde5e697fac3df0b_188xr88.jpg",
     "url": "https://gg.deals/game/witchfire/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "BIOMORPH",
@@ -3278,8 +3983,10 @@
     "image": "https://img.gg.deals/8d/3a/2201fc088ffbec8669e7833e7fb97f076580_188xr88.jpg",
     "url": "https://gg.deals/game/biomorph/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "TRYP FPV: Drone Racer Simulator",
@@ -3287,8 +3994,10 @@
     "image": "https://img.gg.deals/88/17/ec52c7640dd4ba47d4f8066629dd173dd728_188xr88.jpg",
     "url": "https://gg.deals/game/tryp-fpv-the-drone-racer-simulator/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Let Bions Be Bygones",
@@ -3296,8 +4005,10 @@
     "image": "https://img.gg.deals/3e/97/a160411de33b8ce09d1809ef798623ba54ff_188xr88.jpg",
     "url": "https://gg.deals/game/let-bions-be-bygones/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Sons Of The Forest",
@@ -3305,8 +4016,10 @@
     "image": "https://img.gg.deals/2f/b6/d96b866f2ebed5012b29d8d26075574d002c_188xr88.jpg",
     "url": "https://gg.deals/game/sons-of-the-forest/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Noreya: The Gold Project",
@@ -3314,8 +4027,10 @@
     "image": "https://img.gg.deals/45/2c/eca19a34aa2190c72bbe8d710a818673d349_188xr88.jpg",
     "url": "https://gg.deals/game/gold-project/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Meifumado",
@@ -3323,8 +4038,10 @@
     "image": "https://img.gg.deals/4a/f8/f8561f9dc903f464b3f7b121674801afb608_188xr88.jpg",
     "url": "https://gg.deals/game/meifumado/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Champion of Venus",
@@ -3332,8 +4049,10 @@
     "image": "https://img.gg.deals/e5/47/24bea695708a80de33c52bd7bc359d0cb5b5_188xr88.jpg",
     "url": "https://gg.deals/game/champion-of-venus/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Hogwarts Legacy",
@@ -3341,8 +4060,10 @@
     "image": "https://img.gg.deals/b5/07/86b85617e878067afc5215cffe7d0960e3bb_188xr88.jpg",
     "url": "https://gg.deals/game/hogwarts-legacy/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Virtual Circuit Board",
@@ -3350,8 +4071,10 @@
     "image": "https://img.gg.deals/a2/56/fda72bd2d567f1d956011cc8965dba351e2c_188xr88.jpg",
     "url": "https://gg.deals/game/virtual-circuit-board/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "ALAN-13 Reformation",
@@ -3359,8 +4082,10 @@
     "image": "https://img.gg.deals/37/32/213afedf293bb2feb04ea2cd63d82ef92541_188xr88.jpg",
     "url": "https://gg.deals/game/alan-13-reformation/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "FlipWitch - Forbidden Sex Hex",
@@ -3368,8 +4093,10 @@
     "image": "https://img.gg.deals/2c/ee/684ee91e3fed5858f823e23cc601aeb5b444_188xr88.jpg",
     "url": "https://gg.deals/game/flipwitch-forbidden-sex-hex/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Erra: Exordium",
@@ -3377,8 +4104,10 @@
     "image": "https://img.gg.deals/4d/37/025208e09db3c0ad088506725909fa26c889_188xr88.jpg",
     "url": "https://gg.deals/game/erra-exordium/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "CULTIC",
@@ -3386,8 +4115,10 @@
     "image": "https://img.gg.deals/1e/69/5ed1c54c58846143d25c9cb36b6f351284c6_188xr88.jpg",
     "url": "https://gg.deals/game/cultic/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Cookie Clicker",
@@ -3395,8 +4126,10 @@
     "image": "https://img.gg.deals/b5/6d/0a40411139879bd272c5c22ba8dcd3260c73_188xr88.jpg",
     "url": "https://gg.deals/game/cookie-clicker/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Spooky Milk Life",
@@ -3404,8 +4137,10 @@
     "image": "https://img.gg.deals/66/6b/d2db59ebdebf58fc4b62aba8185ec46a41e9_188xr88.jpg",
     "url": "https://gg.deals/game/spooky-milk-life/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Mechajammer",
@@ -3413,17 +4148,21 @@
     "image": "https://img.gg.deals/64/1d/1bdbb4af5fc4522f279ef2da4d816ac7a5f7_188xr88.jpg",
     "url": "https://gg.deals/game/mechajammer/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Doki Doki Literature Club Plus!",
     "price": "12,49€",
-    "image": "https://img.gg.deals/52/37/7610f28788d2beedc700892fe3c29ca00602_188xr88.jpg",
+    "image": "https://img.gg.deals/80/8a/0ae9fc982295e2853766341539cfb869b747_188xr88.jpg",
     "url": "https://gg.deals/game/doki-doki-literature-club-plus/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Samurai GUNN 2",
@@ -3431,8 +4170,10 @@
     "image": "https://img.gg.deals/dd/00/e131d98fb6cf77840fc0ac33933464d437e6_188xr88.jpg",
     "url": "https://gg.deals/game/samurai-gunn-2/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Antstream Arcade",
@@ -3440,8 +4181,10 @@
     "image": "https://img.gg.deals/16/35/01e94f9ec95a30aa032cd88c2e8e8d2c2098_188xr88.jpg",
     "url": "https://gg.deals/game/antstream-arcade/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "LakeSide",
@@ -3449,8 +4192,10 @@
     "image": "https://img.gg.deals/16/d6/0566800da7a1b5ea5ca8da54063076861c1b_188xr88.jpg",
     "url": "https://gg.deals/game/lakeside/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "JS Page",
@@ -3458,8 +4203,10 @@
     "image": "https://img.gg.deals/26/a5/ab6ad97a06f5f4798297836473482ed810ba_188xr88.jpg",
     "url": "https://gg.deals/application/js-page/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Hubris",
@@ -3467,8 +4214,10 @@
     "image": "https://img.gg.deals/5e/01/2b6ab07f2c4eb6b1640c112049c8205377fd_188xr88.jpg",
     "url": "https://gg.deals/game/hubris/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Quickie: A Love Hotel Story",
@@ -3476,8 +4225,10 @@
     "image": "https://img.gg.deals/b0/39/834b81d9a30219d6548aa95bfad7b9e95dbf_188xr88.jpg",
     "url": "https://gg.deals/game/quickie-a-love-hotel-story/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Alan's Automaton Workshop",
@@ -3485,8 +4236,10 @@
     "image": "https://img.gg.deals/ea/a9/faec6a74ddc727f64e0aacdd7d2a0cf54aa2_188xr88.jpg",
     "url": "https://gg.deals/game/alans-automaton-workshop/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Hellish Quart",
@@ -3494,17 +4247,10 @@
     "image": "https://img.gg.deals/cf/f1/0bfc3b8c4fda77af45231fe0b22a2c74b0dc_188xr88.jpg",
     "url": "https://gg.deals/game/hellish-quart/",
     "platforms": [
-      "platform-icon"
-    ]
-  },
-  {
-    "name": "WorldBox - God Simulator",
-    "price": "~19,31€",
-    "image": "https://img.gg.deals/b7/97/982f81ede0a7a418167eeea7e124ff5e1802_188xr88.jpg",
-    "url": "https://gg.deals/game/worldbox-god-simulator/",
-    "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Pecaminosa",
@@ -3512,8 +4258,10 @@
     "image": "https://img.gg.deals/f6/80/f4364cbff17efad3637155e5f0729ca26a8b_188xr88.jpg",
     "url": "https://gg.deals/game/pecaminosa-a-pixel-noir-game/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Fraymakers",
@@ -3521,8 +4269,10 @@
     "image": "https://img.gg.deals/af/39/1db073255edc26eb8aa47f963c03bc5be691_188xr88.jpg",
     "url": "https://gg.deals/game/fraymakers/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Boppio",
@@ -3530,8 +4280,10 @@
     "image": "https://img.gg.deals/01/c5/7a1840ab8569b087f866d4c08976b524704e_188xr88.jpg",
     "url": "https://gg.deals/game/boppio/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Fallen Aces",
@@ -3539,8 +4291,10 @@
     "image": "https://img.gg.deals/ca/b5/4b891057b219177917726b4d890e1568c277_188xr88.jpg",
     "url": "https://gg.deals/game/fallen-aces/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "HAAK",
@@ -3548,8 +4302,10 @@
     "image": "https://img.gg.deals/90/eb/858937660cc2c97886dc5a0652d176a80ff6_188xr88.jpg",
     "url": "https://gg.deals/game/haak/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Faeland",
@@ -3557,23 +4313,10 @@
     "image": "https://img.gg.deals/4f/57/95d1a2f9d5bc68a65cf7862b3f3cf2bfe8d1_188xr88.jpg",
     "url": "https://gg.deals/game/faeland/",
     "platforms": [
-      "platform-icon"
-    ]
-  },
-  {
-    "price": "24,50€",
-    "image": "https://img.gg.deals/55/68/f5ab472cbb0587c9f5e1b66561498e6927d8.svg",
-    "platforms": []
-  },
-  {
-    "price": "~33,70€",
-    "image": "https://img.gg.deals/20/5f/c4ba75c462813116f1bc4dba7a45a96eb9b2.svg",
-    "platforms": []
-  },
-  {
-    "price": "~39,07€",
-    "image": "https://img.gg.deals/8a/0a/c2b880ca4d909e70b0e6affc703fdbbf6888_60xt26_Q100.png",
-    "platforms": []
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "No Place for Bravery",
@@ -3581,8 +4324,21 @@
     "image": "https://img.gg.deals/c7/8d/8b50c6b5d6ab087c84bc5c4a7d5cfebea6c7_188xr88.jpg",
     "url": "https://gg.deals/game/no-place-for-bravery/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
+  },
+  {
+    "name": "Adventure of Samsara",
+    "price": "19,50€",
+    "image": "https://img.gg.deals/f7/13/590863a39d6fd1a10af70a655df1ac0a90fc_188xr88.jpg",
+    "url": "https://gg.deals/game/tower-of-samsara-hidden-treasures/",
+    "platforms": [
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Iron Meat",
@@ -3590,8 +4346,28 @@
     "image": "https://img.gg.deals/39/d0/93684908fc455b96f39eb6398b462154556b_188xr88.jpg",
     "url": "https://gg.deals/game/iron-meat/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
+  },
+  {
+    "price": "7,79€",
+    "image": "https://img.gg.deals/55/68/f5ab472cbb0587c9f5e1b66561498e6927d8.svg",
+    "platforms": [],
+    "launchers": []
+  },
+  {
+    "price": "~7,94€",
+    "image": "https://img.gg.deals/f7/50/92c4f611a78f7070912a754a000195c2e26a.svg",
+    "platforms": [],
+    "launchers": []
+  },
+  {
+    "price": "~8,09€",
+    "image": "https://img.gg.deals/d4/ba/1ec9eea47fc611633851b219023831083e95_60xt26_Q100.png",
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Xeno Crisis",
@@ -3599,8 +4375,10 @@
     "image": "https://img.gg.deals/f8/2a/1e90eb7dc3366d161b9356bbc0f26968972d_188xr88.jpg",
     "url": "https://gg.deals/game/xeno-crisis/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Dead Static Drive",
@@ -3608,8 +4386,10 @@
     "image": "https://img.gg.deals/5d/4d/be94f49611958975af7504fd49f08dfe5a7c_188xr88.jpg",
     "url": "https://gg.deals/game/dead-static-drive/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Cantata",
@@ -3617,8 +4397,10 @@
     "image": "https://img.gg.deals/64/8f/5884629a3380d00ed827046c3bb4908d8e48_188xr88.jpg",
     "url": "https://gg.deals/game/cantata/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Backpack Twins",
@@ -3626,17 +4408,21 @@
     "image": "https://img.gg.deals/8a/86/5a4e902305e90bf8833a9e21475e12181327_188xr88.jpg",
     "url": "https://gg.deals/game/backpack-twins/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Forza Horizon 4",
-    "price": "~16,99€",
+    "price": "~17,44€",
     "image": "https://img.gg.deals/db/a7/750c2e720931d66dc97f9e84710103d2cece_188xr88.jpg",
     "url": "https://gg.deals/game/forza-horizon-4/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Reentry - A Space Flight Simulator",
@@ -3644,8 +4430,21 @@
     "image": "https://img.gg.deals/4c/ec/b79afc24451e2c3dfeac1aba95de6031d2c9_188xr88.jpg",
     "url": "https://gg.deals/game/reentry-an-orbital-simulator/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
+  },
+  {
+    "name": "Yakuza 0",
+    "price": "19,99€",
+    "image": "https://img.gg.deals/9a/94/0499f83cc193dcff1a36510edf2e16e944a7_188xr88.jpg",
+    "url": "https://gg.deals/game/yakuza-0/",
+    "platforms": [
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "The Revolt: Awakening",
@@ -3653,8 +4452,10 @@
     "image": "https://img.gg.deals/8d/f6/ec4e293dd00147070494a4df4297d2edcde9_188xr88.jpg",
     "url": "https://gg.deals/game/the-revolt-awakening/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Industries of Titan",
@@ -3662,17 +4463,21 @@
     "image": "https://img.gg.deals/4a/09/da4e85f6ec6e852ce505da24d22a35c8bf1c_188xr88.jpg",
     "url": "https://gg.deals/game/industries-of-titan/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Anthem",
-    "price": "~4,36€",
+    "price": "~4,38€",
     "image": "https://img.gg.deals/36/94/fd416efc5ceed3112d846cf2292d33890ede_188xr88.jpg",
     "url": "https://gg.deals/game/anthem/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Call of Duty: Modern Warfare Remastered (2017)",
@@ -3680,8 +4485,10 @@
     "image": "https://img.gg.deals/04/73/b562e2f550fa4f0044b649defdb961199376_188xr88.jpg",
     "url": "https://gg.deals/game/call-of-duty-modern-warfare-remastered/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "COMPOUND",
@@ -3689,8 +4496,10 @@
     "image": "https://img.gg.deals/55/b4/1f88619cc99a982a9d491775c944250237e0_188xr88.jpg",
     "url": "https://gg.deals/game/compound/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Domina",
@@ -3698,8 +4507,21 @@
     "image": "https://img.gg.deals/c7/47/c7f177d8c882a56bac4117a8355c65a0b548_188xr88.jpg",
     "url": "https://gg.deals/game/domina/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
+  },
+  {
+    "name": "RimWorld",
+    "price": "~17,17€",
+    "image": "https://img.gg.deals/78/5b/3fadf00b2d79cfa6d85f7b4ff9048ba2ec14_188xr88.jpg",
+    "url": "https://gg.deals/game/rimworld/",
+    "platforms": [
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "MegaSphere",
@@ -3707,718 +4529,846 @@
     "image": "https://img.gg.deals/5a/f0/6d25623ba51b4dcc7e10cc1382d374da49b8_188xr88.jpg",
     "url": "https://gg.deals/game/megasphere/",
     "platforms": [
-      "platform-icon"
-    ]
+      "link-icon",
+      "windows"
+    ],
+    "launchers": []
   },
   {
     "name": "Crushed In Time",
     "image": "https://img.gg.deals/dd/25/547bee7c3dbb48ef3d3341e1ca5fa72cef59_188xr88.jpg",
     "url": "https://gg.deals/game/crushed-in-time/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "He-Man and the Masters of the Universe: Dragon Pearl of Destruction",
     "image": "https://img.gg.deals/e8/3d/550524c32417b4565cc1f8b733ac41071b80_188xr88.jpg",
     "url": "https://gg.deals/game/he-man-and-the-masters-of-the-universe-dragon-pearl-of-destruction/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Lead The Dragon",
     "image": "https://img.gg.deals/c5/d9/5cd48a827085ba7a23d944cfb0dbb2337646_188xr88.jpg",
     "url": "https://gg.deals/game/lead-the-dragon/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Railborn",
     "image": "https://img.gg.deals/cf/3a/4146022f3cf9f1242a3105fb9d7196518f7f_188xr88.jpg",
     "url": "https://gg.deals/game/railborn/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "At Fate's End",
     "image": "https://img.gg.deals/ef/03/68efef480aa81a1a8f7f750eef24ebd34d22_188xr88.jpg",
     "url": "https://gg.deals/game/at-fates-end/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Shroom and Gloom",
     "image": "https://img.gg.deals/4e/54/6a931d000208d3ba3d4a107e9c84e8c70252_188xr88.jpg",
     "url": "https://gg.deals/game/shroom-and-gloom/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Frostrail",
     "image": "https://img.gg.deals/fd/8b/d126d5c626bbb4b407e213643d11e13a96f3_188xr88.jpg",
     "url": "https://gg.deals/game/frostrail/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Voivod: The Nuclear Warrior",
     "image": "https://img.gg.deals/41/33/42035bfb851b3fedd5b60891ea8a51ee7ab0_188xr88.jpg",
     "url": "https://gg.deals/game/voivod-the-nuclear-warrior/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Samurai Pizza Cats: Blast from the Past!",
     "image": "https://img.gg.deals/01/12/5f212e6d7092b1796284961ee949aad500f1_188xr88.jpg",
     "url": "https://gg.deals/game/samurai-pizza-cats-blast-from-the-past/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "over the hill",
     "image": "https://img.gg.deals/7d/f7/7212152b81a9c18ca61d4175232eaa9aef63_188xr88.jpg",
     "url": "https://gg.deals/game/over-the-hill/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "ALL WILL FALL: Physics-Based Survival City Builder",
     "image": "https://img.gg.deals/56/50/9754f3ff20dcec959883fc62fa3c2149e5af_188xr88.jpg",
     "url": "https://gg.deals/game/all-will-fall-physics-based-survival-city-builder/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Machine Mind",
     "image": "https://img.gg.deals/25/3f/673a56b4c394282283ccebc7656e6095a8ef_188xr88.jpg",
     "url": "https://gg.deals/game/machine-mind/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Jackal",
     "image": "https://img.gg.deals/53/df/da975de95511a5d861d98e4d725aeef28a0a_188xr88.jpg",
     "url": "https://gg.deals/game/jackal-1/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Tiny Hero Courier",
     "image": "https://img.gg.deals/25/22/b0cc2c24d3387aa327e264eebc3f3405b51a_188xr88.jpg",
     "url": "https://gg.deals/game/tiny-hero-courier/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Intergalactic: The Heretic Prophet (PS5)",
     "image": "https://img.gg.deals/38/c6/fa0b856a208232faa577ca01210736caa0fb_188xr88.jpg",
     "url": "https://gg.deals/game/intergalactic-the-heretic-prophet-ps5/",
-    "platforms": []
+    "platforms": [
+      "ribbon-container",
+      "ribbon-icon"
+    ],
+    "launchers": []
   },
   {
     "name": "BLACKFROST: The Long Dark 2",
     "image": "https://img.gg.deals/9d/a0/0973352ad2e753a10c045b771f2be059e49b_188xr88.jpg",
     "url": "https://gg.deals/game/blackfrost-the-long-dark-2/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "RECUR",
     "image": "https://img.gg.deals/ab/02/88a4b06bbe20eaa92cb69903f3485c307350_188xr88.jpg",
     "url": "https://gg.deals/game/recur/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "TOEM 2",
     "image": "https://img.gg.deals/c2/a5/99d625a41f864515337a92a7e3afa44344a3_188xr88.jpg",
     "url": "https://gg.deals/game/toem-2/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Modulus",
     "image": "https://img.gg.deals/ca/40/485521f966dbed0540b812222521b5587a25_188xr88.jpg",
     "url": "https://gg.deals/game/modulus/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Into the Fire",
     "image": "https://img.gg.deals/10/78/f2ccfd704ad1a47a717c4dc23460175f94d5_188xr88.jpg",
     "url": "https://gg.deals/game/dantes-ring/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "ANIMAL USE PROTOCOL",
     "image": "https://img.gg.deals/c1/5c/433046fe1cf0737445da7d1241a8ddb91bdc_188xr88.jpg",
     "url": "https://gg.deals/game/animal-use-protocol/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Subnautica 2",
     "image": "https://img.gg.deals/3f/08/d19102c500e340612c1d425eceb8eb3e619d_188xr88.jpg",
     "url": "https://gg.deals/game/subnautica-2/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Arms of God",
     "image": "https://img.gg.deals/84/fd/f7540fad568ac96117d0d89ab3423deeef16_188xr88.jpg",
     "url": "https://gg.deals/game/arms-of-god/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Low-Budget Repairs",
     "image": "https://img.gg.deals/62/a0/62fd9c2d9b2cb8b4ecdc3ab6d64e27f7318d_188xr88.jpg",
     "url": "https://gg.deals/game/low-budget-repairs/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Retrieval",
     "image": "https://img.gg.deals/7d/6b/ce983d6195eb44f01d2dff21b72d967f478c_188xr88.jpg",
     "url": "https://gg.deals/game/retrieval/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Directive 8020",
     "image": "https://img.gg.deals/f0/28/d48835766dfc0975508f12a34c01e1e46dd1_188xr88.jpg",
     "url": "https://gg.deals/game/directive-8020/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "The Eternal Life of Goldman",
     "image": "https://img.gg.deals/fd/39/75074b290fabdfd8f2f3a82cef4819dbb15f_188xr88.jpg",
     "url": "https://gg.deals/game/the-eternal-life-of-goldman/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Dark Light: Survivor",
     "image": "https://img.gg.deals/12/e0/6a5fbbe3e64bac907ee594dcb6b7b7bff6a2_188xr88.jpg",
     "url": "https://gg.deals/game/dark-light-survivor/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Black State",
     "image": "https://img.gg.deals/4e/54/bdbd820a552d8fd3b70f654ffb4d3ad1ee92_188xr88.jpg",
     "url": "https://gg.deals/game/black-state/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "PVKK: Planetenverteidigungskanonenkommandant",
     "image": "https://img.gg.deals/f3/28/714383dca54e8356a8696eabb3bbe5392731_188xr88.jpg",
     "url": "https://gg.deals/game/pvkk-planetenverteidigungskanonenkommandant/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Silver Pines",
     "image": "https://img.gg.deals/a5/c0/b112b3c1a4f507da39ec6c0168ad4e8717c1_188xr88.jpg",
     "url": "https://gg.deals/game/silver-pines/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "PSYCHO DEAD",
     "image": "https://img.gg.deals/aa/0b/4a94619b72278ce12aadd300ee3b1e072953_188xr88.jpg",
     "url": "https://gg.deals/game/psycho-dead/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Crimson Capes",
     "image": "https://img.gg.deals/72/5e/7a3a5e0f382cb2e2a1d020f17f75c2bb29dd_188xr88.jpg",
     "url": "https://gg.deals/game/crimson-capes/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
-    "price": "19,99€",
-    "image": "https://img.gg.deals/4f/38/62a96b564da05d1db8e3591c8548455ebda6.svg",
-    "platforms": []
-  },
-  {
-    "price": "19,99€",
+    "price": "17,99€",
     "image": "https://img.gg.deals/24/f5/7e4e95940a6f1d76a790028b40914d1afb7b_60xt26_Q100.png",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
+  },
+  {
+    "price": "17,99€",
+    "image": "https://img.gg.deals/55/68/f5ab472cbb0587c9f5e1b66561498e6927d8.svg",
+    "platforms": [],
+    "launchers": []
   },
   {
     "price": "19,99€",
-    "image": "https://img.gg.deals/55/68/f5ab472cbb0587c9f5e1b66561498e6927d8.svg",
-    "platforms": []
+    "image": "https://img.gg.deals/a6/4f/c0e24320970b5b0563d67784f43a182a9250.svg",
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Tenjutsu",
     "image": "https://img.gg.deals/7f/6b/c8069aa0a79a61f637b56588da6d8a13f43a_188xr88.jpg",
     "url": "https://gg.deals/game/tenjutsu/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Tears of Metal",
     "image": "https://img.gg.deals/2a/32/06eb5dd7db2b18ae117e1e718ff811304655_188xr88.jpg",
     "url": "https://gg.deals/game/tears-of-metal/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "WOLFHOUND",
     "image": "https://img.gg.deals/19/34/9407ba6fdd4530c6d67020d7db29dc07b77f_188xr88.jpg",
     "url": "https://gg.deals/game/wolfhound/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Times of Survival",
     "image": "https://img.gg.deals/4f/c8/102b4ba77509e4e7508a99d4af5132286e95_188xr88.jpg",
     "url": "https://gg.deals/game/times-of-survival/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Permafrost",
     "image": "https://img.gg.deals/70/5f/8d922da114d9f36d14e95eb1bbfd665fbf6f_188xr88.jpg",
     "url": "https://gg.deals/game/permafrost/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Phantom Line",
     "image": "https://img.gg.deals/86/ec/1dc5c4d42f20337fbd0edb766beae60de9ab_188xr88.jpg",
     "url": "https://gg.deals/game/phantom-line/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Moon Samurai",
     "image": "https://img.gg.deals/c3/67/96273aa4597e151c752e7c8f2a3e17e5207d_188xr88.jpg",
     "url": "https://gg.deals/game/moon-samurai/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Slay the Spire 2",
     "image": "https://img.gg.deals/c3/c1/2a225e36179f382404e57c500c7f80a2028d_188xr88.jpg",
     "url": "https://gg.deals/game/slay-the-spire-2/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Terra",
     "image": "https://img.gg.deals/c2/19/9bb374a0b7590b6e3046fc17886c45cef31e_188xr88.jpg",
     "url": "https://gg.deals/game/terra/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Trizna",
     "image": "https://img.gg.deals/5a/f0/babe03665f1f6943885a239a9b9c4c56608d_188xr88.jpg",
     "url": "https://gg.deals/game/trizna/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Fractured Mind",
     "image": "https://img.gg.deals/83/0b/199e4a803f2e8af83e27961923d48a284c4b_188xr88.jpg",
     "url": "https://gg.deals/game/fractured-mind/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Drive Beyond Horizons: Prologue",
     "image": "https://img.gg.deals/be/4c/75c5267e5dfaaac88fd698c873a332f0a0ec_188xr88.jpg",
     "url": "https://gg.deals/game/drive-beyond-horizons-prologue/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Void War",
     "image": "https://img.gg.deals/2a/e6/cdd4dec1ca95e6833bdca8a8f50c69b60382_188xr88.jpg",
     "url": "https://gg.deals/game/void-war/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "The Sinking City 2",
     "image": "https://img.gg.deals/02/d1/c6d0d0aed1bb0ce83386834342636f8fb704_188xr88.jpg",
     "url": "https://gg.deals/game/the-sinking-city-2/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Kingmakers",
     "image": "https://img.gg.deals/66/d5/2587a273a25ef7b3db6e595ae34f85247153_188xr88.jpg",
     "url": "https://gg.deals/game/kingmakers/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Beyond The Board",
     "image": "https://img.gg.deals/27/3e/d2334f852a63dcf03a8acb519c39fe17a67d_188xr88.jpg",
     "url": "https://gg.deals/game/beyond-the-board/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Better Than Dead",
     "image": "https://img.gg.deals/d4/4f/39ee7d46bb347bba692054ef4f6edf1df40a_188xr88.jpg",
     "url": "https://gg.deals/game/better-than-dead/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "IRONHIVE",
     "image": "https://img.gg.deals/c2/18/876aa11fe9910d56a40d54e703934bec03db_188xr88.jpg",
     "url": "https://gg.deals/game/ironhive/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Dust Front RTS",
     "image": "https://img.gg.deals/ff/6e/a265b0e0bbe768359990108090b23c8e00e1_188xr88.jpg",
     "url": "https://gg.deals/game/dust-front-rts/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "LUCID",
     "image": "https://img.gg.deals/5f/89/6db98579decc79f35b22735d17a2c2519f9e_188xr88.jpg",
     "url": "https://gg.deals/game/lucid-1/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "NAKWON: LAST PARADISE",
     "image": "https://img.gg.deals/8c/80/d9c1373d12efa551ee4284530fa4ceb4a6ed_188xr88.jpg",
     "url": "https://gg.deals/game/nakwon-last-paradise/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Eden's Guardian",
     "image": "https://img.gg.deals/95/2a/356d1ed07f8048d9fb5fa3fd09b81f032442_188xr88.jpg",
     "url": "https://gg.deals/game/edens-guardian/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Legends Of Elementia",
     "image": "https://img.gg.deals/79/8e/50fefc7e0789aa51356f83d407c59fb35f91_188xr88.jpg",
     "url": "https://gg.deals/game/legends-of-elementia/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Food Factories",
     "image": "https://img.gg.deals/38/ef/a40a7d640750a9b3ff695dfda7dc26217893_188xr88.jpg",
     "url": "https://gg.deals/pack/food-factories/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "GARBAGE COUNTRY",
     "image": "https://img.gg.deals/98/7c/923c17956d405ef4c497232e08272c3a10ef_188xr88.jpg",
     "url": "https://gg.deals/game/garbage-country/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Water Me & You",
     "image": "https://img.gg.deals/78/b3/3d11c934336ef3cb0038516a9170e5e019fa_188xr88.jpg",
     "url": "https://gg.deals/game/water-me-you/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "SoulQuest",
     "image": "https://img.gg.deals/6a/c6/e69cf3ce12cfe5556e0569602309df7d14bf_188xr88.jpg",
     "url": "https://gg.deals/game/soulquest/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Mariachi Legends",
     "image": "https://img.gg.deals/79/44/e69ea300637dd2651e08360fc62af71c2a80_188xr88.jpg",
     "url": "https://gg.deals/game/mariachi-legends/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Altered Alma",
     "image": "https://img.gg.deals/92/53/d434de476d4abc43b3b1551b72176d041ffc_188xr88.jpg",
     "url": "https://gg.deals/game/altered-alma/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Forgotlings",
     "image": "https://img.gg.deals/96/66/760601838428f2659332a4d23a2db595649c_188xr88.jpg",
     "url": "https://gg.deals/game/forgotlings/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "ILL",
     "image": "https://img.gg.deals/7c/ff/b31ee0ccf0ebe920f9cc3864e22d0a88f646_188xr88.jpg",
     "url": "https://gg.deals/game/ill/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Scarlet Lake",
     "image": "https://img.gg.deals/c8/1c/197a3754559f716cd848447be1598e588342_188xr88.jpg",
     "url": "https://gg.deals/game/scarlet-lake/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Breeze in the Clouds",
     "image": "https://img.gg.deals/21/79/78f334d32f096a525a6a8fe4bd50a2ccab43_188xr88.jpg",
     "url": "https://gg.deals/game/breeze-in-the-clouds/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "beta decay",
     "image": "https://img.gg.deals/85/5c/4f3008a41b31547f098ff3517e229fc3c8ca_188xr88.jpg",
     "url": "https://gg.deals/game/beta-decay/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "MOUSE: P.I. For Hire",
     "image": "https://img.gg.deals/d8/ca/aa839a1baa94a714e28b4cb4f5dca39197d0_188xr88.jpg",
     "url": "https://gg.deals/game/mouse/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Unrecord",
     "image": "https://img.gg.deals/bf/2b/7f42c34732b17770b7d6886f4398df269a42_188xr88.jpg",
     "url": "https://gg.deals/game/unrecord/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "The Red Selene",
     "image": "https://img.gg.deals/9f/11/b146050b8cd22d34da384a93bccea6f19e03_188xr88.jpg",
     "url": "https://gg.deals/game/the-red-selene/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "NEO BERLIN 2087",
     "image": "https://img.gg.deals/e8/15/b341d7c3b765b9b31c32012f02bb79611586_188xr88.jpg",
     "url": "https://gg.deals/game/neo-berlin-2087/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "SESSIONS",
     "image": "https://img.gg.deals/28/5a/102c061f8f80f75cb8a32adad2f51c44452b_188xr88.jpg",
     "url": "https://gg.deals/game/sessions/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Holstin",
     "image": "https://img.gg.deals/77/88/d2fce15541e909262323e4f0ef7390c50a58_188xr88.jpg",
     "url": "https://gg.deals/game/holstin/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Earthblade",
     "image": "https://img.gg.deals/3d/d2/503dd9faed61eaa4cef0f4d17d890723107f_188xr88.jpg",
     "url": "https://gg.deals/game/earthblade/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Gurei",
     "image": "https://img.gg.deals/e2/8e/cf1d0e367e5f36d421be759dcf69ae921a9e_188xr88.jpg",
     "url": "https://gg.deals/game/gurei/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Last Moon",
     "image": "https://img.gg.deals/36/90/e1c4322948f42deddba3b9a43de4ee2f50ea_188xr88.jpg",
     "url": "https://gg.deals/game/last-moon/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Blight: Survival",
     "image": "https://img.gg.deals/41/cb/4a26815342ea9dfb37b3a7d2733c86053fa1_188xr88.jpg",
     "url": "https://gg.deals/game/blight-survival/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Shadow of the Road",
     "image": "https://img.gg.deals/5c/ee/331cee174c8b4a21b9000da26797f2046352_188xr88.jpg",
     "url": "https://gg.deals/game/shadow-of-the-road/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Operation: Black Mesa",
     "image": "https://img.gg.deals/dd/98/ea72ec104c4fe72d9e72b2d06b8df6b51401_188xr88.jpg",
     "url": "https://gg.deals/game/operation-black-mesa/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "State of Decay 3",
     "image": "https://img.gg.deals/89/a5/6280e3f9680f316458ed2bd2cb44b93aaa73_188xr88.jpg",
     "url": "https://gg.deals/game/state-of-decay-3/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Corebreaker",
     "image": "https://img.gg.deals/f7/f1/8c8649e12aceae89c16a706354ebd559c089_188xr88.jpg",
     "url": "https://gg.deals/game/corebreaker/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Iron Corbo: Kung Fu Janitor",
     "image": "https://img.gg.deals/90/53/6b1105c1e7356a2b6efe8711eb08b4d8e9c9_188xr88.jpg",
     "url": "https://gg.deals/game/iron-corbo-kung-fu-janitor/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "BadSmith",
     "image": "https://img.gg.deals/f3/43/2bc2db16650c7a3695b7c78086085349565e_188xr88.jpg",
     "url": "https://gg.deals/game/badsmith/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Trophy Knight",
     "image": "https://img.gg.deals/d1/ae/6e37764791121f3daead84c79d975efcfff3_188xr88.jpg",
     "url": "https://gg.deals/game/trophy-knight/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Song of Iron 2",
     "image": "https://img.gg.deals/63/3b/6010cb3b91fd9edc5a938f77522c79c11f4f_188xr88.jpg",
     "url": "https://gg.deals/game/song-of-iron-2/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Norigin",
     "image": "https://img.gg.deals/e2/de/5660c301201eebb27e70df761003d5a9d000_188xr88.jpg",
     "url": "https://gg.deals/game/norigin/",
-    "platforms": []
+    "platforms": [],
+    "launchers": [
+      "other"
+    ]
   },
   {
     "name": "Another Space Opera - Episode 1: The Wake of The Giant",
     "image": "https://img.gg.deals/ae/83/678050556fad191488eb3c80e6f709d4841e_188xr88.jpg",
     "url": "https://gg.deals/game/another-space-opera-episode-1-the-wake-of-the-giant/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Emberbane",
     "image": "https://img.gg.deals/13/62/7da7ba70a5b06097caf345411b83c80dd426_188xr88.jpg",
     "url": "https://gg.deals/game/emberbane/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Ending Tau",
     "image": "https://img.gg.deals/88/e3/b6050951ee23e9bfe50fb252e07b29f32e9c_188xr88.jpg",
     "url": "https://gg.deals/game/ending-tau/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Obsidian Legion",
     "image": "https://img.gg.deals/dc/e3/c9af3959e73781de81747612c29e05cc3bbc_188xr88.jpg",
     "url": "https://gg.deals/game/obsidian-legion/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Factropy",
     "image": "https://img.gg.deals/af/bb/0ee098c995629a665c3c4bfe9c836a7c0895_188xr88.jpg",
     "url": "https://gg.deals/game/factropy/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Aftermath",
     "image": "https://img.gg.deals/a4/7b/40f86462535878d08a0ad907c7ac090876dd_188xr88.jpg",
     "url": "https://gg.deals/game/aftermath/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "IMMORTAL: And the Death that Follows",
     "image": "https://img.gg.deals/c6/df/87898efa801bca5dc4c941c949ea3ca89aaa_188xr88.jpg",
     "url": "https://gg.deals/game/immortal-and-the-death-that-follows/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Nano Racing",
     "image": "https://img.gg.deals/24/7a/0818cc8cb01f0135ab62df914ce13df9df86_188xr88.jpg",
     "url": "https://gg.deals/game/nano-racing/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Fragile Existence",
     "image": "https://img.gg.deals/ca/cd/ac912f812fca549acc29317e9efb4bbd58d4_188xr88.jpg",
     "url": "https://gg.deals/game/fragile-existence/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Killer Bean",
     "image": "https://img.gg.deals/5b/50/ff0f055bbdd383f8826b9573dbb43c8e7a2c_188xr88.jpg",
     "url": "https://gg.deals/game/killer-bean/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Kusan: City of Wolves",
     "image": "https://img.gg.deals/08/0d/ff6b1f96dd4caac0568c013aa4ac308e1ad5_188xr88.jpg",
     "url": "https://gg.deals/game/kusan-city-of-wolves/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Projekt Z: Beyond Order",
     "image": "https://img.gg.deals/fc/d5/53dc135df881a3cfbe8fe9d167665a01bbf6_188xr88.jpg",
     "url": "https://gg.deals/game/projekt-z/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Negative Atmosphere",
     "image": "https://img.gg.deals/14/07/1f050e32837f947c1e320226f0a3dc4823a0_188xr88.jpg",
     "url": "https://gg.deals/game/negative-atmosphere/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "REPLACED",
     "image": "https://img.gg.deals/86/da/b74f123b7dde105e3cc15fb8f33e21ba628d_188xr88.jpg",
     "url": "https://gg.deals/game/replaced/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Rot In A Porcelain Dream",
     "image": "https://img.gg.deals/bc/e2/d400c4d711a313f888ad4d582ccfb6da186c_188xr88.jpg",
     "url": "https://gg.deals/game/rot-in-a-porcelain-dream/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "What Never Was: Chapter II",
     "image": "https://img.gg.deals/ad/c8/b45aa3b05b0fce2321487779f3b1c19ac9b6_188xr88.jpg",
     "url": "https://gg.deals/game/what-never-was-chapter-ii/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Mars Colony Builder",
     "image": "https://img.gg.deals/1d/27/4261ab17cf3bedd88190ed4b502d6956c60f_188xr88.jpg",
     "url": "https://gg.deals/game/mars-colony-builder/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Akatori",
     "image": "https://img.gg.deals/99/84/6a1a34f6759b68b9b20cebccd6e5abfbda3c_188xr88.jpg",
     "url": "https://gg.deals/game/deathstick/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "No More Light",
     "image": "https://img.gg.deals/b7/d3/2d093d9321e251d894e359332b94bd6a4566_188xr88.jpg",
     "url": "https://gg.deals/game/no-more-light/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Ghost Knight: A Dark Tale",
     "image": "https://img.gg.deals/5c/d1/844bedee5dbc35d1ad33aead11fb5fd8c238_188xr88.jpg",
     "url": "https://gg.deals/game/ghost-knight-a-dark-tale/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Militsioner",
     "image": "https://img.gg.deals/0b/8b/fe5ebcd394d4c00e9519010af5cd56cb7ab3_188xr88.jpg",
     "url": "https://gg.deals/game/militsioner/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Dreamjob: Programmer Simulator - Learn Programming Games",
     "image": "https://img.gg.deals/ff/e3/b684b88a13d3f744648e1505cdecf8e8de36_188xr88.jpg",
     "url": "https://gg.deals/game/dreamjob-programmer-learn-programming-games/",
-    "platforms": []
+    "platforms": [],
+    "launchers": [
+      "other"
+    ]
   },
   {
     "name": "Acid Knife",
     "image": "https://img.gg.deals/57/cd/831415d928ccb4f3dd5038fc0a33ca992973_188xr88.jpg",
     "url": "https://gg.deals/game/acid-knife/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "The Looter",
     "image": "https://img.gg.deals/d1/4f/5277ac3b815c7f1d250af70bfa0bdf798620_188xr88.jpg",
     "url": "https://gg.deals/game/the-looter/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Necrofugitive",
     "image": "https://img.gg.deals/b5/01/b6f7b6b80fa6e5f2729a30603649837bfc9c_188xr88.jpg",
     "url": "https://gg.deals/game/necrofugitive/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Wind Runners",
     "image": "https://img.gg.deals/82/6e/19eed67192e1d0868df5d169c1a88f0a1db7_188xr88.jpg",
     "url": "https://gg.deals/game/wind-runners/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Savior",
     "image": "https://img.gg.deals/e1/c5/d237156af3637853437b4a91fee8bb526b6f_188xr88.jpg",
     "url": "https://gg.deals/game/savior/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Lore Finder",
     "image": "https://img.gg.deals/74/d8/43958aec4ee69c23092fb9f1c0193dc5afb5_188xr88.jpg",
     "url": "https://gg.deals/game/lore-finder/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "Last Man Sitting",
     "image": "https://img.gg.deals/23/bb/53c3e17ba32acf91c0d12c16c35586c36fb9_188xr88.jpg",
     "url": "https://gg.deals/game/last-man-sitting/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   },
   {
     "name": "The Last Night",
     "image": "https://img.gg.deals/cf/54/13d9e72d7e1b99b7fcd0d0e8de76d9fc411b_188xr88.jpg",
     "url": "https://gg.deals/game/the-last-night/",
-    "platforms": []
+    "platforms": [],
+    "launchers": []
   }
 ]

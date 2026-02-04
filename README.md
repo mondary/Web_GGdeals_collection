@@ -15,11 +15,9 @@ Scraper et visualiseur de wishlist GG.deals sous forme de bibliothèque graphiqu
 - Statistiques (total, valeur, moyenne)
 - Vue grille et liste
 
-## 🧠 Utilisation
+## 🧠 Utilisation (procédure complète)
 
-### A. Scraper la collection (jeux possédés)
-
-Pré-requis : lancer un Chrome dédié au remote debugging (ne touche pas à ton Chrome principal).
+### 1. Lancer Chrome remote (profil séparé)
 
 ```bash
 /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome \
@@ -29,7 +27,7 @@ Pré-requis : lancer un Chrome dédié au remote debugging (ne touche pas à ton
 
 Dans cette fenêtre, connecte-toi à gg.deals.
 
-Puis lance le scraping :
+### 2. Scraper la collection (jeux possédés)
 
 ```bash
 CHROME_REMOTE_DEBUG_PORT=9222 node scripts/scrape_collection.js
@@ -37,16 +35,16 @@ CHROME_REMOTE_DEBUG_PORT=9222 node scripts/scrape_collection.js
 
 Les données sont sauvegardées dans `scripts/collection.json`.
 
-### B. Scraper la wishlist
+### 3. Scraper la wishlist
 
 ```bash
 npm install
-node scripts/scrape_wishlist.js
+WISHLIST_URL="https://gg.deals/wishlist/share/TON_ID/" node scripts/scrape_wishlist.js
 ```
 
 Les données sont sauvegardées dans `scripts/wishlist.json`.
 
-### C. Générer le site web
+### 4. Générer le site web (thème d’origine + injection collection/wishlist)
 
 ```bash
 node scripts/generate.js
@@ -54,16 +52,16 @@ node scripts/generate.js
 
 Le fichier `web/index.html` est généré.
 
-### D. Visualiser
+### 5. Visualiser
 
 Ouvrir `web/index.html` dans un navigateur.
 
 ## ⚙️ Configuration
 
-Modifier `scripts/scrape_wishlist.js` :
+Configurer la variable d’environnement `WISHLIST_URL` :
 
 ```javascript
-const WISHLIST_URL = 'https://gg.deals/wishlist/share/VOTRE_ID/';
+WISHLIST_URL="https://gg.deals/wishlist/share/TON_ID/" node scripts/scrape_wishlist.js
 const TOTAL_PAGES = 11; // Nombre de pages à scraper
 ```
 

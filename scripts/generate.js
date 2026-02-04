@@ -20,4 +20,16 @@ const html = template
   .replace('__WISHLIST_DATA__', JSON.stringify(wishlist));
 
 fs.writeFileSync(outputPath, html);
-console.log('✅ web/index.html généré avec ' + collection.length + ' jeux (collection) et ' + wishlist.length + ' jeux (wishlist)');
+const normalizeCount = (list) => {
+  const seen = new Set();
+  for (const g of (list || [])) {
+    if (!g) continue;
+    const url = (g.url || '').trim().toLowerCase();
+    const name = (g.name || '').trim().toLowerCase();
+    const key = url || name;
+    if (!key) continue;
+    seen.add(key);
+  }
+  return seen.size;
+};
+console.log('✅ web/index.html généré avec ' + normalizeCount(collection) + ' jeux (collection) et ' + normalizeCount(wishlist) + ' jeux (wishlist)');
