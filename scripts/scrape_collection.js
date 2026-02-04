@@ -110,16 +110,13 @@ async function scrapeCollection() {
             .filter(p => p && p !== 'link icon');
 
           const storeNameRegex = /(steam|epic|gog|ubisoft|uplay|origin|ea app|battle\\.?net|battlenet|xbox|microsoft store|itch\\.io|amazon|prime gaming|humble|rockstar|drm[- ]?free)/i;
-          const storeHintRegex = /(store|launcher|games|drm)/i;
           const launchers = [...el.querySelectorAll('[title], [aria-label], [data-tooltip], [data-store], [data-shop], [data-launcher], [class*="store"], [class*="shop"], [class*="launcher"], [class*="drm"], [class*="svg-drm"]')]
             .map(s => {
               const t = s.getAttribute('title') || s.getAttribute('aria-label') || s.getAttribute('data-tooltip') || s.getAttribute('data-store') || s.getAttribute('data-shop') || s.getAttribute('data-launcher') || '';
               if (t && storeNameRegex.test(t)) return t.trim();
-              if (t && storeHintRegex.test(t)) return 'other';
               const cls = [...s.classList].find(c => c.startsWith('svg-store-') || c.startsWith('store-') || c.startsWith('shop-') || c.startsWith('launcher-') || c.startsWith('drm-') || c.startsWith('svg-drm-'));
               if (cls && (cls.startsWith('drm-') || cls.startsWith('svg-drm-'))) return cls;
               if (cls && storeNameRegex.test(cls)) return cls;
-              if (cls && storeHintRegex.test(cls)) return 'other';
               return '';
             })
             .filter(Boolean);
@@ -175,7 +172,7 @@ async function scrapeCollection() {
               'drm-galaxy': 'gog',
               'drm-other': 'other'
             };
-            return map[v] || (v ? 'other' : '');
+            return map[v] || '';
           };
 
           const blacklist = new Set([
