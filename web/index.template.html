@@ -191,6 +191,13 @@
       accent-color: var(--accent-purple);
     }
 
+    .filter-count {
+      margin-left: auto;
+      font-size: 10px;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
     .stats-title {
       font-size: 10px;
       color: #5e6266;
@@ -805,9 +812,13 @@
 
     function buildPlatformList() {
       const list = (datasets[currentTab] || []);
-      const platforms = [...new Set(
-        list.flatMap(g => gamePlatforms(g)).map(normalizePlatform).filter(Boolean).filter(p => !isBadPlatform(p))
-      )].sort();
+      const counts = {};
+      for (const g of list) {
+        for (const p of gamePlatforms(g).map(normalizePlatform).filter(Boolean).filter(p => !isBadPlatform(p))) {
+          counts[p] = (counts[p] || 0) + 1;
+        }
+      }
+      const platforms = Object.keys(counts).sort();
 
       const platformListEl = document.getElementById('platform-list');
       platformListEl.innerHTML = platforms.map(p =>
@@ -815,6 +826,7 @@
           '<label>' +
             '<input type=\"checkbox\" value=\"' + esc(p) + '\">' +
             '<span>' + esc(platformLabel(p)) + '</span>' +
+            '<span class=\"filter-count\">' + counts[p] + '</span>' +
           '</label>' +
         '</li>'
       ).join('');
@@ -830,10 +842,14 @@
 
     function buildLauncherList() {
       const list = (datasets[currentTab] || []);
+      const counts = {};
+      for (const g of list) {
+        for (const l of gameLaunchers(g).map(normalizeLauncher).filter(Boolean)) {
+          counts[l] = (counts[l] || 0) + 1;
+        }
+      }
       const ordered = ['steam','ea','ubisoft','gog','epic','microsoft','battlenet','rockstar','prime','itch','drmfree','other'];
-      const launchers = [...new Set(
-        list.flatMap(g => gameLaunchers(g)).map(normalizeLauncher).filter(Boolean)
-      )].sort((a,b) => ordered.indexOf(a) - ordered.indexOf(b));
+      const launchers = Object.keys(counts).sort((a,b) => ordered.indexOf(a) - ordered.indexOf(b));
 
       const launcherListEl = document.getElementById('launcher-list');
       launcherListEl.innerHTML = launchers.map(p =>
@@ -841,6 +857,7 @@
           '<label>' +
             '<input type=\"checkbox\" value=\"' + esc(p) + '\">' +
             '<span>' + esc(launcherLabel(p)) + '</span>' +
+            '<span class=\"filter-count\">' + counts[p] + '</span>' +
           '</label>' +
         '</li>'
       ).join('');
