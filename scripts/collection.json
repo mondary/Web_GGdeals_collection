@@ -3475,7 +3475,7 @@
       "steam-deck-verified"
     ],
     "launchers": [
-      "other"
+      "microsoft"
     ],
     "dataUrl": "/collection/single/?id=34081"
   },
@@ -3979,7 +3979,7 @@
       "steam-deck-playable"
     ],
     "launchers": [
-      "other"
+      "microsoft"
     ],
     "dataUrl": "/collection/single/?id=155121"
   },
@@ -4113,7 +4113,7 @@
       "geforce-now"
     ],
     "launchers": [
-      "other"
+      "microsoft"
     ],
     "dataUrl": "/collection/single/?id=9828"
   },
@@ -4343,7 +4343,7 @@
       "geforce-now"
     ],
     "launchers": [
-      "other"
+      "microsoft"
     ],
     "dataUrl": "/collection/single/?id=69792"
   },
@@ -22048,6 +22048,7 @@
     ],
     "launchers": [
       "steam",
+      "microsoft",
       "prime"
     ],
     "dataUrl": "/collection/single/?id=73508"

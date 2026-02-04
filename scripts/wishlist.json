@@ -1,9 +1,19 @@
 [
   {
     "name": "Squirrel with a Gun",
-    "price": "~1,36€",
+    "price": "~1,35€",
     "image": "https://img.gg.deals/1b/e8/e0dba34841b24351dce3ae5b01b735dcc628_188xr88.jpg",
     "url": "https://gg.deals/game/squirrel-with-a-gun/",
+    "platforms": [
+      "link-icon",
+      "windows"
+    ]
+  },
+  {
+    "name": "SILENT HILL 2",
+    "price": "~21,66€",
+    "image": "https://img.gg.deals/6e/6f/09136993513c79178023ca57726848033f10_188xr88.jpg",
+    "url": "https://gg.deals/game/silent-hill-2/",
     "platforms": [
       "link-icon",
       "windows"
@@ -74,16 +84,6 @@
     "price": "~16,98€",
     "image": "https://img.gg.deals/bc/d9/5a07218a7d56794d41e230498d953b87782f_188xr88.jpg",
     "url": "https://gg.deals/game/lies-of-p/",
-    "platforms": [
-      "link-icon",
-      "windows"
-    ]
-  },
-  {
-    "name": "SILENT HILL 2",
-    "price": "~22,17€",
-    "image": "https://img.gg.deals/6e/6f/09136993513c79178023ca57726848033f10_188xr88.jpg",
-    "url": "https://gg.deals/game/silent-hill-2/",
     "platforms": [
       "link-icon",
       "windows"
@@ -350,6 +350,16 @@
     ]
   },
   {
+    "name": "God of War Ragnarök",
+    "price": "~29,11€",
+    "image": "https://img.gg.deals/7c/ca/643d3875a0ec52456bf779ebf725c4033477_188xr88.jpg",
+    "url": "https://gg.deals/game/god-of-war-ragnarok/",
+    "platforms": [
+      "link-icon",
+      "windows"
+    ]
+  },
+  {
     "name": "The First Berserker: Khazan",
     "price": "24,39€",
     "image": "https://img.gg.deals/d4/e1/03fb520681d6b859aa4c2d06fbc3d68bbb92_188xr88.jpg",
@@ -460,10 +470,35 @@
     ]
   },
   {
-    "name": "God of War Ragnarök",
-    "price": "~29,96€",
-    "image": "https://img.gg.deals/7c/ca/643d3875a0ec52456bf779ebf725c4033477_188xr88.jpg",
-    "url": "https://gg.deals/game/god-of-war-ragnarok/",
+    "name": "Moonlighter 2: The Endless Vault",
+    "price": "~14,93€",
+    "image": "https://img.gg.deals/4b/61/ef8edbdc25d97ecf0eff7f65d7bc0e3b4f4f_188xr88.jpg",
+    "url": "https://gg.deals/game/moonlighter-2-the-endless-vault/",
+    "platforms": [
+      "link-icon",
+      "windows"
+    ]
+  },
+  {
+    "price": "~1,35€",
+    "image": "https://img.gg.deals/09/32/6dbacb7190441b0cfe2374ac0a5790c0a1c7_60xt26_Q100.png",
+    "platforms": []
+  },
+  {
+    "price": "~1,36€",
+    "image": "https://img.gg.deals/07/28/3c6eeb2a7c86c6441a89898217781e7df6ff.svg",
+    "platforms": []
+  },
+  {
+    "price": "~1,72€",
+    "image": "https://img.gg.deals/7f/fc/0519b5d0810864027e297a768faa8e922506_60xt26_Q100.png",
+    "platforms": []
+  },
+  {
+    "name": "Returnal",
+    "price": "17,39€",
+    "image": "https://img.gg.deals/53/e6/8b5432253b51edb2d2e2ff508dbb42ba5145_188xr88.jpg",
+    "url": "https://gg.deals/game/returnal/",
     "platforms": [
       "link-icon",
       "windows"
@@ -478,21 +513,6 @@
       "link-icon",
       "windows"
     ]
-  },
-  {
-    "price": "~1,36€",
-    "image": "https://img.gg.deals/09/32/6dbacb7190441b0cfe2374ac0a5790c0a1c7_60xt26_Q100.png",
-    "platforms": []
-  },
-  {
-    "price": "~1,36€",
-    "image": "https://img.gg.deals/07/28/3c6eeb2a7c86c6441a89898217781e7df6ff.svg",
-    "platforms": []
-  },
-  {
-    "price": "~1,72€",
-    "image": "https://img.gg.deals/7f/fc/0519b5d0810864027e297a768faa8e922506_60xt26_Q100.png",
-    "platforms": []
   },
   {
     "name": "Ni no Kuni Wrath of the White Witch Remastered",
@@ -529,16 +549,6 @@
     "price": "13,02€",
     "image": "https://img.gg.deals/bf/6e/9d668924b6eb7913ab4d7ac2eadadd1a7b0e_188xr88.jpg",
     "url": "https://gg.deals/game/empire-of-the-ants/",
-    "platforms": [
-      "link-icon",
-      "windows"
-    ]
-  },
-  {
-    "name": "Returnal",
-    "price": "~17,54€",
-    "image": "https://img.gg.deals/53/e6/8b5432253b51edb2d2e2ff508dbb42ba5145_188xr88.jpg",
-    "url": "https://gg.deals/game/returnal/",
     "platforms": [
       "link-icon",
       "windows"
@@ -675,16 +685,6 @@
     ]
   },
   {
-    "name": "StarRupture",
-    "price": "~10,53€",
-    "image": "https://img.gg.deals/da/81/923f349dec52bb4eb500b8bf5abb767d63d8_188xr88.jpg",
-    "url": "https://gg.deals/game/starrupture/",
-    "platforms": [
-      "link-icon",
-      "windows"
-    ]
-  },
-  {
     "name": "Last Train Home",
     "price": "~9,32€",
     "image": "https://img.gg.deals/a3/99/42a8143c06e7f6c1f4005bddd6392f4a086a_188xr88.jpg",
@@ -725,6 +725,16 @@
     ]
   },
   {
+    "name": "StarRupture",
+    "price": "~10,59€",
+    "image": "https://img.gg.deals/da/81/923f349dec52bb4eb500b8bf5abb767d63d8_188xr88.jpg",
+    "url": "https://gg.deals/game/starrupture/",
+    "platforms": [
+      "link-icon",
+      "windows"
+    ]
+  },
+  {
     "name": "Outpost: Infinity Siege",
     "price": "~3,61€",
     "image": "https://img.gg.deals/67/15/71dece7b53657065e57eb86c6023bdc77860_188xr88.jpg",
@@ -759,16 +769,6 @@
     "price": "7,49€",
     "image": "https://img.gg.deals/2c/78/02fb174535c63d9f93a83d24e5b668001ad0_188xr88.jpg",
     "url": "https://gg.deals/game/convrgence-a-league-of-legends-story/",
-    "platforms": [
-      "link-icon",
-      "windows"
-    ]
-  },
-  {
-    "name": "The Crust",
-    "price": "~7,15€",
-    "image": "https://img.gg.deals/00/70/38dbbc9cdcabbf9480a86c6303803366646f_188xr88.jpg",
-    "url": "https://gg.deals/game/the-crust/",
     "platforms": [
       "link-icon",
       "windows"
@@ -816,7 +816,7 @@
   },
   {
     "name": "Forza Horizon 5",
-    "price": "~25,71€",
+    "price": "~25,69€",
     "image": "https://img.gg.deals/3a/e5/980d943919a0bb462915abeb1f434247feb2_188xr88.jpg",
     "url": "https://gg.deals/game/forza-horizon-5/",
     "platforms": [
@@ -855,16 +855,6 @@
     ]
   },
   {
-    "name": "Moonlighter 2: The Endless Vault",
-    "price": "16,13€",
-    "image": "https://img.gg.deals/4b/61/ef8edbdc25d97ecf0eff7f65d7bc0e3b4f4f_188xr88.jpg",
-    "url": "https://gg.deals/game/moonlighter-2-the-endless-vault/",
-    "platforms": [
-      "link-icon",
-      "windows"
-    ]
-  },
-  {
     "name": "The King is Watching",
     "price": "6,49€",
     "image": "https://img.gg.deals/d5/ed/64d4d8e20531b5268d2e31541e911a5fb124_188xr88.jpg",
@@ -886,7 +876,7 @@
   },
   {
     "name": "Hi-Fi RUSH",
-    "price": "~14,37€",
+    "price": "~14,34€",
     "image": "https://img.gg.deals/21/e8/48a7de9d8cf290714fe839c08a2404558bc0_188xr88.jpg",
     "url": "https://gg.deals/game/hi-fi-rush/",
     "platforms": [
@@ -975,18 +965,28 @@
     ]
   },
   {
-    "price": "5,61€",
-    "image": "https://img.gg.deals/fe/08/de2c02530fb90ebba80e45fbe39cc02c3324_60xt26_Q100.png",
-    "platforms": []
+    "name": "Post Trauma",
+    "price": "6,17€",
+    "image": "https://img.gg.deals/4c/6f/b19e36cf1dd8641079260bad0bc6804d29ea_188xr88.jpg",
+    "url": "https://gg.deals/game/post-trauma/",
+    "platforms": [
+      "link-icon",
+      "windows"
+    ]
   },
   {
-    "price": "5,79€",
+    "price": "17,39€",
     "image": "https://img.gg.deals/6f/ff/75fec1c8d99f1bff0f55baaccaf8ff674647_60xt26_Q100.png",
     "platforms": []
   },
   {
-    "price": "~5,92€",
-    "image": "https://img.gg.deals/d4/ba/1ec9eea47fc611633851b219023831083e95_60xt26_Q100.png",
+    "price": "~17,54€",
+    "image": "https://img.gg.deals/93/90/d19b88367ee8d52977848ab54abf081ba573.svg",
+    "platforms": []
+  },
+  {
+    "price": "~18,16€",
+    "image": "https://img.gg.deals/9a/00/10d056a81563a8f072c36d2999d36aa861ca_60xt26_Q100.png",
     "platforms": []
   },
   {
@@ -1321,7 +1321,7 @@
   },
   {
     "name": "Wo Long: Fallen Dynasty",
-    "price": "~22,23€",
+    "price": "~22,21€",
     "image": "https://img.gg.deals/b2/e2/d767617787f5d9fdc0fa9f93d632c155bfc8_188xr88.jpg",
     "url": "https://gg.deals/game/wo-long-fallen-dynasty/",
     "platforms": [
@@ -1390,6 +1390,16 @@
     ]
   },
   {
+    "name": "Kerbal Space Program 2",
+    "price": "21,99€",
+    "image": "https://img.gg.deals/ed/ef/ab5cc02464e0b90eb69d88ab488cbc0db9a6_188xr88.jpg",
+    "url": "https://gg.deals/game/kerbal-space-program-2/",
+    "platforms": [
+      "link-icon",
+      "windows"
+    ]
+  },
+  {
     "name": "Serum: Toxic Survival",
     "price": "~5,11€",
     "image": "https://img.gg.deals/9e/a2/abdd648dd32631822d5d87030860a23107a6_188xr88.jpg",
@@ -1404,16 +1414,6 @@
     "price": "5,39€",
     "image": "https://img.gg.deals/a2/08/d6fc22944b6c5c2d69be97088bd0ce94b60f_188xr88.jpg",
     "url": "https://gg.deals/game/phoenotopia-awakening/",
-    "platforms": [
-      "link-icon",
-      "windows"
-    ]
-  },
-  {
-    "name": "Kerbal Space Program 2",
-    "price": "~22,18€",
-    "image": "https://img.gg.deals/ed/ef/ab5cc02464e0b90eb69d88ab488cbc0db9a6_188xr88.jpg",
-    "url": "https://gg.deals/game/kerbal-space-program-2/",
     "platforms": [
       "link-icon",
       "windows"
@@ -1626,7 +1626,7 @@
   },
   {
     "name": "Pepper Grinder",
-    "price": "~5,22€",
+    "price": "5,19€",
     "image": "https://img.gg.deals/78/ac/abe395b3e1e147bad6e6c854aaf76b742296_188xr88.jpg",
     "url": "https://gg.deals/game/pepper-grinder/",
     "platforms": [
@@ -1885,16 +1885,6 @@
     ]
   },
   {
-    "name": "Minecraft",
-    "price": "~12,53€",
-    "image": "https://img.gg.deals/55/ef/c6f870e2c8501780454875b810d0a9d3095e_188xr88.jpg",
-    "url": "https://gg.deals/game/minecraft/",
-    "platforms": [
-      "link-icon",
-      "windows"
-    ]
-  },
-  {
     "name": "Forestrike",
     "price": "6,99€",
     "image": "https://img.gg.deals/5d/20/cb7197f917d26d33b6e0fc67ab4a3eccada2_188xr88.jpg",
@@ -1929,6 +1919,16 @@
     "price": "~8,56€",
     "image": "https://img.gg.deals/85/67/e999236b5941089b82038a8784ec4c0132e5_188xr88.jpg",
     "url": "https://gg.deals/game/occupy-mars-the-game/",
+    "platforms": [
+      "link-icon",
+      "windows"
+    ]
+  },
+  {
+    "name": "Minecraft",
+    "price": "~12,65€",
+    "image": "https://img.gg.deals/55/ef/c6f870e2c8501780454875b810d0a9d3095e_188xr88.jpg",
+    "url": "https://gg.deals/game/minecraft/",
     "platforms": [
       "link-icon",
       "windows"
@@ -2181,7 +2181,7 @@
   },
   {
     "name": "FOUNTAINS",
-    "price": "~3,79€",
+    "price": "~3,76€",
     "image": "https://img.gg.deals/bf/b6/6560fc68188178502b40986bf6a93677fc46_188xr88.jpg",
     "url": "https://gg.deals/game/fountains/",
     "platforms": [
@@ -3021,7 +3021,7 @@
   },
   {
     "name": "Before The Last Hour",
-    "price": "~8,59€",
+    "price": "~8,60€",
     "image": "https://img.gg.deals/9f/25/c1c8b771567f5e2816076f02eec69e27c49d_188xr88.jpg",
     "url": "https://gg.deals/game/before-the-last-hour/",
     "platforms": [
@@ -3121,7 +3121,7 @@
   },
   {
     "name": "Brave Escape",
-    "price": "~15,96€",
+    "price": "~15,97€",
     "image": "https://img.gg.deals/98/ac/f6013ee5ad2e2caa2a6e58a0230ce8bbf28a_188xr88.jpg",
     "url": "https://gg.deals/game/brave-cave/",
     "platforms": [
@@ -4001,7 +4001,7 @@
   },
   {
     "name": "Forza Horizon 4",
-    "price": "~17,44€",
+    "price": "~17,45€",
     "image": "https://img.gg.deals/db/a7/750c2e720931d66dc97f9e84710103d2cece_188xr88.jpg",
     "url": "https://gg.deals/game/forza-horizon-4/",
     "platforms": [
