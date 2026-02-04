@@ -1,6 +1,6 @@
 {
   "name": "web_ggdeals_collection",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "![Project icon](icon.png)",
   "main": "index.js",
   "scripts": {

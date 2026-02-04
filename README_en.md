@@ -98,6 +98,7 @@ Dependencies: `puppeteer-extra`, `puppeteer-extra-plugin-stealth`
 
 ## 🧾 Changelog
 
+- 2.0.5: Patch (wishlist platforms: filter ribbon)
 - 2.0.4: Patch (launcher scroll removed, other fixed)
 - 2.0.3: Patch (publish data + generated index)
 - 2.0.2: Patch (launcher filters fixed in UI)

@@ -746,7 +746,7 @@
 
     function isBadPlatform(p) {
       const v = normalizePlatform(p);
-      return !v || v === 'link icon' || v.includes('link');
+      return !v || v === 'link icon' || v.includes('link') || v.includes('ribbon');
     }
 
     function gamePlatforms(g) {

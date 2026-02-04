@@ -69,7 +69,7 @@ async function scrapeWishlist() {
             .filter(Boolean);
 
           const uniquePlatforms = [...new Set(platforms.map(p => p.toLowerCase()))]
-            .filter(p => p && p !== 'link icon');
+            .filter(p => p && p !== 'link icon' && !p.includes('ribbon'));
 
           return { name, price, image, url, rating, platforms: uniquePlatforms };
         });
