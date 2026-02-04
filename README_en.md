@@ -98,6 +98,7 @@ Dependencies: `puppeteer-extra`, `puppeteer-extra-plugin-stealth`
 
 ## 🧾 Changelog
 
+- 2.0.2: Patch (launcher filters fixed in UI)
 - 2.0.1: Patch (run_all prompts WISHLIST_URL, drm-* launcher scraping)
 - 2.0.0: V2 (collection + wishlist, launcher/platform filters, SVG logos, run_all)
 - 1.1.0: Project structure refactoring

@@ -103,6 +103,7 @@ Dépendances : `puppeteer-extra`, `puppeteer-extra-plugin-stealth`
 
 ## 🧾 Changelog
 
+- 2.0.2 : Patch (filtres launchers corrigés dans l’UI)
 - 2.0.1 : Patch (run_all demande WISHLIST_URL, scraping launchers drm-*)
 - 2.0.0 : V2 (collection + wishlist, launchers/plateformes, logos SVG, run_all)
 - 1.1.1 : Mise à jour interface (style GOG, header, stats, recherche, colonnes)
