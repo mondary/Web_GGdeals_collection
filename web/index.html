@@ -843,8 +843,8 @@
       setColumns(parseInt(colsRange.value, 10));
     });
 
-    document.getElementById('collection-count').textContent = collection.length;
-    document.getElementById('wishlist-count').textContent = wishlist.length;
+    document.getElementById('collection-count').textContent = datasets.collection.length;
+    document.getElementById('wishlist-count').textContent = datasets.wishlist.length;
 
     document.querySelectorAll('[data-tab]').forEach(el => {
       el.addEventListener('click', () => setActiveTab(el.dataset.tab));
