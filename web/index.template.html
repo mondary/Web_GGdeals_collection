@@ -414,6 +414,13 @@
       border: 1px solid rgba(255, 255, 255, 0.15);
     }
 
+    .launcher-icon svg {
+      width: 12px;
+      height: 12px;
+      display: block;
+      fill: currentColor;
+    }
+
     .launcher-icon[data-l="steam"] { background: #1b2838; }
     .launcher-icon[data-l="ea"] { background: #c43c3c; }
     .launcher-icon[data-l="ubisoft"] { background: #1a5fb4; }
@@ -460,6 +467,7 @@
       .search-bar:focus { width: 220px; }
     }
   </style>
+  <!-- DRM_SPRITE_PLACEHOLDER -->
 </head>
 <body>
   <aside class="sidebar">
@@ -560,6 +568,8 @@
   <script>
     const collection = __COLLECTION_DATA__;
     const wishlist = __WISHLIST_DATA__;
+    const DRM_SPRITE_PATH = '';
+    const USE_SVG_LAUNCHERS = true;
     function normalizeList(list) {
       const seen = new Map();
       for (const g of (list || [])) {
@@ -653,7 +663,7 @@
         'drm free': 'drmfree',
         'drm-free': 'drmfree'
       };
-      return map[v] || (v ? 'other' : '');
+      return map[v] || '';
     }
 
     function launcherLabel(p) {
@@ -669,14 +679,28 @@
         rockstar: 'Rockstar Games Launcher',
         prime: 'Prime Gaming',
         itch: 'Itch.io',
-        drmfree: 'DRM Free',
-        other: 'Other'
+        drmfree: 'DRM Free'
       };
-      return map[v] || v.toUpperCase();
+      return map[v] || '';
     }
 
     function launcherBadge(key) {
       const label = launcherLabel(key);
+      if (!label) return '';
+      const spriteIdMap = {
+        steam: 'svg-drm-steam',
+        ea: 'svg-drm-ea',
+        ubisoft: 'svg-drm-ubisoft-connect',
+        gog: 'svg-drm-gog',
+        epic: 'svg-drm-epic-games',
+        microsoft: 'svg-drm-microsoft-store',
+        battlenet: 'svg-drm-battle-net',
+        rockstar: 'svg-drm-rockstar',
+        prime: 'svg-drm-prime-gaming',
+        itch: 'svg-drm-itch-io',
+        drmfree: 'svg-drm-drm-free'
+      };
+      const spriteId = spriteIdMap[key];
       const initials = {
         steam: 'S',
         ea: 'EA',
@@ -691,6 +715,12 @@
         drmfree: 'D',
         other: 'O'
       }[key] || 'O';
+      if (USE_SVG_LAUNCHERS) {
+        const href = (DRM_SPRITE_PATH ? (DRM_SPRITE_PATH + '#') : '#') + esc(spriteId || '');
+        return '<span class="launcher-icon" data-l="' + esc(key) + '" title="' + esc(label) + '">' +
+          '<svg aria-hidden="true"><use href="' + href + '" xlink:href="' + href + '"></use></svg>' +
+          '</span>';
+      }
       return '<span class="launcher-icon" data-l="' + esc(key) + '" title="' + esc(label) + '">' + esc(initials) + '</span>';
     }
 
@@ -755,7 +785,7 @@
         const hiRes = upscaleImage(originalImg);
         const isCollection = currentTab === 'collection';
         const launcherIcons = isCollection
-          ? '<div class="launcher-row">' + [...new Set(gameLaunchers(g).map(normalizeLauncher).filter(Boolean))].map(launcherBadge).join('') + '</div>'
+          ? '<div class="launcher-row">' + [...new Set(gameLaunchers(g).map(normalizeLauncher).filter(Boolean))].map(launcherBadge).filter(Boolean).join('') + '</div>'
           : '';
         const priceBlock = !isCollection
           ? '<div class="price-text">'+esc(g.price||"N/A")+'</div>'
@@ -798,7 +828,7 @@
 
     function buildLauncherList() {
       const list = (datasets[currentTab] || []);
-      const ordered = ['steam','ea','ubisoft','gog','epic','microsoft','battlenet','rockstar','prime','itch','drmfree','other'];
+      const ordered = ['steam','ea','ubisoft','gog','epic','microsoft','battlenet','rockstar','prime','itch','drmfree'];
       const launchers = [...new Set(
         list.flatMap(g => gameLaunchers(g)).map(normalizeLauncher).filter(Boolean)
       )].sort((a,b) => ordered.indexOf(a) - ordered.indexOf(b));

@@ -71,61 +71,7 @@ async function scrapeWishlist() {
           const uniquePlatforms = [...new Set(platforms.map(p => p.toLowerCase()))]
             .filter(p => p && p !== 'link icon');
 
-          const storeNameRegex = /(steam|epic|gog|ubisoft|uplay|origin|ea app|battle\\.?net|battlenet|xbox|microsoft store|itch\\.io|amazon|prime gaming|humble|rockstar|drm[- ]?free)/i;
-          const storeHintRegex = /(store|launcher|games)/i;
-          const launchers = [...el.querySelectorAll('[title], [aria-label], [data-tooltip], [data-store], [data-shop], [data-launcher], [class*="store"], [class*="shop"], [class*="launcher"]')]
-            .map(s => {
-              const t = s.getAttribute('title') || s.getAttribute('aria-label') || s.getAttribute('data-tooltip') || s.getAttribute('data-store') || s.getAttribute('data-shop') || s.getAttribute('data-launcher') || '';
-              if (t && storeNameRegex.test(t)) return t.trim();
-              if (t && storeHintRegex.test(t)) return 'other';
-              const cls = [...s.classList].find(c => c.startsWith('svg-store-') || c.startsWith('store-') || c.startsWith('shop-') || c.startsWith('launcher-'));
-              if (cls && storeNameRegex.test(cls)) return cls;
-              if (cls && storeHintRegex.test(cls)) return 'other';
-              return '';
-            })
-            .filter(Boolean);
-
-          const normalizeLauncher = (s) => {
-            const v = s.toLowerCase();
-            const map = {
-              'steam': 'steam',
-              'steam store': 'steam',
-              'epic games': 'epic',
-              'epic games store': 'epic',
-              'epic games launcher': 'epic',
-              'gog': 'gog',
-              'gog.com': 'gog',
-              'gog galaxy': 'gog',
-              'origin': 'ea',
-              'ea app': 'ea',
-              'ubisoft connect': 'ubisoft',
-              'uplay': 'ubisoft',
-              'battle.net': 'battlenet',
-              'battlenet': 'battlenet',
-              'xbox': 'microsoft',
-              'microsoft store': 'microsoft',
-              'itch.io': 'itch',
-              'amazon games': 'prime',
-              'prime gaming': 'prime',
-              'humble': 'other',
-              'rockstar': 'rockstar',
-              'rockstar games': 'rockstar',
-              'rockstar games launcher': 'rockstar',
-              'drm free': 'drmfree',
-              'drm-free': 'drmfree'
-            };
-            return map[v] || (v ? 'other' : '');
-          };
-
-          const blacklist = new Set([
-            'windows', 'mac', 'linux', 'steam deck', 'steam deck verified', 'steam deck playable',
-            'pc vr', 'vr', 'geforce now', 'link icon', 'playstation', 'nintendo', 'xbox cloud gaming',
-            'steam deck compatible', 'steam deck unsupported'
-          ]);
-
-          const uniqueLaunchers = [...new Set(launchers.map(l => normalizeLauncher(l)).filter(l => l && !blacklist.has(l)))];
-
-          return { name, price, image, url, rating, platforms: uniquePlatforms, launchers: uniqueLaunchers };
+          return { name, price, image, url, rating, platforms: uniquePlatforms };
         });
       });
 

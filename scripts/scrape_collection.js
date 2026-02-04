@@ -110,15 +110,15 @@ async function scrapeCollection() {
             .filter(p => p && p !== 'link icon');
 
           const storeNameRegex = /(steam|epic|gog|ubisoft|uplay|origin|ea app|battle\\.?net|battlenet|xbox|microsoft store|itch\\.io|amazon|prime gaming|humble|rockstar|drm[- ]?free)/i;
-          const storeHintRegex = /(store|launcher|games)/i;
-          const launchers = [...el.querySelectorAll('[title], [aria-label], [data-tooltip], [data-store], [data-shop], [data-launcher], [class*="store"], [class*="shop"], [class*="launcher"]')]
+          const storeHintRegex = /(store|launcher|games|drm)/i;
+          const launchers = [...el.querySelectorAll('[title], [aria-label], [data-tooltip], [data-store], [data-shop], [data-launcher], [class*="store"], [class*="shop"], [class*="launcher"], [class*="drm"], [class*="svg-drm"]')]
             .map(s => {
               const t = s.getAttribute('title') || s.getAttribute('aria-label') || s.getAttribute('data-tooltip') || s.getAttribute('data-store') || s.getAttribute('data-shop') || s.getAttribute('data-launcher') || '';
               if (t && storeNameRegex.test(t)) return t.trim();
-              if (t && storeHintRegex.test(t)) return 'other';
-              const cls = [...s.classList].find(c => c.startsWith('svg-store-') || c.startsWith('store-') || c.startsWith('shop-') || c.startsWith('launcher-'));
+              if (t && storeHintRegex.test(t)) return '';
+              const cls = [...s.classList].find(c => c.startsWith('svg-store-') || c.startsWith('store-') || c.startsWith('shop-') || c.startsWith('launcher-') || c.startsWith('drm-') || c.startsWith('svg-drm-'));
               if (cls && storeNameRegex.test(cls)) return cls;
-              if (cls && storeHintRegex.test(cls)) return 'other';
+              if (cls && storeHintRegex.test(cls)) return '';
               return '';
             })
             .filter(Boolean);
@@ -145,14 +145,30 @@ async function scrapeCollection() {
               'itch.io': 'itch',
               'amazon games': 'prime',
               'prime gaming': 'prime',
-              'humble': 'other',
               'rockstar': 'rockstar',
               'rockstar games': 'rockstar',
               'rockstar games launcher': 'rockstar',
               'drm free': 'drmfree',
-              'drm-free': 'drmfree'
+              'drm-free': 'drmfree',
+              'drm-steam': 'steam',
+              'drm-gog': 'gog',
+              'drm-epic': 'epic',
+              'drm-ubisoft': 'ubisoft',
+              'drm-uplay': 'ubisoft',
+              'drm-origin': 'ea',
+              'drm-ea': 'ea',
+              'drm-battlenet': 'battlenet',
+              'drm-battle.net': 'battlenet',
+              'drm-microsoft': 'microsoft',
+              'drm-xbox': 'microsoft',
+              'drm-itch': 'itch',
+              'drm-itchio': 'itch',
+              'drm-amazon': 'prime',
+              'drm-prime': 'prime',
+              'drm-rockstar': 'rockstar',
+              'drm-galaxy': 'gog'
             };
-            return map[v] || (v ? 'other' : '');
+            return map[v] || '';
           };
 
           const blacklist = new Set([
@@ -161,7 +177,10 @@ async function scrapeCollection() {
             'steam deck compatible', 'steam deck unsupported'
           ]);
 
-          const uniqueLaunchers = [...new Set(launchers.map(l => normalizeLauncher(l)).filter(l => l && !blacklist.has(l)))];
+          let uniqueLaunchers = [...new Set(launchers.map(l => normalizeLauncher(l)).filter(l => l && !blacklist.has(l)))];
+          if (uniqueLaunchers.length > 1 && uniqueLaunchers.includes('other')) {
+            uniqueLaunchers = uniqueLaunchers.filter(l => l !== 'other');
+          }
 
           return { name, price, image, url, rating, platforms: uniquePlatforms, launchers: uniqueLaunchers };
         });
