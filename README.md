@@ -4,18 +4,28 @@
 
 [🇫🇷 FR](README.md) · [🇬🇧 EN](README_en.md)
 
-Scraper et visualiseur de wishlist GG.deals sous forme de bibliothèque graphique style GOG Galaxy.
+Scraper et visualiseur de collection + wishlist GG.deals sous forme de bibliothèque graphique style GOG Galaxy.
 
 ## ✅ Fonctionnalités
 
-- Scraping automatique multi-pages avec Puppeteer
+- Scraping collection + wishlist (multi-pages) avec Puppeteer
 - Contournement Cloudflare (mode stealth)
-- Interface web style GOG Galaxy
+- Interface web style GOG Galaxy (thème d’origine conservé)
 - Recherche et tri (nom, prix)
 - Statistiques (total, valeur, moyenne)
-- Vue grille et liste
+- Filtres launchers + plateformes
+- Logos launchers (SVG sprite)
 
 ## 🧠 Utilisation (procédure complète)
+
+### Option rapide (tout-en-un)
+
+```bash
+chmod +x scripts/run_all.sh
+./scripts/run_all.sh
+```
+
+Le script lance Chrome remote, attend ta connexion, scrape collection + wishlist, puis génère le site.
 
 ### 1. Lancer Chrome remote (profil séparé)
 
@@ -73,8 +83,10 @@ Configuration collection : `scripts/scrape_collection.js` détecte automatiqueme
 ├── scripts/
 │   ├── scrape_wishlist.js # Scraping wishlist
 │   ├── scrape_collection.js # Scraping collection (jeux possédés)
+│   ├── run_all.sh     # Exécution complète
 │   ├── generate.js    # Génération HTML
-│   └── wishlist.json  # Données extraites
+│   ├── wishlist.json  # Données wishlist
+│   └── collection.json # Données collection
 ├── web/
 │   └── index.html     # Interface web
 ├── README.md
@@ -91,6 +103,7 @@ Dépendances : `puppeteer-extra`, `puppeteer-extra-plugin-stealth`
 
 ## 🧾 Changelog
 
+- 2.0.0 : V2 (collection + wishlist, launchers/plateformes, logos SVG, run_all)
 - 1.1.1 : Mise à jour interface (style GOG, header, stats, recherche, colonnes)
 - 1.1.0 : Refactorisation structure projet
 - 1.0.0 : Version initiale

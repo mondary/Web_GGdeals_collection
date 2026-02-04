@@ -663,7 +663,7 @@
         'drm free': 'drmfree',
         'drm-free': 'drmfree'
       };
-      return map[v] || '';
+      return map[v] || (v ? 'other' : '');
     }
 
     function launcherLabel(p) {
@@ -679,7 +679,8 @@
         rockstar: 'Rockstar Games Launcher',
         prime: 'Prime Gaming',
         itch: 'Itch.io',
-        drmfree: 'DRM Free'
+        drmfree: 'DRM Free',
+        other: 'Other'
       };
       return map[v] || '';
     }
@@ -698,7 +699,8 @@
         rockstar: 'svg-drm-rockstar',
         prime: 'svg-drm-prime-gaming',
         itch: 'svg-drm-itch-io',
-        drmfree: 'svg-drm-drm-free'
+        drmfree: 'svg-drm-drm-free',
+        other: 'svg-drm-other'
       };
       const spriteId = spriteIdMap[key];
       const initials = {
@@ -828,7 +830,7 @@
 
     function buildLauncherList() {
       const list = (datasets[currentTab] || []);
-      const ordered = ['steam','ea','ubisoft','gog','epic','microsoft','battlenet','rockstar','prime','itch','drmfree'];
+      const ordered = ['steam','ea','ubisoft','gog','epic','microsoft','battlenet','rockstar','prime','itch','drmfree','other'];
       const launchers = [...new Set(
         list.flatMap(g => gameLaunchers(g)).map(normalizeLauncher).filter(Boolean)
       )].sort((a,b) => ordered.indexOf(a) - ordered.indexOf(b));
@@ -889,6 +891,13 @@
 
     const searchInput = document.getElementById('search');
     searchInput.addEventListener('input', e => render(e.target.value));
+    searchInput.addEventListener('keydown', e => {
+      if (e.key === 'Escape') {
+        searchInput.value = '';
+        render('');
+        e.preventDefault();
+      }
+    });
 
     document.addEventListener('keydown', (e) => {
       if (e.defaultPrevented) return;

@@ -115,10 +115,10 @@ async function scrapeCollection() {
             .map(s => {
               const t = s.getAttribute('title') || s.getAttribute('aria-label') || s.getAttribute('data-tooltip') || s.getAttribute('data-store') || s.getAttribute('data-shop') || s.getAttribute('data-launcher') || '';
               if (t && storeNameRegex.test(t)) return t.trim();
-              if (t && storeHintRegex.test(t)) return '';
+              if (t && storeHintRegex.test(t)) return 'other';
               const cls = [...s.classList].find(c => c.startsWith('svg-store-') || c.startsWith('store-') || c.startsWith('shop-') || c.startsWith('launcher-') || c.startsWith('drm-') || c.startsWith('svg-drm-'));
               if (cls && storeNameRegex.test(cls)) return cls;
-              if (cls && storeHintRegex.test(cls)) return '';
+              if (cls && storeHintRegex.test(cls)) return 'other';
               return '';
             })
             .filter(Boolean);
@@ -153,22 +153,26 @@ async function scrapeCollection() {
               'drm-steam': 'steam',
               'drm-gog': 'gog',
               'drm-epic': 'epic',
+              'drm-epic-games': 'epic',
               'drm-ubisoft': 'ubisoft',
               'drm-uplay': 'ubisoft',
               'drm-origin': 'ea',
               'drm-ea': 'ea',
               'drm-battlenet': 'battlenet',
               'drm-battle.net': 'battlenet',
+              'drm-battle-net': 'battlenet',
               'drm-microsoft': 'microsoft',
               'drm-xbox': 'microsoft',
               'drm-itch': 'itch',
               'drm-itchio': 'itch',
               'drm-amazon': 'prime',
               'drm-prime': 'prime',
+              'drm-prime-gaming': 'prime',
               'drm-rockstar': 'rockstar',
-              'drm-galaxy': 'gog'
+              'drm-galaxy': 'gog',
+              'drm-other': 'other'
             };
-            return map[v] || '';
+            return map[v] || (v ? 'other' : '');
           };
 
           const blacklist = new Set([
@@ -182,9 +186,57 @@ async function scrapeCollection() {
             uniqueLaunchers = uniqueLaunchers.filter(l => l !== 'other');
           }
 
-          return { name, price, image, url, rating, platforms: uniquePlatforms, launchers: uniqueLaunchers };
+          const dataUrl = el.querySelector('a.collection-drms')?.getAttribute('data-url') || '';
+          return { name, price, image, url, rating, platforms: uniquePlatforms, launchers: uniqueLaunchers, dataUrl };
         });
       });
+
+      // Enrich missing launchers via collection modal endpoint (if available)
+      const missing = games.filter(g => (!g.launchers || g.launchers.length === 0) && g.dataUrl);
+      if (missing.length) {
+        const extra = await page.evaluate(async (items) => {
+          const normalize = (s) => (s || '').toLowerCase();
+          const map = (v) => {
+            const m = {
+              'drm-steam': 'steam',
+              'drm-gog': 'gog',
+              'drm-epic-games': 'epic',
+              'drm-ubisoft-connect': 'ubisoft',
+              'drm-uplay': 'ubisoft',
+              'drm-ea': 'ea',
+              'drm-origin': 'ea',
+              'drm-battle-net': 'battlenet',
+              'drm-battlenet': 'battlenet',
+              'drm-microsoft-store': 'microsoft',
+              'drm-xbox': 'microsoft',
+              'drm-rockstar': 'rockstar',
+              'drm-prime-gaming': 'prime',
+              'drm-itch-io': 'itch',
+              'drm-drm-free': 'drmfree'
+            };
+            return m[v] || '';
+          };
+          const results = {};
+          for (const it of items) {
+            try {
+              const res = await fetch(it.dataUrl, { credentials: 'include' });
+              const html = await res.text();
+              const m = html.match(/drm-[a-z0-9-]+/gi) || [];
+              const launchers = [...new Set(m.map(x => map(normalize(x))).filter(Boolean))];
+              results[it.dataUrl] = launchers;
+            } catch (e) {
+              results[it.dataUrl] = [];
+            }
+          }
+          return results;
+        }, missing.map(m => ({ dataUrl: m.dataUrl })));
+
+        for (const g of games) {
+          if ((!g.launchers || g.launchers.length === 0) && g.dataUrl && extra[g.dataUrl]?.length) {
+            g.launchers = extra[g.dataUrl];
+          }
+        }
+      }
 
       console.log(`   ✅ ${games.length} jeux trouvés`);
       for (const g of games) {
