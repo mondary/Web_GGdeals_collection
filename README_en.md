@@ -112,6 +112,7 @@ Dependencies: `puppeteer-extra`, `puppeteer-extra-plugin-stealth`
 
 ## 🧾 Changelog
 
+- 3.0.0: New mobile UI (burger + responsive columns)
 - 2.1.1: Add FTP deploy script (dry-run + summary)
 - 2.1.0: UI update (GitHub link + stats watermark)
 - 2.0.5: Patch (wishlist platforms: filter ribbon)
