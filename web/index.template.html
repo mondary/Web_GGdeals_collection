@@ -521,6 +521,58 @@
       .main-content { min-height: 100vh; }
       .search-bar:focus { width: 220px; }
     }
+  
+
+    @media (max-width: 900px) {
+      .header {
+        height: auto;
+        min-height: 0;
+        padding: 10px 14px;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .breadcrumbs {
+        order: 1;
+        width: 100%;
+      }
+
+      .header-right {
+        order: 2;
+        width: 100%;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+      }
+
+      .search-container {
+        position: static;
+        transform: none;
+        order: 3;
+        width: 100%;
+        justify-content: flex-start;
+      }
+
+      .search-bar {
+        width: 100%;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .cols-label,
+      .cols-range,
+      #cols-value {
+        display: none;
+      }
+
+      .search-container {
+        gap: 8px;
+      }
+
+      .header-right {
+        gap: 8px;
+      }
+    }
+
   </style>
   <!-- DRM_SPRITE_PLACEHOLDER -->
 </head>
@@ -957,8 +1009,35 @@
     }
 
     const colsRange = document.getElementById('cols-range');
+    function getResponsiveCols() {
+      const w = window.innerWidth || document.documentElement.clientWidth;
+      if (w <= 480) return 2;
+      if (w <= 720) return 3;
+      return null;
+    }
+
+    function applyResponsiveCols() {
+      const forced = getResponsiveCols();
+      if (forced) {
+        if (!colsRange.dataset.lastDesktop) colsRange.dataset.lastDesktop = colsRange.value;
+        colsRange.value = forced;
+        colsRange.disabled = true;
+        setColumns(forced);
+        return;
+      }
+      if (colsRange.disabled) {
+        const restore = parseInt(colsRange.dataset.lastDesktop || colsRange.value, 10);
+        colsRange.value = restore;
+      }
+      colsRange.disabled = false;
+      setColumns(parseInt(colsRange.value, 10));
+    }
+
     setColumns(parseInt(colsRange.value, 10));
+    applyResponsiveCols();
+    window.addEventListener('resize', applyResponsiveCols);
     colsRange.addEventListener('input', () => {
+      if (!colsRange.disabled) colsRange.dataset.lastDesktop = colsRange.value;
       setColumns(parseInt(colsRange.value, 10));
     });
 
