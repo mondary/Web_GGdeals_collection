@@ -17,6 +17,7 @@ Scraper et visualiseur de collection + wishlist GG.deals sous forme de biblioth�
 - Logos launchers (SVG sprite)
 - Lien GitHub intégré à l’interface
 - Watermark logo dans le panneau stats
+- Script de déploiement FTP (OVH) avec dry-run + résumé
 
 ## 🧠 Utilisation (procédure complète)
 
@@ -68,6 +69,17 @@ Le fichier `web/index.html` est généré.
 
 Ouvrir `web/index.html` dans un navigateur.
 
+## 🚀 Déploiement FTP (OVH)
+
+Script interactif (dry-run puis apply) :
+
+```bash
+./scripts/deploy_ftp.sh
+```
+
+- Source locale : `web` (ou racine si besoin)
+- Dossier distant : sous `/www/pk/` (ex: `steamLibrary`)
+
 ## ⚙️ Configuration
 
 Configurer la variable d’environnement `WISHLIST_URL` :
@@ -105,6 +117,7 @@ Dépendances : `puppeteer-extra`, `puppeteer-extra-plugin-stealth`
 
 ## 🧾 Changelog
 
+- 2.1.1 : Ajout script FTP (dry-run + résumé)
 - 2.1.0 : Update UI (lien GitHub + watermark stats)
 - 2.0.5 : Patch (wishlist plateformes: filtre ribbon)
 - 2.0.4 : Patch (scroll launchers retiré, other corrigé)

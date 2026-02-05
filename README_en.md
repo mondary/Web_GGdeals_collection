@@ -17,6 +17,7 @@ Scraper and viewer for GG.deals collection + wishlist as a GOG Galaxy-style grap
 - Launcher logos (SVG sprite)
 - GitHub link integrated in the UI
 - Logo watermark in the stats panel
+- FTP deploy script (OVH) with dry-run + summary
 
 ## 🧠 Usage (full procedure)
 
@@ -67,6 +68,17 @@ Generates `web/index.html`.
 
 Open `web/index.html` in a browser.
 
+## 🚀 FTP Deploy (OVH)
+
+Interactive script (dry-run then apply):
+
+```bash
+./scripts/deploy_ftp.sh
+```
+
+- Local source: `web` (or repo root if needed)
+- Remote dir: under `/www/pk/` (e.g. `steamLibrary`)
+
 ## ⚙️ Configuration
 
 Set the `WISHLIST_URL` environment variable:
@@ -100,6 +112,7 @@ Dependencies: `puppeteer-extra`, `puppeteer-extra-plugin-stealth`
 
 ## 🧾 Changelog
 
+- 2.1.1: Add FTP deploy script (dry-run + summary)
 - 2.1.0: UI update (GitHub link + stats watermark)
 - 2.0.5: Patch (wishlist platforms: filter ribbon)
 - 2.0.4: Patch (launcher scroll removed, other fixed)
