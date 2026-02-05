@@ -133,6 +133,10 @@ EOF
 
 run_mirror "$MODE"
 
+if [[ -z "$MODE" ]]; then
+  upload_extra ""
+fi
+
 if [[ -n "$MODE" ]]; then
   echo ""
 
