@@ -15,6 +15,8 @@ Scraper and viewer for GG.deals collection + wishlist as a GOG Galaxy-style grap
 - Statistics (total, value, average)
 - Launcher + platform filters
 - Launcher logos (SVG sprite)
+- GitHub link integrated in the UI
+- Logo watermark in the stats panel
 
 ## 🧠 Usage (full procedure)
 
@@ -98,6 +100,7 @@ Dependencies: `puppeteer-extra`, `puppeteer-extra-plugin-stealth`
 
 ## 🧾 Changelog
 
+- 2.1.0: UI update (GitHub link + stats watermark)
 - 2.0.5: Patch (wishlist platforms: filter ribbon)
 - 2.0.4: Patch (launcher scroll removed, other fixed)
 - 2.0.3: Patch (publish data + generated index)

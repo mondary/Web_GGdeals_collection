@@ -67,6 +67,7 @@
       letter-spacing: 0.2px;
     }
 
+
     .user-profile {
       width: 32px;
       height: 32px;
@@ -153,6 +154,21 @@
       padding: 16px 20px 18px 20px;
       border-top: 1px solid #1a1c1d;
       background: #1b1d20;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .stats-watermark {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 140px;
+      height: 140px;
+      opacity: 0.08;
+      pointer-events: none;
+      object-fit: contain;
+      filter: grayscale(1);
     }
 
     #platform-list {
@@ -279,6 +295,38 @@
       gap: 10px;
       color: var(--text-secondary);
       font-size: 12px;
+    }
+
+    .github-link {
+      width: 28px;
+      height: 28px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 6px;
+      color: var(--text-secondary);
+      transition: color 0.15s ease, background 0.15s ease;
+    }
+
+    .github-link:hover {
+      color: var(--text-primary);
+      background: rgba(255, 255, 255, 0.06);
+    }
+
+    .github-link svg {
+      width: 16px;
+      height: 16px;
+      fill: currentColor;
+      display: block;
+    }
+
+    .app-logo {
+      width: 20px;
+      height: 20px;
+      border-radius: 4px;
+      object-fit: cover;
+      display: inline-block;
+      border: 1px solid rgba(255, 255, 255, 0.08);
     }
 
     .cols-label {
@@ -575,6 +623,7 @@
     </div>
 
     <div class="stats-panel">
+      <img class="stats-watermark" src="../icon.png" alt="">
       <div class="stats-title">Stats</div>
       <div class="stat-row">
         <span class="stat-label">Jeux</span>
@@ -619,6 +668,11 @@
         <span class="cols-label">Colonnes</span>
         <input class="cols-range" id="cols-range" type="range" min="4" max="20" value="12">
         <span id="cols-value">12</span>
+        <a class="github-link" href="https://github.com/mondary/Web_GGdeals_collection" target="_blank" rel="noopener" title="GitHub">
+          <svg viewBox="0 0 16 16" aria-hidden="true">
+            <path d="M8 0C3.58 0 0 3.58 0 8a8 8 0 0 0 5.47 7.59c.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2 .37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.6 7.6 0 0 1 2-.27c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"></path>
+          </svg>
+        </a>
       </div>
     </header>
 

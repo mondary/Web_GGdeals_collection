@@ -15,6 +15,8 @@ Scraper et visualiseur de collection + wishlist GG.deals sous forme de biblioth�
 - Statistiques (total, valeur, moyenne)
 - Filtres launchers + plateformes
 - Logos launchers (SVG sprite)
+- Lien GitHub intégré à l’interface
+- Watermark logo dans le panneau stats
 
 ## 🧠 Utilisation (procédure complète)
 
@@ -103,6 +105,7 @@ Dépendances : `puppeteer-extra`, `puppeteer-extra-plugin-stealth`
 
 ## 🧾 Changelog
 
+- 2.1.0 : Update UI (lien GitHub + watermark stats)
 - 2.0.5 : Patch (wishlist plateformes: filtre ribbon)
 - 2.0.4 : Patch (scroll launchers retiré, other corrigé)
 - 2.0.3 : Patch (publication données + index généré)
