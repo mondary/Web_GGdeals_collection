@@ -573,6 +573,59 @@
       }
     }
 
+  
+
+    .burger-btn {
+      display: none;
+      align-items: center;
+      justify-content: center;
+      width: 34px;
+      height: 34px;
+      border-radius: 6px;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      background: rgba(255, 255, 255, 0.04);
+      color: var(--text-primary);
+      cursor: pointer;
+    }
+
+    .burger-btn svg {
+      width: 18px;
+      height: 18px;
+      fill: currentColor;
+      display: block;
+    }
+
+    .sidebar-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.45);
+      z-index: 40;
+    }
+
+    .sidebar.open + .sidebar-overlay {
+      display: block;
+    }
+
+    @media (max-width: 900px) {
+      .burger-btn {
+        display: inline-flex;
+      }
+
+      .sidebar {
+        position: fixed;
+        left: -260px;
+        top: 0;
+        height: 100vh;
+        z-index: 50;
+        transition: left 0.2s ease;
+      }
+
+      .sidebar.open {
+        left: 0;
+      }
+    }
+
   </style>
   <!-- DRM_SPRITE_PLACEHOLDER -->
 </head>
@@ -644,8 +697,17 @@
     </div>
   </aside>
 
+  <div class="sidebar-overlay" id="sidebar-overlay"></div>
+
   <main class="main-content">
     <header class="header">
+      <button class="burger-btn" id="burger-btn" title="Menu" aria-label="Menu">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <rect x="4" y="6" width="16" height="2" rx="1"></rect>
+          <rect x="4" y="11" width="16" height="2" rx="1"></rect>
+          <rect x="4" y="16" width="16" height="2" rx="1"></rect>
+        </svg>
+      </button>
       <div class="breadcrumbs">
         <div class="breadcrumb-item active" id="breadcrumb-label">Tous mes jeux</div>
         <div class="breadcrumb-count"><span id="showing-count">0</span></div>
@@ -1011,8 +1073,9 @@
     const colsRange = document.getElementById('cols-range');
     function getResponsiveCols() {
       const w = window.innerWidth || document.documentElement.clientWidth;
-      if (w <= 480) return 2;
-      if (w <= 720) return 3;
+      if (w <= 420) return 2;
+      if (w <= 640) return 3;
+      if (w <= 900) return 4;
       return null;
     }
 
@@ -1049,6 +1112,23 @@
     });
 
     setActiveTab(currentTab);
+
+
+    const burgerBtn = document.getElementById('burger-btn');
+    const sidebar = document.querySelector('.sidebar');
+    const sidebarOverlay = document.getElementById('sidebar-overlay');
+    function closeSidebar() {
+      if (sidebar) sidebar.classList.remove('open');
+    }
+    if (burgerBtn && sidebar && sidebarOverlay) {
+      burgerBtn.addEventListener('click', () => {
+        sidebar.classList.toggle('open');
+      });
+      sidebarOverlay.addEventListener('click', closeSidebar);
+      window.addEventListener('resize', () => {
+        if (window.innerWidth > 900) closeSidebar();
+      });
+    }
 
     const searchInput = document.getElementById('search');
     searchInput.addEventListener('input', e => render(e.target.value));
