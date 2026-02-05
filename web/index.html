@@ -524,13 +524,23 @@
     }
 
     @media (max-width: 900px) {
-      body { height: 100vh; }
-      .main-content { min-height: 100vh; }
+      body { height: 100vh; display: block; }
+      .main-content { min-height: 100vh; overflow: auto; padding-top: 120px; }
       .search-bar:focus { width: 100%; }
     }
   
 
     @media (max-width: 900px) {
+      .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        background: var(--bg-header);
+        z-index: 45;
+      }
+
       .header {
         height: auto;
         min-height: 0;
@@ -636,6 +646,7 @@
   
 
     @media (max-width: 720px) {
+      .main-content { padding-top: 68px; }
       .search-container {
         display: none;
       }
