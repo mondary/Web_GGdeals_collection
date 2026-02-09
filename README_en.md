@@ -8,17 +8,28 @@ Scraper and viewer for GG.deals collection + wishlist as a GOG Galaxy-style grap
 
 ## ✅ Features
 
-- Collection + wishlist scraping (multi-page) with Puppeteer
+### Scraping
+- Collection + wishlist (multi-page) with Puppeteer
 - Cloudflare bypass (stealth mode)
-- GOG Galaxy-style web interface (original theme preserved)
+
+### Interface
+- GOG Galaxy-style web UI (original theme preserved)
 - Search and sort (name, price)
 - Statistics (total, value, average)
 - Launcher + platform filters
 - Launcher logos (SVG sprite)
-- GitHub link integrated in the UI
 - Logo watermark in the stats panel
-- FTP deploy script (OVH) with dry-run + summary
-- GG.deals wishlist → Steam sync script (browser automation)
+
+### Automation
+- GG.deals wishlist → Steam sync (browser automation)
+
+## 📦 Installation
+
+```bash
+npm install
+```
+
+Dependencies: `puppeteer-extra`, `puppeteer-extra-plugin-stealth`
 
 ## 🧠 Usage (full procedure)
 
@@ -69,17 +80,6 @@ Generates `web/index.html`.
 
 Open `web/index.html` in a browser.
 
-## 🚀 FTP Deploy (OVH)
-
-Interactive script (dry-run then apply):
-
-```bash
-./scripts/deploy_ftp.sh
-```
-
-- Local source: `web` (or repo root if needed)
-- Remote dir: under `/www/pk/` (e.g. `steamLibrary`)
-
 ## 🧪 GG.deals Wishlist → Steam Sync
 
 Interactive script (Chrome remote):
@@ -108,6 +108,7 @@ WISHLIST_URL="https://gg.deals/wishlist/share/YOUR_ID/" node scripts/scrape_wish
 │   ├── scrape_collection.js # Collection scraping (owned games)
 │   ├── run_all.sh     # All-in-one runner
 │   ├── generate.js    # HTML generation
+│   ├── push_wishlist_to_steam.js # Wishlist → Steam sync
 │   └── wishlist.json  # Extracted data
 ├── web/
 │   └── index.html     # Web interface
@@ -115,19 +116,11 @@ WISHLIST_URL="https://gg.deals/wishlist/share/YOUR_ID/" node scripts/scrape_wish
 └── README_en.md
 ```
 
-## 📦 Installation
-
-```bash
-npm install
-```
-
-Dependencies: `puppeteer-extra`, `puppeteer-extra-plugin-stealth`
-
 ## 🧾 Changelog
 
+- 3.2.0: README restructure (categorized features, install before usage)
 - 3.1.0: GG.deals wishlist → Steam script
 - 3.0.0: New mobile UI (burger + responsive columns)
-- 2.1.1: Add FTP deploy script (dry-run + summary)
 - 2.1.0: UI update (GitHub link + stats watermark)
 - 2.0.5: Patch (wishlist platforms: filter ribbon)
 - 2.0.4: Patch (launcher scroll removed, other fixed)

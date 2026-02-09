@@ -8,17 +8,28 @@ Scraper et visualiseur de collection + wishlist GG.deals sous forme de biblioth�
 
 ## ✅ Fonctionnalités
 
-- Scraping collection + wishlist (multi-pages) avec Puppeteer
+### Scraping
+- Collection + wishlist (multi-pages) avec Puppeteer
 - Contournement Cloudflare (mode stealth)
-- Interface web style GOG Galaxy (thème d’origine conservé)
+
+### Interface
+- Web UI style GOG Galaxy (thème d’origine conservé)
 - Recherche et tri (nom, prix)
 - Statistiques (total, valeur, moyenne)
 - Filtres launchers + plateformes
 - Logos launchers (SVG sprite)
-- Lien GitHub intégré à l’interface
 - Watermark logo dans le panneau stats
-- Script de déploiement FTP (OVH) avec dry-run + résumé
-- Script de synchronisation wishlist GG.deals → Steam (automatisation navigateur)
+
+### Automatisation
+- Sync wishlist GG.deals → Steam (automatisation navigateur)
+
+## 📦 Installation
+
+```bash
+npm install
+```
+
+Dépendances : `puppeteer-extra`, `puppeteer-extra-plugin-stealth`
 
 ## 🧠 Utilisation (procédure complète)
 
@@ -52,7 +63,6 @@ Les données sont sauvegardées dans `scripts/collection.json`.
 ### 3. Scraper la wishlist
 
 ```bash
-npm install
 WISHLIST_URL="https://gg.deals/wishlist/share/TON_ID/" node scripts/scrape_wishlist.js
 ```
 
@@ -69,17 +79,6 @@ Le fichier `web/index.html` est généré.
 ### 5. Visualiser
 
 Ouvrir `web/index.html` dans un navigateur.
-
-## 🚀 Déploiement FTP (OVH)
-
-Script interactif (dry-run puis apply) :
-
-```bash
-./scripts/deploy_ftp.sh
-```
-
-- Source locale : `web` (ou racine si besoin)
-- Dossier distant : sous `/www/pk/` (ex: `steamLibrary`)
 
 ## 🧪 Sync wishlist GG.deals → Steam
 
@@ -112,6 +111,7 @@ Configuration collection : `scripts/scrape_collection.js` détecte automatiqueme
 │   ├── scrape_collection.js # Scraping collection (jeux possédés)
 │   ├── run_all.sh     # Exécution complète
 │   ├── generate.js    # Génération HTML
+│   ├── push_wishlist_to_steam.js # Sync wishlist → Steam
 │   ├── wishlist.json  # Données wishlist
 │   └── collection.json # Données collection
 ├── web/
@@ -120,19 +120,11 @@ Configuration collection : `scripts/scrape_collection.js` détecte automatiqueme
 └── README_en.md
 ```
 
-## 📦 Installation
-
-```bash
-npm install
-```
-
-Dépendances : `puppeteer-extra`, `puppeteer-extra-plugin-stealth`
-
 ## 🧾 Changelog
 
+- 3.2.0 : README restructuré (features catégorisées, install avant usage)
 - 3.1.0 : Script wishlist GG.deals → Steam
 - 3.0.0 : Nouvelle UI mobile (burger + colonnes adaptatives)
-- 2.1.1 : Ajout script FTP (dry-run + résumé)
 - 2.1.0 : Update UI (lien GitHub + watermark stats)
 - 2.0.5 : Patch (wishlist plateformes: filtre ribbon)
 - 2.0.4 : Patch (scroll launchers retiré, other corrigé)
