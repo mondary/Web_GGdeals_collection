@@ -18,6 +18,7 @@ Scraper et visualiseur de collection + wishlist GG.deals sous forme de biblioth�
 - Lien GitHub intégré à l’interface
 - Watermark logo dans le panneau stats
 - Script de déploiement FTP (OVH) avec dry-run + résumé
+- Script de synchronisation wishlist GG.deals → Steam (automatisation navigateur)
 
 ## 🧠 Utilisation (procédure complète)
 
@@ -80,6 +81,18 @@ Script interactif (dry-run puis apply) :
 - Source locale : `web` (ou racine si besoin)
 - Dossier distant : sous `/www/pk/` (ex: `steamLibrary`)
 
+## 🧪 Sync wishlist GG.deals → Steam
+
+Script interactif (Chrome remote) :
+
+```bash
+CHROME_REMOTE_DEBUG_PORT=9222 \
+WISHLIST_INPUT="scripts/wishlist.json" \
+node scripts/push_wishlist_to_steam.js
+```
+
+Le script ouvre Steam, tu te connectes, puis il ajoute les jeux à la wishlist via la page Steam.
+
 ## ⚙️ Configuration
 
 Configurer la variable d’environnement `WISHLIST_URL` :
@@ -117,6 +130,7 @@ Dépendances : `puppeteer-extra`, `puppeteer-extra-plugin-stealth`
 
 ## 🧾 Changelog
 
+- 3.1.0 : Script wishlist GG.deals → Steam
 - 3.0.0 : Nouvelle UI mobile (burger + colonnes adaptatives)
 - 2.1.1 : Ajout script FTP (dry-run + résumé)
 - 2.1.0 : Update UI (lien GitHub + watermark stats)
